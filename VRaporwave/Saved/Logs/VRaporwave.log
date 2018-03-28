@@ -1,4 +1,4 @@
-﻿Log file open, 03/28/18 00:27:51
+﻿Log file open, 03/28/18 11:59:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRaporwave
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(290346970) SRandInit(290346970).
+LogInit: Display: RandInit(-1919794138) SRandInit(-1919794137).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3794801, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.358307
+LogStats: Stats thread started at 0.175181
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -166,7 +166,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Failed initializing OVRPlugin 1.19.0
 LogInit: Build: ++UE4+Release-4.18-CL-3794801
 LogInit: Engine Version: 4.18.2-3794801+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -197,466 +196,1040 @@ LogInit: Base directory: D:/Program files (x86)/Epic Games/UE_4.18/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.28-00.27.59:541][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.28-00.27.59:541][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.28-00.27.59:657][  0]LogInit: Computer: MSI
-[2018.03.28-00.27.59:657][  0]LogInit: User: PaopuKid
-[2018.03.28-00.27.59:658][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.28-00.27.59:658][  0]LogInit: High frequency timer resolution =2.742192 MHz
-[2018.03.28-00.27.59:673][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.03.28-00.27.59:673][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.28-00.27.59:673][  0]LogMemory: Process Physical Memory: 280.72 MB used, 280.72 MB peak
-[2018.03.28-00.27.59:674][  0]LogMemory: Process Virtual Memory: 273.96 MB used, 273.96 MB peak
-[2018.03.28-00.27.59:674][  0]LogMemory: Physical Memory: 3314.98 MB used,  4762.18 MB free, 8077.16 MB total
-[2018.03.28-00.27.59:674][  0]LogMemory: Virtual Memory: 732.61 MB used,  4762.18 MB free, 134217728.00 MB total
-[2018.03.28-00.28.01:615][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.03.28-00.28.01:615][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.03.28-00.28.03:046][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.28-00.28.04:962][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.28-00.28.05:091][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2018.03.28-00.28.05:092][  0]LogD3D11RHI:       3019/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.28-00.28.05:139][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.03.28-00.28.05:139][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.28-00.28.05:144][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.28-00.28.05:144][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.28-00.28.05:144][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.28-00.28.05:161][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.28-00.28.05:161][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.28-00.28.05:162][  0]LogWindows: EnumDisplayDevices:
-[2018.03.28-00.28.05:162][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.03.28-00.28.05:173][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.03.28-00.28.05:174][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.03.28-00.28.05:174][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.03.28-00.28.05:175][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.03.28-00.28.05:175][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.03.28-00.28.05:176][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2018.03.28-00.28.05:176][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.28-00.28.05:176][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2018.03.28-00.28.05:176][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.28-00.28.05:176][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.28-00.28.05:176][  0]LogRHI: Texture pool is 2113 MB (70% of 3019 MB)
-[2018.03.28-00.28.05:253][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.28-00.28.05:569][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.03.28-00.28.05:671][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/4472/).
-[2018.03.28-00.28.05:671][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PaopuKid/AppData/Local/Temp/UnrealShaderWorkingDir/6D7970B046025FABA0336B8440A09E92/'.
-[2018.03.28-00.28.05:682][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.28-00.28.10:069][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.28-00.28.10:209][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.28-00.28.10:309][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.28-00.28.10:367][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.28-00.28.10:491][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.28-00.28.10:614][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.28-00.28.10:754][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.28-00.28.10:898][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.28-00.28.11:023][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.28-00.28.11:161][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.28-00.28.11:223][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.28-00.28.11:271][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.28-00.28.11:379][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.28-00.28.11:476][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.28-00.28.11:734][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.28-00.28.11:734][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.28-00.28.11:871][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.28-00.28.11:962][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.28-00.28.12:217][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.28-00.28.12:270][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.28-00.28.12:415][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.28-00.28.12:553][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.28-00.28.12:665][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.28-00.28.12:783][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.28-00.28.12:783][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.28-00.28.14:990][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.28-00.28.15:900][  0]LogDerivedDataCache: Loaded boot cache 0.91s 92MB C:/Users/PaopuKid/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.28-00.28.15:901][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PaopuKid/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.28-00.28.15:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.28-00.28.15:901][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.28-00.28.15:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.28-00.28.15:901][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.28-00.28.16:033][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.28-00.28.16:053][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PaopuKid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.28-00.28.16:129][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.28-00.28.16:156][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.28-00.28.16:219][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.28-00.28.16:228][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.28-00.28.25:679][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.28-00.28.27:639][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.28-00.28.27:764][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.28-00.28.27:764][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.28-00.28.27:764][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.28-00.28.27:764][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.28-00.28.27:764][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.28-00.28.28:200][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
-[2018.03.28-00.28.29:670][  0]LogAssetRegistry: FAssetRegistry took 0.0497 seconds to start up
-[2018.03.28-00.28.34:784][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.161515 seconds
-[2018.03.28-00.28.34:806][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
-[2018.03.28-00.28.34:806][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
-[2018.03.28-00.28.34:806][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.28-00.28.34:920][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.28-00.28.54:060][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.28-00.28.54:168][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.28-00.28.56:570][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.28-00.28.57:859][  0]SourceControl: Source control is disabled
-[2018.03.28-00.28.57:868][  0]SourceControl: Source control is disabled
-[2018.03.28-00.28.58:019][  0]SourceControl: Source control is disabled
-[2018.03.28-00.28.58:180][  0]SourceControl: Source control is disabled
-[2018.03.28-00.29.00:503][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.28-00.29.01:185][  0]LogOcInput: OculusInput pre-init called
-[2018.03.28-00.29.02:197][  0]LogEngine: Initializing Engine...
-[2018.03.28-00.29.02:212][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.28-00.29.03:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.28-00.29.03:236][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.28-00.29.03:767][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.28-00.29.03:966][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.03.28-00.29.04:614][  0]LogInit: FAudioDevice initialized.
-[2018.03.28-00.29.04:757][  0]LogDerivedDataCache: Saved boot cache 0.12s 92MB C:/Users/PaopuKid/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.28-00.29.04:784][  0]LogInit: Texture streaming: Enabled
-[2018.03.28-00.29.05:013][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.28-00.29.05:013][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={3765EAA1-4645-34C9-BF29-00B74A383414}
-[2018.03.28-00.29.05:306][  0]LogInit: Transaction tracking system initialized
-[2018.03.28-00.29.06:276][  0]BlueprintLog: New page: Editor Load
-[2018.03.28-00.29.08:851][  0]LocalizationService: Localization service is disabled
-[2018.03.28-00.29.10:739][  0]LogConsoleResponse: Display: 
-[2018.03.28-00.29.12:457][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/' took 0.02s
-[2018.03.28-00.29.12:457][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.28-00.29.12:457][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.28-00.29.12:477][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.28-00.29.16:041][  0]SourceControl: Source control is disabled
-[2018.03.28-00.29.16:341][  0]LogSlate: Took 0.009717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.28-00.29.41:088][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-00.29.41:091][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-00.29.45:566][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-00.29.45:571][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-00.29.45:963][  0]Cmd: MAP LOAD FILE="../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.28-00.29.45:970][  0]LightingResults: New page: Lighting Build
-[2018.03.28-00.29.46:171][  0]MapCheck: New page: Map Check
-[2018.03.28-00.29.46:171][  0]LightingResults: New page: Lighting Build
-[2018.03.28-00.29.55:180][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.03.28-00.29.55:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.28-00.29.56:027][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.28-00.29.56:204][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 177.051ms to complete.
-[2018.03.28-00.29.56:204][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 10.271
-[2018.03.28-00.29.57:259][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2ec4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_17b4_0///####STATCAT_Advanced####
-[2018.03.28-00.29.57:259][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
-[2018.03.28-00.29.57:525][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
-[2018.03.28-00.29.57:525][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Developers/PaopuKid/Collections/' took 0.01s
-[2018.03.28-00.29.57:525][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
-[2018.03.28-00.29.57:525][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.28-00.29.57:556][  0]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 2363 classes and 519 folders.
-[2018.03.28-00.29.57:704][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.28-00.29.58:951][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.03.28-00.29.59:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.03.28-00.30.00:395][  0]LogSlate: Took 0.021944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.28-00.30.00:439][  0]LogSlate: Took 0.019768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.28-00.30.00:940][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 26 NumSamples 1 (Frame:1).
-[2018.03.28-00.30.01:690][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.03.28-00.30.01:690][  0]LogLoad: (Engine Initialization) Total time: 136.96 seconds
-[2018.03.28-00.30.01:690][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.28-00.30.01:691][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.28-00.30.01:806][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.28-00.30.01:978][  0]LogSlate: Took 0.018126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.28-00.30.02:371][  3]LogAssetRegistry: Asset discovery search completed in 92.7253 seconds
-[2018.03.28-00.30.02:375][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.03.28-00.30.02:375][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000124 seconds (updated 0 objects)
-[2018.03.28-00.30.02:773][ 16]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.28-00.31.28:910][561]LogSlate: Took 0.000710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.28-00.31.29:597][561]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.28-00.31.29:891][561]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.03.28-00.31.31:560][561]LogSlate: Took 0.021242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.28-00.31.32:117][562]LogSlate: Took 0.003732 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.28-00.31.48:813][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.28-00.31.52:745][977]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.28-00.31.53:085][978]Cmd: QUIT_EDITOR
-[2018.03.28-00.31.53:301][978]LogExit: Preparing to exit.
-[2018.03.28-00.31.54:455][978]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/' was aborted.
-[2018.03.28-00.31.54:581][978]LogExit: Editor shut down
-[2018.03.28-00.31.54:608][978]LogExit: Transaction tracking system shut down
-[2018.03.28-00.31.54:905][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.03.28-00.31.54:906][978]LogDirectoryWatcher: A directory notification for '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/' was aborted.
-[2018.03.28-00.31.54:906][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.03.28-00.31.54:906][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.03.28-00.31.54:906][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.03.28-00.31.54:906][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.03.28-00.31.54:906][978]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.03.28-00.31.55:370][978]LogExit: Object subsystem successfully closed.
-[2018.03.28-00.31.55:431][978]LogD3D11RHI: Shutdown
-[2018.03.28-00.31.55:431][978]LogD3D11RHI: CleanupD3DDevice
-[2018.03.28-00.31.55:443][978]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.03.28-00.31.55:603][978]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2018.03.28-00.31.55:603][978]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.03.28-00.31.55:604][978]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.03.28-00.31.55:604][978]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.03.28-00.31.55:604][978]LogDirectoryWatcher: A directory notification for 'D:/Program files (x86)/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.03.28-00.31.55:607][978]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.03.28-00.31.55:607][978]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.03.28-00.31.55:607][978]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.03.28-00.31.55:608][978]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Collections/' was aborted.
-[2018.03.28-00.31.55:608][978]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Developers/PaopuKid/Collections/' was aborted.
-[2018.03.28-00.31.55:608][978]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Collections/' was aborted.
-[2018.03.28-00.31.55:608][978]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.03.28-00.31.55:608][978]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.03.28-00.31.55:608][978]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.03.28-00.31.55:620][978]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.03.28-00.31.55:620][978]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.03.28-00.31.55:620][978]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.03.28-00.31.55:621][978]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.03.28-00.31.55:630][978]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.03.28-00.31.55:631][978]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.03.28-00.31.55:631][978]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.03.28-00.31.55:631][978]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.03.28-00.31.55:631][978]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.03.28-00.31.55:631][978]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.03.28-00.31.55:631][978]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.03.28-00.31.55:635][978]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.03.28-00.31.55:635][978]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.03.28-00.31.55:636][978]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.03.28-00.31.55:654][978]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.03.28-00.31.55:654][978]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.03.28-00.31.55:654][978]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.03.28-00.31.55:654][978]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.03.28-00.31.55:829][978]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.03.28-00.31.55:829][978]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.03.28-00.31.55:829][978]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.03.28-00.31.55:829][978]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.03.28-00.31.55:829][978]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.03.28-00.31.55:839][978]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.03.28-00.31.55:839][978]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.03.28-00.31.55:839][978]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.03.28-00.31.55:839][978]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.03.28-00.31.55:849][978]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.03.28-00.31.55:850][978]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.03.28-00.31.55:850][978]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.03.28-00.31.55:850][978]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.03.28-00.31.55:856][978]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.03.28-00.31.55:857][978]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.03.28-00.31.55:857][978]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.03.28-00.31.55:857][978]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.03.28-00.31.55:912][978]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.03.28-00.31.55:912][978]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.03.28-00.31.55:925][978]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.03.28-00.31.55:927][978]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.03.28-00.31.55:927][978]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.03.28-00.31.55:927][978]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.03.28-00.31.55:927][978]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.03.28-00.31.55:954][978]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.03.28-00.31.55:954][978]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.03.28-00.31.55:954][978]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.03.28-00.31.55:969][978]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.03.28-00.31.55:969][978]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.03.28-00.31.55:969][978]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.03.28-00.31.55:969][978]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.03.28-00.31.55:978][978]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.03.28-00.31.55:978][978]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.03.28-00.31.55:978][978]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.03.28-00.31.55:978][978]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.03.28-00.31.55:978][978]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.03.28-00.31.55:979][978]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.03.28-00.31.55:987][978]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.03.28-00.31.55:987][978]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.03.28-00.31.55:987][978]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.03.28-00.31.55:987][978]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.03.28-00.31.56:002][978]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.03.28-00.31.56:002][978]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.03.28-00.31.56:002][978]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.03.28-00.31.56:002][978]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.03.28-00.31.56:002][978]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.03.28-00.31.56:003][978]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.03.28-00.31.56:014][978]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.03.28-00.31.56:014][978]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.03.28-00.31.56:014][978]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.03.28-00.31.56:014][978]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.03.28-00.31.56:014][978]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.03.28-00.31.56:015][978]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.03.28-00.31.56:016][978]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.03.28-00.31.56:016][978]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.03.28-00.31.56:016][978]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.03.28-00.31.56:025][978]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.03.28-00.31.56:025][978]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.03.28-00.31.56:025][978]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.03.28-00.31.56:025][978]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.03.28-00.31.56:025][978]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.03.28-00.31.56:025][978]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.03.28-00.31.56:038][978]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.03.28-00.31.56:039][978]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.03.28-00.31.56:041][978]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.03.28-00.31.56:041][978]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.03.28-00.31.56:041][978]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.03.28-00.31.56:043][978]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.03.28-00.31.56:144][978]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.03.28-00.31.56:245][978]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.03.28-00.31.56:245][978]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.03.28-00.31.56:245][978]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.03.28-00.31.56:245][978]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.03.28-00.31.56:245][978]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.03.28-00.31.56:245][978]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.03.28-00.31.56:248][978]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.03.28-00.31.56:248][978]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.03.28-00.31.56:248][978]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.03.28-00.31.56:248][978]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.03.28-00.31.56:253][978]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.03.28-00.31.56:253][978]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.03.28-00.31.56:253][978]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.03.28-00.31.56:253][978]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.03.28-00.31.56:267][978]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.03.28-00.31.56:267][978]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.03.28-00.31.56:274][978]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.03.28-00.31.56:274][978]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.03.28-00.31.56:274][978]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.03.28-00.31.56:289][978]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.03.28-00.31.56:289][978]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.03.28-00.31.56:289][978]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.03.28-00.31.56:308][978]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.03.28-00.31.56:308][978]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.03.28-00.31.56:319][978]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.03.28-00.31.56:319][978]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.03.28-00.31.56:327][978]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.03.28-00.31.56:354][978]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.03.28-00.31.56:372][978]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.03.28-00.31.56:372][978]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.03.28-00.31.56:391][978]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.03.28-00.31.56:391][978]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.03.28-00.31.56:396][978]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.03.28-00.31.56:396][978]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.03.28-00.31.56:397][978]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.03.28-00.31.56:397][978]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.03.28-00.31.56:397][978]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.03.28-00.31.56:397][978]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.03.28-00.31.56:397][978]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.03.28-00.31.56:397][978]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.03.28-00.31.56:401][978]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.03.28-00.31.56:401][978]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.03.28-00.31.56:406][978]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.03.28-00.31.56:406][978]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.03.28-00.31.56:406][978]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.03.28-00.31.56:406][978]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.03.28-00.31.56:406][978]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.03.28-00.31.56:406][978]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.03.28-00.31.56:407][978]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.03.28-00.31.56:478][978]LogDerivedDataCache: Shutdown
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.03.28-00.31.56:478][978]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.03.28-00.31.56:479][978]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.03.28-00.31.56:480][978]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.03.28-00.31.56:481][978]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.03.28-00.31.56:482][978]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.03.28-00.31.56:495][978]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.03.28-00.31.56:495][978]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.03.28-00.31.56:495][978]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80D5030F-41F3-E8AF-8395-1AA32139A3BE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=2fceb56d4a40ac257792998ca3b4fe96%7C494f2aed8aaa4653abca0652b0f5a05a%7Ce83211ac-8b44-4076-abaa-ade8133f85a6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.03.28-00.31.56:510][978]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.03.28-00.31.56:514][978]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.03.28-00.31.56:514][978]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.03.28-00.31.56:514][978]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.03.28-00.31.56:523][978]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.03.28-00.31.56:524][978]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.03.28-00.31.56:524][978]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.03.28-00.31.56:524][978]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.03.28-00.31.56:534][978]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.03.28-00.31.56:543][978]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.03.28-00.31.56:544][978]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.03.28-00.31.56:564][978]LogExit: Exiting.
-[2018.03.28-00.31.56:600][978]Log file closed, 03/28/18 00:31:56
+[2018.03.28-11.59.04:649][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.28-11.59.04:649][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.28-11.59.04:659][  0]LogInit: Computer: MSI
+[2018.03.28-11.59.04:659][  0]LogInit: User: PaopuKid
+[2018.03.28-11.59.04:659][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.28-11.59.04:659][  0]LogInit: High frequency timer resolution =2.742192 MHz
+[2018.03.28-11.59.04:659][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.28-11.59.04:659][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-11.59.04:659][  0]LogMemory: Process Physical Memory: 283.20 MB used, 283.20 MB peak
+[2018.03.28-11.59.04:659][  0]LogMemory: Process Virtual Memory: 276.27 MB used, 276.27 MB peak
+[2018.03.28-11.59.04:659][  0]LogMemory: Physical Memory: 6386.20 MB used,  1690.96 MB free, 8077.16 MB total
+[2018.03.28-11.59.04:659][  0]LogMemory: Virtual Memory: 740.99 MB used,  1690.96 MB free, 134217728.00 MB total
+[2018.03.28-11.59.05:091][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.28-11.59.05:091][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.28-11.59.05:574][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.28-11.59.05:809][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.28-11.59.05:859][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.03.28-11.59.05:859][  0]LogD3D11RHI:       3019/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.28-11.59.05:868][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.03.28-11.59.05:868][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.28-11.59.05:870][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.28-11.59.05:870][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.28-11.59.05:870][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.28-11.59.05:877][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.28-11.59.05:877][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.28-11.59.05:877][  0]LogWindows: EnumDisplayDevices:
+[2018.03.28-11.59.05:877][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.03.28-11.59.05:877][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.28-11.59.05:877][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.03.28-11.59.05:877][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.28-11.59.05:877][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.28-11.59.05:877][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.28-11.59.05:878][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.03.28-11.59.05:878][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.28-11.59.05:878][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.03.28-11.59.05:878][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.28-11.59.05:878][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.28-11.59.05:878][  0]LogRHI: Texture pool is 2113 MB (70% of 3019 MB)
+[2018.03.28-11.59.05:907][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.28-11.59.05:931][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.03.28-11.59.05:932][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/1096/).
+[2018.03.28-11.59.05:932][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PaopuKid/AppData/Local/Temp/UnrealShaderWorkingDir/07832CEF435B80FB82182FB87F004673/'.
+[2018.03.28-11.59.05:932][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.28-11.59.06:853][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.28-11.59.06:893][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.28-11.59.06:932][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.28-11.59.06:972][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.28-11.59.07:013][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.28-11.59.07:052][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.28-11.59.07:092][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.28-11.59.07:132][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.28-11.59.07:165][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.28-11.59.07:205][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.28-11.59.07:245][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.28-11.59.07:287][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.28-11.59.07:325][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.28-11.59.07:364][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.28-11.59.07:442][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.28-11.59.07:442][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.28-11.59.07:483][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.28-11.59.07:513][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.28-11.59.07:586][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.28-11.59.07:609][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.28-11.59.07:648][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.28-11.59.07:687][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.28-11.59.07:726][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.28-11.59.07:766][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.28-11.59.07:766][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.28-11.59.08:094][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.28-11.59.08:199][  0]LogDerivedDataCache: Loaded boot cache 0.10s 92MB C:/Users/PaopuKid/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.28-11.59.08:199][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PaopuKid/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.28-11.59.08:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.28-11.59.08:199][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.28-11.59.08:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.28-11.59.08:199][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.28-11.59.08:215][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.28-11.59.08:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PaopuKid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.28-11.59.08:239][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.28-11.59.08:240][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.28-11.59.08:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.28-11.59.08:240][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.28-11.59.08:592][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.28-11.59.08:862][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.28-11.59.08:890][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.28-11.59.08:890][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.28-11.59.08:890][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.28-11.59.08:890][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.28-11.59.08:890][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.28-11.59.08:917][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
+[2018.03.28-11.59.09:078][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.03.28-11.59.09:563][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.032294 seconds
+[2018.03.28-11.59.09:568][  0]LogUObjectArray: 35900 objects as part of root set at end of initial load.
+[2018.03.28-11.59.09:568][  0]LogUObjectAllocator: 7372016 out of 0 bytes used by permanent object pool.
+[2018.03.28-11.59.09:568][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.28-11.59.09:611][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.28-11.59.15:236][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.28-11.59.15:278][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.28-11.59.15:998][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.28-11.59.16:366][  0]SourceControl: Source control is disabled
+[2018.03.28-11.59.16:366][  0]SourceControl: Source control is disabled
+[2018.03.28-11.59.16:425][  0]SourceControl: Source control is disabled
+[2018.03.28-11.59.16:480][  0]SourceControl: Source control is disabled
+[2018.03.28-11.59.17:377][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.28-11.59.17:637][  0]LogOcInput: OculusInput pre-init called
+[2018.03.28-11.59.17:920][  0]LogEngine: Initializing Engine...
+[2018.03.28-11.59.17:966][  0]LogHMD: Oculus plugin initialized. Version: 4.18.2-3794801+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.03.28-11.59.18:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.28-11.59.18:217][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.28-11.59.18:329][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.28-11.59.18:369][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-11.59.18:384][  0]LogInit: FAudioDevice initialized.
+[2018.03.28-11.59.18:487][  0]LogDerivedDataCache: Saved boot cache 0.10s 79MB C:/Users/PaopuKid/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.28-11.59.18:499][  0]LogInit: Texture streaming: Enabled
+[2018.03.28-11.59.18:617][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.28-11.59.18:735][  0]LogInit: Transaction tracking system initialized
+[2018.03.28-11.59.19:001][  0]BlueprintLog: New page: Editor Load
+[2018.03.28-11.59.19:976][  0]LocalizationService: Localization service is disabled
+[2018.03.28-11.59.20:742][  0]LogConsoleResponse: Display: 
+[2018.03.28-11.59.21:057][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.28-11.59.21:058][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.28-11.59.21:058][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.28-11.59.21:583][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/' took 0.01s
+[2018.03.28-11.59.22:667][  0]SourceControl: Source control is disabled
+[2018.03.28-11.59.22:667][  0]Cmd: MAP LOAD FILE="../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.28-11.59.22:668][  0]LightingResults: New page: Lighting Build
+[2018.03.28-11.59.22:697][  0]MapCheck: New page: Map Check
+[2018.03.28-11.59.22:697][  0]LightingResults: New page: Lighting Build
+[2018.03.28-11.59.25:639][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-11.59.26:872][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.28-11.59.27:152][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.28-11.59.27:238][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.921ms to complete.
+[2018.03.28-11.59.27:238][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 4.570
+[2018.03.28-11.59.28:402][  0]LogCollectionManager: Loaded 0 collections in 0.001170 seconds
+[2018.03.28-11.59.28:531][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
+[2018.03.28-11.59.28:531][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Developers/PaopuKid/Collections/' took 0.01s
+[2018.03.28-11.59.28:531][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
+[2018.03.28-11.59.28:531][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.28-11.59.28:541][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2363 classes and 519 folders.
+[2018.03.28-11.59.28:627][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.28-11.59.29:347][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.28-11.59.29:451][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.28-11.59.30:515][  0]LogSlate: Took 0.011818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.28-11.59.30:547][  0]LogSlate: Took 0.014361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.28-11.59.30:623][  0]LogSlate: Took 0.016641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.28-11.59.31:106][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 26 NumSamples 1 (Frame:1).
+[2018.03.28-11.59.32:107][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.28-11.59.32:107][  0]LogLoad: (Engine Initialization) Total time: 29.42 seconds
+[2018.03.28-11.59.32:107][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.28-11.59.32:125][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.28-11.59.32:216][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.28-11.59.32:233][  0]LogOcInput: OculusInput is initialized
+[2018.03.28-11.59.32:479][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.28-11.59.32:667][  0]LogSlate: Took 0.005923 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-11.59.33:049][  2]LogAssetRegistry: Asset discovery search completed in 23.9920 seconds
+[2018.03.28-11.59.33:062][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2018.03.28-11.59.33:062][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000330 seconds (updated 0 objects)
+[2018.03.28-12.00.08:617][556]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.00.08:779][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.00.08:800][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-12.00.08:800][556]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.00.09:076][556]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:00:09 PM)
+[2018.03.28-12.00.09:090][556]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.00.09:214][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.123963s)
+[2018.03.28-12.00.09:215][556]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.00.09:231][556]LogPlayLevel: PIE: World Init took: (0.017207s)
+[2018.03.28-12.00.09:240][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.149556s)
+[2018.03.28-12.00.09:304][556]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.00.09:316][556]LogInit: FAudioDevice initialized.
+[2018.03.28-12.00.09:481][556]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.00.09:561][556]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.00.09:561][556]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.00.09:663][556]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.00.09
+[2018.03.28-12.00.09:731][556]LogWorld: Bringing up level for play took: 0.087822
+[2018.03.28-12.00.09:831][556]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0052 seconds. Added 11 classes and 0 folders.
+[2018.03.28-12.00.09:942][556]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.931
+[2018.03.28-12.00.09:948][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.00.10:082][556]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.00.10:082][556]LogHMD: Allocating Oculus 1208 x 584 depth rendertarget swapchain
+[2018.03.28-12.00.10:171][556]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2018.03.28-12.00.10:171][556]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.00.13:097][735]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.00.40:792][905]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.40:832][905]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.40:844][905]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.42:799][993]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.42:799][993]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.42:799][993]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.44:799][ 83]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.44:799][ 83]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.44:800][ 83]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.46:794][173]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.46:794][173]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.46:795][173]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.48:793][262]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.48:793][262]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.48:793][262]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.50:796][347]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.50:797][347]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.50:797][347]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.52:795][437]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.52:795][437]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.52:796][437]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.54:796][527]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.54:796][527]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.54:796][527]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.56:803][617]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.56:803][617]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.56:803][617]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.00.58:804][707]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.00.58:805][707]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.00.58:805][707]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.00:807][797]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.00:807][797]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.00:807][797]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.02:808][887]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.02:808][887]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.02:808][887]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.04:797][977]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.04:798][977]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.04:798][977]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.06:802][ 67]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.06:803][ 67]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.06:803][ 67]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.08:807][155]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.08:807][155]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.08:808][155]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.10:803][245]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.10:803][245]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.10:803][245]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.12:300][312]LogActor: Warning: EditorCube28 is outside the world bounds!
+[2018.03.28-12.01.12:803][335]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.12:803][335]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item2
+	SpaceInvaderManager2_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SpaceInvaderManager2_136
+	Function /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2:1281
+[2018.03.28-12.01.12:803][335]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.14:803][425]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.14:803][425]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.16:802][515]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.16:802][515]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.18:800][605]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.18:801][605]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.20:807][695]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.20:807][695]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.22:805][785]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.01.22:805][785]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.01.23:370][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.01.23:764][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.01.23:882][807]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.01.46:364][758]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-12.01.46:942][758]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.28-12.01.47:133][758]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.28-12.01.48:812][758]LogSlate: Took 0.024769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.28-12.01.51:349][845]LogSlate: Took 0.044246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.28-12.06.47:381][320]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.10.15:721][956]LogEditorViewport: Clicking on Actor (LMB): SpaceInvaderManager2_C (SpaceInvaderManager2)
+[2018.03.28-12.11.55:158][577]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.12.46:646][ 50]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.12.57:768][657]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.12.57:814][657]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.12.57:814][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-12.12.57:814][657]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.12.57:838][657]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:12:57 PM)
+[2018.03.28-12.12.57:838][657]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.12.57:866][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028459s)
+[2018.03.28-12.12.57:867][657]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.12.57:867][657]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2018.03.28-12.12.57:867][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.029559s)
+[2018.03.28-12.12.57:922][657]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.12.57:933][657]LogInit: FAudioDevice initialized.
+[2018.03.28-12.12.58:040][657]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.12.58:077][657]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.12.58:077][657]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.12.58:086][657]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.12.58
+[2018.03.28-12.12.58:087][657]LogWorld: Bringing up level for play took: 0.008747
+[2018.03.28-12.12.58:113][657]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.103
+[2018.03.28-12.12.58:114][657]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.12.58:119][657]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.12.58:119][657]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.13.01:417][821]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.15.08:141][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.15.08:568][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.15.08:598][353]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.15.41:426][173]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.15.41:445][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.15.41:445][173]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.28-12.15.41:476][173]LogPlayLevel: [PlayLevel] Compiling SpaceInvaderManager2 before play...
+[2018.03.28-12.15.41:835][173]LogPlayLevel: PlayLevel: Blueprint regeneration took 390 ms (1 blueprints)
+[2018.03.28-12.15.41:835][173]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.15.41:862][173]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:15:41 PM)
+[2018.03.28-12.15.41:862][173]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.15.41:886][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024536s)
+[2018.03.28-12.15.41:888][173]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.15.41:888][173]LogPlayLevel: PIE: World Init took: (0.001270s)
+[2018.03.28-12.15.41:888][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.026348s)
+[2018.03.28-12.15.41:942][173]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.15.41:952][173]LogInit: FAudioDevice initialized.
+[2018.03.28-12.15.42:099][173]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.15.42:141][173]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.15.42:141][173]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.15.42:148][173]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.15.42
+[2018.03.28-12.15.42:149][173]LogWorld: Bringing up level for play took: 0.007673
+[2018.03.28-12.15.42:238][173]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.227
+[2018.03.28-12.15.42:241][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.15.42:256][173]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.15.42:256][173]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.15.45:405][312]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.15.48:714][481]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.15.49:016][481]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.15.49:057][481]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.18.03:379][209]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.19.01:976][840]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.19.20:674][931]LogSlate: Took 0.010051 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-12.19.30:655][456]LogSavePackage: Save=620.59ms
+[2018.03.28-12.19.30:655][456]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto11336E4B5422CE373B574B58D4A2DFA48.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2018.03.28-12.19.30:685][456]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2018.03.28-12.19.30:706][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 1.017
+[2018.03.28-12.19.30:706][456]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.017
+[2018.03.28-12.19.30:720][456]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2] ([1] browsable assets)...
+[2018.03.28-12.19.30:720][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2]
+[2018.03.28-12.19.30:923][456]LogSavePackage: Save=197.49ms
+[2018.03.28-12.19.30:923][456]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerPawn2_Auto16BB1BBB54E2D8A939BC9E9A02626DA64.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2_Auto1.uasset'
+[2018.03.28-12.19.30:932][456]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2_Auto1.uasset
+[2018.03.28-12.19.30:933][456]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2] ([1] browsable assets)...
+[2018.03.28-12.19.30:933][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2]
+[2018.03.28-12.19.31:145][456]LogSavePackage: Save=161.99ms
+[2018.03.28-12.19.31:145][456]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderManager2_Auto143D258CF4F67F1E7C43FEBB6C57CED62.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2_Auto1.uasset'
+[2018.03.28-12.19.31:172][456]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2_Auto1.uasset
+[2018.03.28-12.19.31:172][456]LogFileHelpers: Auto-saving content packages took 0.464
+[2018.03.28-12.21.19:773][794]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.21.19:819][794]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.21.19:819][794]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.28-12.21.19:862][794]LogPlayLevel: [PlayLevel] Compiling MotionControllerPawn2 before play...
+[2018.03.28-12.21.20:517][794]LogPlayLevel: PlayLevel: Blueprint regeneration took 698 ms (1 blueprints)
+[2018.03.28-12.21.20:517][794]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.21.20:542][794]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:21:20 PM)
+[2018.03.28-12.21.20:542][794]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.21.20:568][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025628s)
+[2018.03.28-12.21.20:569][794]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.21.20:569][794]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2018.03.28-12.21.20:570][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.027144s)
+[2018.03.28-12.21.20:622][794]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.21.20:633][794]LogInit: FAudioDevice initialized.
+[2018.03.28-12.21.20:747][794]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.21.20:784][794]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.21.20:784][794]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.21.20:799][794]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.21.20
+[2018.03.28-12.21.20:800][794]LogWorld: Bringing up level for play took: 0.015567
+[2018.03.28-12.21.20:820][794]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.809
+[2018.03.28-12.21.20:820][794]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.21.20:825][794]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.21.20:825][794]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.21.24:383][914]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.21.46:414][646]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.46:415][646]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.46:415][646]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.46:704][652]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.46:704][652]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.46:704][652]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.47:854][678]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.47:854][678]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.47:854][678]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.48:300][688]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.48:300][688]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.48:300][688]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.48:552][694]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.48:552][694]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.48:552][694]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.48:934][703]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.48:934][703]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.48:934][703]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.49:255][711]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.49:255][711]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.49:255][711]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.49:624][720]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.49:624][720]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.49:624][720]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.49:900][727]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.49:900][727]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.49:900][727]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.50:200][736]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.50:200][736]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.50:200][736]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.51:898][800]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.51:898][800]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.51:898][800]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.52:269][816]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.52:270][816]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.52:270][816]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.52:532][828]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.52:532][828]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.52:532][828]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.52:784][839]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.52:784][839]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.52:784][839]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.53:029][850]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.53:029][850]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.53:029][850]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.53:299][862]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.53:299][862]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.53:299][862]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.53:562][874]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.53:562][874]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.53:562][874]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.53:794][884]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.53:794][884]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.53:794][884]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.54:073][897]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.54:073][897]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.54:073][897]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.54:342][909]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.54:342][909]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.54:342][909]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.54:695][925]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.54:695][925]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.54:695][925]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.54:983][938]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.54:983][938]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.54:983][938]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.55:259][950]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.55:259][950]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.55:259][950]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.55:785][974]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.55:786][974]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.55:786][974]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.56:141][990]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.56:141][990]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.56:141][990]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.56:500][  6]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.56:500][  6]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.56:500][  6]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.56:854][ 22]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.56:854][ 22]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.56:854][ 22]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.57:390][ 46]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.57:390][ 46]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.57:390][ 46]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.57:704][ 60]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.57:704][ 60]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.57:704][ 60]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.58:017][ 74]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.58:017][ 74]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.58:017][ 74]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.21.58:320][ 88]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.21.58:320][ 88]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.21.58:320][ 88]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.03:361][265]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.03:361][265]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.03:361][265]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.04:092][282]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.04:092][282]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.04:092][282]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.04:397][289]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.04:397][289]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.04:397][289]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.04:707][296]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.04:707][296]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.04:707][296]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.04:950][301]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.04:950][301]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.04:950][301]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.05:219][307]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.05:219][307]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.05:219][307]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.05:620][316]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.05:620][316]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.05:620][316]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.05:890][322]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.22.05:890][322]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.22.05:890][322]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.22.09:997][491]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.22.10:354][491]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.22.10:391][491]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.23.29:187][  8]LogEditorViewport: Clicking on Actor (LMB): SpaceInvaderManager2_C (SpaceInvaderManager2)
+[2018.03.28-12.23.50:568][ 41]LogEditorTransaction: Undo Modify Component(s)
+[2018.03.28-12.24.18:314][458]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.24.32:231][141]BlueprintLog: New page: Compile MotionControllerPawn2
+[2018.03.28-12.25.46:555][912]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.30.22:327][275]LogSavePackage: Save=536.31ms
+[2018.03.28-12.30.22:327][275]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto239B602224622D46E23629A9077D6B4AB.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap'
+[2018.03.28-12.30.22:334][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2018.03.28-12.30.22:336][275]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.876
+[2018.03.28-12.30.22:336][275]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.876
+[2018.03.28-12.30.22:339][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2] ([1] browsable assets)...
+[2018.03.28-12.30.22:340][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2]
+[2018.03.28-12.30.22:545][275]LogSavePackage: Save=199.39ms
+[2018.03.28-12.30.22:545][275]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerPawn2_Auto2602A698E4FD723E97DDCF0BA7712AD36.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2_Auto2.uasset'
+[2018.03.28-12.30.22:547][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn2_Auto2.uasset
+[2018.03.28-12.30.22:548][275]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2] ([1] browsable assets)...
+[2018.03.28-12.30.22:548][275]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2]
+[2018.03.28-12.30.22:725][275]LogSavePackage: Save=170.79ms
+[2018.03.28-12.30.22:725][275]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderManager2_Auto2B83B11D545CCFCF8E464E6AEB914B1B4.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2_Auto2.uasset'
+[2018.03.28-12.30.22:728][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2_Auto2.uasset
+[2018.03.28-12.30.22:728][275]LogFileHelpers: Auto-saving content packages took 0.390
+[2018.03.28-12.30.44:695][397]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.30.46:717][474]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.30.46:797][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.30.46:797][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-12.30.46:797][474]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.30.47:559][474]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:30:47 PM)
+[2018.03.28-12.30.47:559][474]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.30.47:591][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031991s)
+[2018.03.28-12.30.47:593][474]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.30.47:593][474]LogPlayLevel: PIE: World Init took: (0.001509s)
+[2018.03.28-12.30.47:593][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.034133s)
+[2018.03.28-12.30.47:654][474]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.30.47:665][474]LogInit: FAudioDevice initialized.
+[2018.03.28-12.30.47:786][474]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.30.47:821][474]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.30.47:821][474]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.30.47:830][474]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.30.47
+[2018.03.28-12.30.47:831][474]LogWorld: Bringing up level for play took: 0.009037
+[2018.03.28-12.30.47:847][474]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.837
+[2018.03.28-12.30.47:848][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.30.47:853][474]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.30.47:853][474]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.30.51:089][619]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.31.10:008][339]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.10:008][339]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.17:178][607]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.17:179][607]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.20:162][737]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.20:162][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.20:713][762]LogBlueprintUserMessages: [VHS_1256] NoFunciona
+[2018.03.28-12.31.23:178][868]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.23:178][868]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.23:958][901]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.23:958][901]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.23:958][901]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.24:308][917]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.24:308][917]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.24:308][917]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.24:666][933]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.24:666][933]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.24:667][933]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.24:974][947]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.24:974][947]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.24:974][947]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.25:309][961]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.25:309][961]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.25:309][961]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.25:641][976]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.25:641][976]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.25:641][976]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.26:028][993]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.26:028][993]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.26:028][993]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.26:181][  0]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.26:182][  0]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.26:380][  9]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.26:380][  9]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.26:380][  9]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.26:867][ 31]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.26:868][ 31]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.26:868][ 31]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.27:269][ 49]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.27:269][ 49]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.27:269][ 49]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.27:629][ 65]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.27:629][ 65]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.27:629][ 65]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.27:937][ 79]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.27:937][ 79]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.27:937][ 79]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.28:228][ 92]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.28:228][ 92]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.28:228][ 92]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.28:410][100]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.28:410][100]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.28:410][100]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.28:784][117]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.28:784][117]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.28:784][117]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.29:094][131]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.29:095][131]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.29:095][131]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.29:163][134]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.29:163][134]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.29:453][147]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.29:453][147]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.29:453][147]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.29:942][169]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.29:943][169]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.29:943][169]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.30:260][183]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.30:260][183]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.30:260][183]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.30:562][197]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.30:562][197]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.30:562][197]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.30:877][211]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.30:877][211]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.30:877][211]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.31:278][229]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.31:278][229]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.31:278][229]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.31:608][244]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.31:608][244]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.31:608][244]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.31:943][259]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.31:943][259]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.31:943][259]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.32:164][269]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.32:164][269]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.32:248][273]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.32:248][273]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.32:248][273]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.32:568][287]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.32:568][287]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.32:568][287]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.32:892][302]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.32:892][302]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.32:892][302]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.33:224][317]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.33:224][317]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.33:224][317]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.33:582][333]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.33:582][333]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.33:582][333]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.33:939][349]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.33:940][349]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.33:940][349]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.34:249][363]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.34:249][363]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.34:249][363]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.35:169][404]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.35:169][404]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.38:161][538]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.38:161][538]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.41:160][672]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.41:160][672]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.44:161][807]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.44:161][807]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.47:162][942]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.47:163][942]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.50:180][ 78]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.50:180][ 78]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.50:429][ 89]LogActor: Warning: EditorCube36 is outside the world bounds!
+[2018.03.28-12.31.51:094][119]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.51:094][119]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.51:094][119]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.51:470][135]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.51:470][135]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.51:470][135]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.51:779][149]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.51:779][149]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.51:779][149]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.52:134][164]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.52:134][164]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.52:134][164]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.52:473][179]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.52:473][179]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.52:473][179]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.52:738][191]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.52:738][191]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.52:738][191]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.53:028][204]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.53:028][204]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.53:028][204]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.53:165][210]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.53:166][210]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.31.53:313][217]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.31.53:313][217]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.31.53:313][217]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.31.57:917][400]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.31.57:918][400]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.32.05:318][690]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.32.05:319][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.32.06:100][725]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.06:101][725]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.06:101][725]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.06:519][744]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.06:519][744]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.06:519][744]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.08:343][826]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.32.08:343][826]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.32.11:983][957]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.11:983][957]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.11:983][957]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.12:330][969]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.12:330][969]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.12:330][969]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.12:623][979]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.12:623][979]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.12:623][979]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.12:936][989]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.12:936][989]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.12:936][989]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.13:250][999]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.13:250][999]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.13:250][999]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.13:581][ 10]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.13:581][ 10]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.13:581][ 10]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.13:907][ 21]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.13:907][ 21]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.13:907][ 21]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.14:956][ 55]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.14:956][ 55]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.14:956][ 55]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.15:512][ 72]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.15:512][ 72]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.15:512][ 72]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.15:825][ 82]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.15:825][ 82]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.15:825][ 82]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.16:092][ 91]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.16:092][ 91]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.16:093][ 91]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.16:372][101]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.16:373][101]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.16:373][101]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.16:772][114]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.16:772][114]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.16:772][114]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.17:224][128]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.17:224][128]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.17:224][128]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.17:581][140]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.17:581][140]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.17:581][140]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.17:913][152]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.17:913][152]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.17:913][152]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.18:223][162]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.18:223][162]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.18:223][162]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.18:512][172]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.18:512][172]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.18:512][172]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.18:823][182]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.18:823][182]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.18:823][182]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.19:140][195]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.19:140][195]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.19:140][195]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.19:402][205]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.19:402][205]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.19:402][205]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.19:721][217]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.32.19:721][217]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.32.19:721][217]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.32.30:386][645]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.32.30:386][645]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.32.49:994][320]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors4' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.32.49:995][320]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item3 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item3
+[2018.03.28-12.33.14:700][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.33.15:061][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.33.15:101][184]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.34.43:033][685]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.03.28-12.35.40:032][233]BlueprintLog: New page: Compile FirstPersonProjectile
+[2018.03.28-12.36.02:468][448]LogSavePackage: Save=59.76ms
+[2018.03.28-12.36.02:468][448]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/FirstPersonProjectileB70581C74C38AF8CBD5E2F89990E1220.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2018.03.28-12.36.02:473][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.03.28-12.36.02:696][448]LogSavePackage: Save=208.89ms
+[2018.03.28-12.36.02:696][448]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerPawn28F0D900545DCA58E9840409A0DCF89BF.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/MotionControllerPawn2.uasset'
+[2018.03.28-12.36.02:700][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/MotionControllerPawn2.uasset
+[2018.03.28-12.36.02:887][448]LogSavePackage: Save=174.73ms
+[2018.03.28-12.36.02:887][448]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderManager235050E0B45D277763D2128B80C7607AD.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset'
+[2018.03.28-12.36.02:902][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset
+[2018.03.28-12.36.04:561][448]LogSavePackage: Save=512.40ms
+[2018.03.28-12.36.04:561][448]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap7A6E15A240A684F66088B9A73F51D2D6.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.03.28-12.36.04:565][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.03.28-12.36.04:597][448]LogFileHelpers: Saving map 'MotionControllerMap' took 1.692
+[2018.03.28-12.42.57:253][869]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.42.57:277][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.42.57:277][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-12.42.57:277][869]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.42.57:303][869]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:42:57 PM)
+[2018.03.28-12.42.57:303][869]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.42.57:331][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027945s)
+[2018.03.28-12.42.57:332][869]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.42.57:332][869]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2018.03.28-12.42.57:332][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.029588s)
+[2018.03.28-12.42.57:393][869]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.42.57:405][869]LogInit: FAudioDevice initialized.
+[2018.03.28-12.42.57:529][869]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.42.57:566][869]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.42.57:566][869]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.42.57:595][869]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.42.57
+[2018.03.28-12.42.57:600][869]LogWorld: Bringing up level for play took: 0.032056
+[2018.03.28-12.42.57:706][869]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.305
+[2018.03.28-12.42.57:707][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.42.57:722][869]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.42.57:722][869]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.43.00:831][  3]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.43.09:963][396]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.09:963][396]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.09:963][396]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.10:313][409]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.10:313][409]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.10:314][409]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.10:601][419]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.10:601][419]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.10:601][419]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.10:957][434]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.10:957][434]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.10:957][434]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.11:253][444]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.11:253][444]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.11:253][444]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.11:602][455]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.11:603][455]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.11:603][455]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.11:919][466]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.11:919][466]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.11:919][466]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.12:226][476]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.12:226][476]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.12:226][476]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.12:736][493]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.12:737][493]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.12:737][493]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.13:137][504]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.13:137][504]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.13:137][504]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.13:493][518]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.13:493][518]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.13:493][518]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.13:823][531]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.13:823][531]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.13:823][531]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.14:093][543]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.14:093][543]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.14:093][543]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.14:425][555]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.14:425][555]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.14:425][555]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.14:737][569]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.14:737][569]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.14:737][569]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.15:075][583]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.15:076][583]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.15:076][583]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.15:456][600]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.15:456][600]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.15:456][600]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.15:722][611]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.15:722][611]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.15:722][611]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.16:186][632]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.16:186][632]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.16:186][632]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.16:538][648]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.16:539][648]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.16:539][648]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.16:873][662]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.16:874][662]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.16:874][662]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.17:275][680]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.17:275][680]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.17:275][680]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.18:903][748]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.18:903][748]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.18:903][748]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.19:411][771]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.19:412][771]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.19:412][771]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.19:971][793]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.19:971][793]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.19:971][793]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.20:363][807]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.20:363][807]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.20:363][807]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.20:752][824]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.20:752][824]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.20:752][824]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.21:078][838]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.21:078][838]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.21:078][838]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.21:367][850]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.21:367][850]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.21:367][850]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.21:405][852]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.43.21:405][852]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.43.21:677][864]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.21:677][864]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.21:677][864]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.21:941][876]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.21:941][876]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.21:941][876]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.22:210][888]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.22:210][888]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.22:210][888]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.22:477][900]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.22:477][900]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.22:477][900]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.22:694][909]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.22:695][909]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.22:695][909]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.22:961][919]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.22:961][919]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.22:961][919]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.23:280][933]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.23:280][933]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.23:280][933]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.23:547][945]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.23:547][945]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.23:547][945]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.23:902][961]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.43.23:903][961]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.43.29:759][172]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.29:760][172]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.29:760][172]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.30:089][184]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.30:089][184]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.30:089][184]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.30:417][194]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.30:417][194]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.30:417][194]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.30:955][212]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.30:955][212]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.30:955][212]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.31:332][227]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.31:332][227]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.31:332][227]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.43.31:713][243]LogBlueprintUserMessages: [Mole3] Hello
+[2018.03.28-12.43.31:713][243]LogBlueprintUserMessages: [Mole2] Hello
+[2018.03.28-12.43.31:713][243]LogBlueprintUserMessages: [Mole_417] Hello
+[2018.03.28-12.44.18:493][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.44.18:795][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.44.18:863][ 97]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.45.07:349][491]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.45.07:370][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.45.07:370][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-12.45.07:370][491]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.45.07:396][491]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:45:07 PM)
+[2018.03.28-12.45.07:396][491]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.45.07:424][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028762s)
+[2018.03.28-12.45.07:426][491]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.45.07:426][491]LogPlayLevel: PIE: World Init took: (0.001123s)
+[2018.03.28-12.45.07:426][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.030435s)
+[2018.03.28-12.45.07:482][491]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.45.07:493][491]LogInit: FAudioDevice initialized.
+[2018.03.28-12.45.07:637][491]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.45.07:682][491]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.45.07:682][491]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.45.07:699][491]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.45.07
+[2018.03.28-12.45.07:700][491]LogWorld: Bringing up level for play took: 0.017821
+[2018.03.28-12.45.07:822][491]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.189
+[2018.03.28-12.45.07:822][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.45.07:837][491]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.45.07:837][491]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.45.10:892][623]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.46.02:628][344]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.46.02:628][344]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.46.43:385][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.46.43:749][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.46.43:801][808]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.48.57:580][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.025
+[2018.03.28-12.48.57:582][296]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2] ([1] browsable assets)...
+[2018.03.28-12.48.57:583][296]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2]
+[2018.03.28-12.48.58:053][296]LogSavePackage: Save=462.19ms
+[2018.03.28-12.48.58:053][296]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderManager2_Auto3FB2107BA409FD22CA3C68AA8FC5452D6.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2_Auto3.uasset'
+[2018.03.28-12.48.58:065][296]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2_Auto3.uasset
+[2018.03.28-12.48.58:065][296]LogFileHelpers: Auto-saving content packages took 0.484
+[2018.03.28-12.55.41:324][697]LogTemp: Repeating last play command: VR Preview
+[2018.03.28-12.55.41:348][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.55.41:348][697]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.28-12.55.41:357][697]LogPlayLevel: [PlayLevel] Compiling FirstPersonProjectile before play...
+[2018.03.28-12.55.41:727][697]LogPlayLevel: [PlayLevel] Compiling SpaceInvaderManager2 before play...
+[2018.03.28-12.55.42:122][697]LogPlayLevel: PlayLevel: Blueprint regeneration took 773 ms (2 blueprints)
+[2018.03.28-12.55.42:122][697]LogHMD: Initializing OVRPlugin session
+[2018.03.28-12.55.42:150][697]PIE: New page: PIE session: MotionControllerMap (Mar 28, 2018, 12:55:42 PM)
+[2018.03.28-12.55.42:150][697]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.03.28-12.55.42:179][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027888s)
+[2018.03.28-12.55.42:180][697]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.03.28-12.55.42:180][697]LogPlayLevel: PIE: World Init took: (0.001395s)
+[2018.03.28-12.55.42:180][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.029829s)
+[2018.03.28-12.55.42:239][697]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-12.55.42:250][697]LogInit: FAudioDevice initialized.
+[2018.03.28-12.55.42:376][697]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.03.28-12.55.42:412][697]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.28-12.55.42:412][697]LogLoad: Game class is 'GameModeBase'
+[2018.03.28-12.55.42:439][697]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.03.28-12.55.42
+[2018.03.28-12.55.42:443][697]LogWorld: Bringing up level for play took: 0.029353
+[2018.03.28-12.55.42:585][697]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.575
+[2018.03.28-12.55.42:586][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.55.42:596][697]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.03.28-12.55.42:596][697]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.03.28-12.55.45:646][867]LogBlueprintUserMessages: [VHS_1256] funciona
+[2018.03.28-12.55.56:238][236]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-281.408 Y=-131.845 Z=414.948] for [FirstPersonProjectile_C]
+[2018.03.28-12.55.56:510][248]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+	FirstPersonProjectile_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.FirstPersonProjectile_C_6
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile_C:ExecuteUbergraph_FirstPersonProjectile:004A
+[2018.03.28-12.55.56:510][248]PIE: Error: Blueprint Runtime Error: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill from function: 'ExecuteUbergraph_FirstPersonProjectile' from node: Branch in graph: EventGraph in object: FirstPersonProjectile with description: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is pending kill
+[2018.03.28-12.56.23:194][373]LogActor: Warning: EditorCube37 is outside the world bounds!
+[2018.03.28-12.56.23:266][376]LogActor: Warning: EditorCube36 is outside the world bounds!
+[2018.03.28-12.56.53:604][562]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors3' of length 0 in '/Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2.SpaceInvaderManager2_C:ExecuteUbergraph_SpaceInvaderManager2'!
+[2018.03.28-12.56.53:605][562]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item2 from function: 'ExecuteUbergraph_SpaceInvaderManager2' from node: Shoot in graph: EventGraph in object: SpaceInvaderManager2 with description: Accessed None trying to read property CallFunc_Array_Get_Item2
+[2018.03.28-12.57.08:568][185]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.57.08:811][185]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.03.28-12.57.08:878][185]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.03.28-12.57.29:870][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.28-12.57.29:974][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.28-12.57.30:151][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.28-12.57.32:557][366]LogSavePackage: Save=44.08ms
+[2018.03.28-12.57.32:557][366]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/FirstPersonProjectileE3794C81409025BCD2E8C2B1D62379CC.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset'
+[2018.03.28-12.57.32:561][366]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2018.03.28-12.57.32:797][366]LogSavePackage: Save=182.58ms
+[2018.03.28-12.57.32:797][366]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderManager2F7CA67624C7738B66DEEA6B22BE56A13.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset'
+[2018.03.28-12.57.32:800][366]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset
+[2018.03.28-12.57.33:448][366]LogSavePackage: Save=546.27ms
+[2018.03.28-12.57.33:448][366]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap3BB01F314C9BB66830ACC78087A37A58.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.03.28-12.57.33:452][366]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.03.28-12.57.33:474][366]LogFileHelpers: Saving map 'MotionControllerMap' took 0.671
