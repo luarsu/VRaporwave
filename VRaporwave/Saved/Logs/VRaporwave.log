@@ -1,4 +1,4 @@
-﻿Log file open, 04/12/18 14:34:34
+﻿Log file open, 04/14/18 01:55:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRaporwave
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1383008141) SRandInit(1383008141).
+LogInit: Display: RandInit(512018806) SRandInit(512018806).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.148485
+LogStats: Stats thread started at 0.620114
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -164,6 +164,7 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.19.0
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -190,582 +191,424 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: D:/UnrealEngine/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.12-13.34.34:986][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.12-13.34.34:986][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.12-13.34.34:994][  0]LogInit: Computer: DESKTOP-O4T3RME
-[2018.04.12-13.34.34:995][  0]LogInit: User: Luis
-[2018.04.12-13.34.34:995][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.12-13.34.34:995][  0]LogInit: High frequency timer resolution =3.914060 MHz
-[2018.04.12-13.34.34:995][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.12-13.34.34:995][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.12-13.34.34:995][  0]LogMemory: Process Physical Memory: 282.02 MB used, 282.02 MB peak
-[2018.04.12-13.34.34:995][  0]LogMemory: Process Virtual Memory: 276.43 MB used, 276.43 MB peak
-[2018.04.12-13.34.34:995][  0]LogMemory: Physical Memory: 5395.47 MB used,  10927.46 MB free, 16322.93 MB total
-[2018.04.12-13.34.34:995][  0]LogMemory: Virtual Memory: 737.79 MB used,  10927.46 MB free, 134217728.00 MB total
-[2018.04.12-13.34.35:077][  0]LogInit: Using OS detected language (en-GB).
-[2018.04.12-13.34.35:077][  0]LogInit: Using OS detected locale (en-GB).
-[2018.04.12-13.34.35:079][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.04.12-13.34.35:375][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.12-13.34.35:574][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.12-13.34.35:601][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.04.12-13.34.35:601][  0]LogD3D11RHI:       8079/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.12-13.34.35:602][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.12-13.34.35:602][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.12-13.34.35:602][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.12-13.34.35:607][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.12-13.34.35:607][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.12-13.34.35:607][  0]LogWindows: EnumDisplayDevices:
-[2018.04.12-13.34.35:607][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.04.12-13.34.35:607][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.12-13.34.35:607][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.12-13.34.35:607][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.12-13.34.35:607][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.12-13.34.35:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.04.12-13.34.35:607][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.12-13.34.35:607][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.12-13.34.35:608][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2018.04.12-13.34.35:626][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.12-13.34.35:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.12-13.34.35:640][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Luis/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/14988/).
-[2018.04.12-13.34.35:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luis/AppData/Local/Temp/UnrealShaderWorkingDir/566AB0944C1C5737677B13BF8F802F82/'.
-[2018.04.12-13.34.35:641][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.12-13.34.36:689][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.12-13.34.36:773][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.12-13.34.37:014][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.12-13.34.38:792][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.12-13.34.38:933][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.12-13.34.39:417][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.12-13.34.40:066][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.12-13.34.40:178][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.12-13.34.40:569][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.12-13.34.40:715][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.12-13.34.40:984][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.12-13.34.41:593][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.12-13.34.41:622][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.12-13.34.41:651][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.12-13.34.41:870][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.12-13.34.41:870][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.12-13.34.41:900][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.12-13.34.41:923][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.12-13.34.41:984][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.12-13.34.42:000][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.12-13.34.42:028][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.12-13.34.42:057][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.12-13.34.42:086][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.12-13.34.42:116][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.12-13.34.42:116][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.12-13.34.42:357][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.12-13.34.42:407][  0]LogDerivedDataCache: Loaded boot cache 0.05s 94MB C:/Users/Luis/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.12-13.34.42:407][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luis/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.12-13.34.42:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Luis/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.12-13.34.42:407][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.12-13.34.42:407][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Luis/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.12-13.34.42:407][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.12-13.34.42:420][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.12-13.34.42:432][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.12-13.34.42:439][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.12-13.34.42:439][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.12-13.34.42:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.12-13.34.42:440][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.12-13.34.42:686][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.12-13.34.42:880][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.12-13.34.42:904][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.12-13.34.42:904][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.12-13.34.42:904][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.12-13.34.42:904][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.12-13.34.42:904][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.12-13.34.42:921][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
-[2018.04.12-13.34.43:021][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
-[2018.04.12-13.34.43:302][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.033931 seconds
-[2018.04.12-13.34.43:305][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.12-13.34.43:305][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.04.12-13.34.43:305][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.12-13.34.43:331][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.12-13.34.44:956][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.12-13.34.44:983][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.12-13.34.45:367][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.12-13.34.45:599][  0]SourceControl: Source control is disabled
-[2018.04.12-13.34.45:599][  0]SourceControl: Source control is disabled
-[2018.04.12-13.34.45:627][  0]SourceControl: Source control is disabled
-[2018.04.12-13.34.45:655][  0]SourceControl: Source control is disabled
-[2018.04.12-13.34.46:090][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.12-13.34.46:231][  0]LogOcInput: OculusInput pre-init called
-[2018.04.12-13.34.46:392][  0]LogEngine: Initializing Engine...
-[2018.04.12-13.34.46:393][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2018.04.12-13.34.46:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.12-13.34.46:528][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.12-13.34.46:598][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.12-13.34.46:608][  0]LogInit: XAudio2 using 'Optoma 1080P (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.12-13.34.46:616][  0]LogInit: FAudioDevice initialized.
-[2018.04.12-13.34.46:678][  0]LogDerivedDataCache: Saved boot cache 0.06s 81MB C:/Users/Luis/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.12-13.34.46:684][  0]LogInit: Texture streaming: Enabled
-[2018.04.12-13.34.46:732][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.12-13.34.46:798][  0]LogInit: Transaction tracking system initialized
-[2018.04.12-13.34.46:959][  0]BlueprintLog: New page: Editor Load
-[2018.04.12-13.34.47:408][  0]LocalizationService: Localization service is disabled
-[2018.04.12-13.34.47:789][  0]LogConsoleResponse: Display: 
-[2018.04.12-13.34.47:890][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.12-13.34.47:890][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.12-13.34.47:890][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.12-13.34.48:097][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Content/' took 0.01s
-[2018.04.12-13.34.48:514][  0]SourceControl: Source control is disabled
-[2018.04.12-13.34.48:595][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.12-13.34.48:596][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.12-13.42.27:511][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.12-13.42.27:512][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.12-13.42.31:743][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.12-13.42.31:744][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.12-13.42.31:784][  0]Cmd: MAP LOAD FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.12-13.42.31:784][  0]LightingResults: New page: Lighting Build
-[2018.04.12-13.42.31:808][  0]MapCheck: New page: Map Check
-[2018.04.12-13.42.31:808][  0]LightingResults: New page: Lighting Build
-[2018.04.12-13.42.32:253][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.04.12-13.42.32:253][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
-[2018.04.12-13.42.32:253][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.04.12-13.42.32:256][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.04.12-13.42.32:256][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
-[2018.04.12-13.42.32:256][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.04.12-13.42.32:257][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.04.12-13.42.32:257][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.04.12-13.42.32:257][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.04.12-13.42.32:257][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.04.12-13.42.32:257][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.04.12-13.42.32:257][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.04.12-13.42.32:257][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.04.12-13.42.32:257][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
-[2018.04.12-13.42.32:257][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.04.12-13.42.32:258][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
-[2018.04.12-13.42.32:258][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.04.12-13.42.33:274][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.04.12-13.42.33:321][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.12-13.42.33:336][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.12-13.42.33:389][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.068ms to complete.
-[2018.04.12-13.42.33:389][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 1.606
-[2018.04.12-13.42.33:449][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_570_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_23a0_0///####STATCAT_Advanced####
-[2018.04.12-13.42.33:449][  0]LogCollectionManager: Loaded 0 collections in 0.000653 seconds
-[2018.04.12-13.42.33:507][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
-[2018.04.12-13.42.33:507][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Content/Developers/Luis/Collections/' took 0.01s
-[2018.04.12-13.42.33:507][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
-[2018.04.12-13.42.33:507][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.12-13.42.33:513][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2363 classes and 519 folders.
-[2018.04.12-13.42.33:545][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.12-13.42.33:571][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.12-13.42.33:593][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.04.12-13.42.33:604][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.12-13.42.33:607][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.12-13.42.33:686][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
-[2018.04.12-13.42.33:830][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.04.12-13.42.33:830][  0]LogLoad: (Engine Initialization) Total time: 480.55 seconds
-[2018.04.12-13.42.33:830][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.12-13.42.33:831][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.04.12-13.42.33:831][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.04.12-13.42.33:843][  0]LogOcInput: OculusInput is initialized
-[2018.04.12-13.42.33:858][  0]LogAssetRegistry: Asset discovery search completed in 470.8586 seconds
-[2018.04.12-13.42.33:860][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.12-13.42.33:860][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
-[2018.04.12-13.42.33:872][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.12-13.42.33:911][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.12-13.42.34:859][ 90]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.12-13.42.37:880][452]LogEditorViewport: Clicking on Actor (LMB): SoundManager_C (SoundManager)
-[2018.04.12-13.42.39:039][587]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.12-13.42.39:239][587]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
-[2018.04.12-13.42.39:722][587]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.12-13.42.39:771][588]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.12-13.44.03:458][511]BlueprintLog: New page: Compile SoundObject
-[2018.04.12-13.44.15:880][938]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.04.12-13.45.01:149][268]BlueprintLog: New page: Compile SoundObject
-[2018.04.12-13.46.01:058][342]BlueprintLog: New page: Compile SoundObject
-[2018.04.12-13.47.23:229][103]BlueprintLog: New page: Compile SoundManager
-[2018.04.12-13.47.51:332][412]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.12-13.48.07:431][281]BlueprintLog: New page: Compile SoundObject2
-[2018.04.12-13.48.08:642][384]BlueprintLog: New page: Compile SoundObject2
-[2018.04.12-13.48.11:531][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/SoundManager" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset" SILENT=true
-[2018.04.12-13.48.11:574][568]LogSavePackage: Save=36.87ms
-[2018.04.12-13.48.11:574][568]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/SoundManager34AE96704BC18E972FA9D9A79594F621.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset'
-[2018.04.12-13.48.11:577][568]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset
-[2018.04.12-13.48.11:588][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/SoundObject" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundObject.uasset" SILENT=true
-[2018.04.12-13.48.11:625][568]LogSavePackage: Save=32.10ms
-[2018.04.12-13.48.11:626][568]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/SoundObject009FAE444981AAB5F42100886F44FFA5.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundObject.uasset'
-[2018.04.12-13.48.11:627][568]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundObject.uasset
-[2018.04.12-13.48.11:637][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/SoundObject2" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundObject2.uasset" SILENT=true
-[2018.04.12-13.48.11:670][568]LogSavePackage: Save=31.58ms
-[2018.04.12-13.48.11:670][568]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/SoundObject20B562EA04924632EA52203984A6F976C.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundObject2.uasset'
-[2018.04.12-13.48.11:671][568]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundObject2.uasset
-[2018.04.12-13.48.12:161][568]LogSavePackage: Save=419.36ms
-[2018.04.12-13.48.12:161][568]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/MotionControllerMap47C7463E41CAB62149D42AACD6928535.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2018.04.12-13.48.12:162][568]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2018.04.12-13.48.12:189][568]LogFileHelpers: Saving map 'MotionControllerMap' took 0.517
-[2018.04.12-13.48.29:773][592]LogTemp: Repeating last play command: VR Preview
-[2018.04.12-13.48.29:815][592]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.48.29:815][592]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.12-13.48.29:815][592]LogHMD: Initializing OVRPlugin session
-[2018.04.12-13.48.29:842][592]PIE: New page: PIE session: MotionControllerMap (12 Apr 2018 15:48:29)
-[2018.04.12-13.48.29:842][592]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2018.04.12-13.48.29:865][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023116s)
-[2018.04.12-13.48.29:866][592]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.04.12-13.48.29:866][592]LogPlayLevel: PIE: World Init took: (0.000578s)
-[2018.04.12-13.48.29:866][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.023974s)
-[2018.04.12-13.48.29:887][592]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.12-13.48.29:894][592]LogInit: FAudioDevice initialized.
-[2018.04.12-13.48.29:982][592]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.12-13.48.30:019][592]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.12-13.48.30:019][592]LogLoad: Game class is 'GameModeBase'
-[2018.04.12-13.48.30:024][592]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.04.12-14.48.30
-[2018.04.12-13.48.30:025][592]LogWorld: Bringing up level for play took: 0.004607
-[2018.04.12-13.48.30:048][592]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
-[2018.04.12-13.48.30:050][592]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0016
-[2018.04.12-13.48.30:050][592]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
-[2018.04.12-13.48.30:057][592]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.013
-[2018.04.12-13.48.30:058][592]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.48.30:062][592]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.12-13.48.30:062][592]LogHMD: Allocating Oculus 1208 x 576 depth rendertarget swapchain
-[2018.04.12-13.48.30:142][592]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
-[2018.04.12-13.48.30:142][592]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.12-13.48.47:479][199]LogScript: Warning: Accessed None trying to read property AudioDialogues
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:0016
-[2018.04.12-13.48.47:480][199]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioDialogues from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property AudioDialogues
-[2018.04.12-13.48.53:058][700]LogScript: Warning: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:0016
-[2018.04.12-13.48.53:058][700]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
-[2018.04.12-13.49.03:288][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.49.03:434][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.49.03:457][620]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
-[2018.04.12-13.49.06:736][962]LogTemp: Repeating last play command: VR Preview
-[2018.04.12-13.49.06:750][962]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.49.06:751][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.12-13.49.06:751][962]LogHMD: Initializing OVRPlugin session
-[2018.04.12-13.49.06:768][962]PIE: New page: PIE session: MotionControllerMap (12 Apr 2018 15:49:06)
-[2018.04.12-13.49.06:768][962]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2018.04.12-13.49.06:791][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023611s)
-[2018.04.12-13.49.06:792][962]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.04.12-13.49.06:792][962]LogPlayLevel: PIE: World Init took: (0.000523s)
-[2018.04.12-13.49.06:792][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.024410s)
-[2018.04.12-13.49.06:816][962]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.12-13.49.06:822][962]LogInit: FAudioDevice initialized.
-[2018.04.12-13.49.06:912][962]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.12-13.49.06:940][962]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.12-13.49.06:940][962]LogLoad: Game class is 'GameModeBase'
-[2018.04.12-13.49.06:945][962]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.04.12-14.49.06
-[2018.04.12-13.49.06:945][962]LogWorld: Bringing up level for play took: 0.004950
-[2018.04.12-13.49.06:948][962]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0016
-[2018.04.12-13.49.06:948][962]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
-[2018.04.12-13.49.06:957][962]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.886
-[2018.04.12-13.49.06:957][962]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.49.06:961][962]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.12-13.49.06:961][962]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.12-13.49.16:014][765]LogScript: Warning: Accessed None trying to read property AudioDialogues
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:0016
-[2018.04.12-13.49.16:014][765]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioDialogues from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property AudioDialogues
-[2018.04.12-13.49.48:743][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.49.48:876][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.04.12-13.49.48:896][701]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
-[2018.04.12-13.50.42:260][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.12-13.50.42:314][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.12-13.50.43:201][909]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.12-13.50.43:395][910]Cmd: QUIT_EDITOR
-[2018.04.12-13.50.44:393][910]LogExit: Preparing to exit.
-[2018.04.12-13.50.45:310][910]LogDirectoryWatcher: A directory notification for 'D:/Luis/VRaporwave/VRaporwave/Content/' was aborted.
-[2018.04.12-13.50.45:378][910]LogExit: Editor shut down
-[2018.04.12-13.50.45:387][910]LogExit: Transaction tracking system shut down
-[2018.04.12-13.50.45:673][910]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.12-13.50.45:674][910]LogDirectoryWatcher: A directory notification for '../../../../../Luis/VRaporwave/VRaporwave/Content/' was aborted.
-[2018.04.12-13.50.45:674][910]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.12-13.50.45:674][910]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.12-13.50.45:674][910]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.12-13.50.45:674][910]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.12-13.50.45:674][910]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.12-13.50.46:209][910]LogExit: Object subsystem successfully closed.
-[2018.04.12-13.50.46:283][910]LogD3D11RHI: Shutdown
-[2018.04.12-13.50.46:292][910]LogD3D11RHI: CleanupD3DDevice
-[2018.04.12-13.50.46:310][910]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.12-13.50.46:769][910]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2018.04.12-13.50.46:769][910]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2018.04.12-13.50.46:769][910]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.04.12-13.50.46:769][910]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.04.12-13.50.46:769][910]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.04.12-13.50.46:777][910]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.18/FeaturePacks/' was aborted.
-[2018.04.12-13.50.46:778][910]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.04.12-13.50.46:778][910]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.04.12-13.50.46:778][910]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.04.12-13.50.46:778][910]LogDirectoryWatcher: A directory notification for 'D:/Luis/VRaporwave/VRaporwave/Content/Collections/' was aborted.
-[2018.04.12-13.50.46:778][910]LogDirectoryWatcher: A directory notification for 'D:/Luis/VRaporwave/VRaporwave/Content/Developers/Luis/Collections/' was aborted.
-[2018.04.12-13.50.46:778][910]LogDirectoryWatcher: A directory notification for 'D:/Luis/VRaporwave/VRaporwave/Saved/Collections/' was aborted.
-[2018.04.12-13.50.46:778][910]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.04.12-13.50.46:792][910]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.04.12-13.50.46:792][910]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.04.12-13.50.46:806][910]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.04.12-13.50.46:815][910]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.04.12-13.50.46:827][910]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.04.12-13.50.46:855][910]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.04.12-13.50.46:855][910]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.04.12-13.50.46:855][910]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.04.12-13.50.46:856][910]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.04.12-13.50.46:869][910]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.04.12-13.50.46:870][910]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.04.12-13.50.46:870][910]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.04.12-13.50.46:870][910]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.04.12-13.50.46:870][910]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.04.12-13.50.46:870][910]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.04.12-13.50.46:875][910]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.04.12-13.50.46:887][910]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.04.12-13.50.46:887][910]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.04.12-13.50.46:897][910]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.04.12-13.50.46:916][910]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.04.12-13.50.46:916][910]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.04.12-13.50.46:916][910]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.04.12-13.50.46:916][910]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.04.12-13.50.47:758][910]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.04.12-13.50.47:758][910]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.04.12-13.50.47:758][910]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.04.12-13.50.47:758][910]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.04.12-13.50.47:758][910]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.04.12-13.50.47:781][910]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.04.12-13.50.47:781][910]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.04.12-13.50.47:799][910]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.04.12-13.50.47:799][910]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.04.12-13.50.47:821][910]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.04.12-13.50.47:836][910]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.04.12-13.50.47:842][910]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.04.12-13.50.47:842][910]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.04.12-13.50.47:845][910]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.04.12-13.50.47:845][910]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.04.12-13.50.47:905][910]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.04.12-13.50.47:915][910]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.04.12-13.50.47:930][910]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.04.12-13.50.47:944][910]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.04.12-13.50.47:944][910]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.04.12-13.50.47:954][910]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.04.12-13.50.47:954][910]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.04.12-13.50.47:978][910]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.04.12-13.50.47:978][910]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.04.12-13.50.47:978][910]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.04.12-13.50.47:997][910]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.04.12-13.50.47:997][910]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.04.12-13.50.47:998][910]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.04.12-13.50.48:008][910]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.04.12-13.50.48:030][910]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.04.12-13.50.48:030][910]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.04.12-13.50.48:033][910]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.04.12-13.50.48:033][910]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.04.12-13.50.48:041][910]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.04.12-13.50.48:249][910]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.04.12-13.50.48:270][910]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.04.12-13.50.48:285][910]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.04.12-13.50.48:285][910]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.04.12-13.50.48:285][910]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.04.12-13.50.48:285][910]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.04.12-13.50.48:288][910]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.04.12-13.50.48:288][910]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.04.12-13.50.48:288][910]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.04.12-13.50.48:288][910]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.04.12-13.50.48:288][910]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.04.12-13.50.48:307][910]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.04.12-13.50.48:317][910]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.04.12-13.50.48:317][910]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.04.12-13.50.48:317][910]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.04.12-13.50.48:317][910]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.04.12-13.50.48:322][910]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.04.12-13.50.48:330][910]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.04.12-13.50.48:339][910]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.04.12-13.50.48:355][910]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.04.12-13.50.48:355][910]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.04.12-13.50.48:355][910]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.04.12-13.50.48:355][910]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.04.12-13.50.48:373][910]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.04.12-13.50.48:384][910]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.04.12-13.50.48:391][910]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.04.12-13.50.48:392][910]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.04.12-13.50.48:392][910]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.04.12-13.50.48:392][910]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.04.12-13.50.48:395][910]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.04.12-13.50.48:510][910]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.04.12-13.50.48:624][910]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.04.12-13.50.48:648][910]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.04.12-13.50.48:648][910]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.04.12-13.50.48:648][910]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.04.12-13.50.48:656][910]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.04.12-13.50.48:656][910]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.04.12-13.50.48:656][910]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.04.12-13.50.48:656][910]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.04.12-13.50.48:656][910]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.04.12-13.50.48:656][910]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.04.12-13.50.48:661][910]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.04.12-13.50.48:662][910]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.04.12-13.50.48:662][910]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.04.12-13.50.48:662][910]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.04.12-13.50.48:678][910]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.04.12-13.50.48:678][910]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.04.12-13.50.48:683][910]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.04.12-13.50.48:683][910]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.04.12-13.50.48:683][910]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.04.12-13.50.48:690][910]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.04.12-13.50.48:697][910]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.04.12-13.50.48:697][910]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.04.12-13.50.48:702][910]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.04.12-13.50.48:703][910]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.04.12-13.50.48:703][910]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.04.12-13.50.48:703][910]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.04.12-13.50.48:703][910]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.04.12-13.50.48:715][910]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.04.12-13.50.48:735][910]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.04.12-13.50.48:735][910]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.04.12-13.50.48:746][910]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.04.12-13.50.48:746][910]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.04.12-13.50.48:748][910]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.04.12-13.50.48:752][910]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.04.12-13.50.48:753][910]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.12-13.50.48:753][910]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.04.12-13.50.48:760][910]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.04.12-13.50.48:760][910]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.04.12-13.50.48:760][910]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.04.12-13.50.48:770][910]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.04.12-13.50.48:770][910]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.04.12-13.50.48:775][910]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.04.12-13.50.48:775][910]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.04.12-13.50.48:786][910]LogDerivedDataCache: Shutdown
-[2018.04.12-13.50.48:786][910]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.04.12-13.50.48:786][910]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.04.12-13.50.48:786][910]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.04.12-13.50.48:791][910]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.04.12-13.50.48:799][910]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.04.12-13.50.48:799][910]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.04.12-13.50.48:814][910]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.04.12-13.50.48:815][910]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.04.12-13.50.48:829][910]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.04.12-13.50.48:829][910]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.04.12-13.50.48:829][910]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.04.12-13.50.48:829][910]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.12-13.50.48:829][910]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.12-13.50.48:829][910]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.12-13.50.48:843][910]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.12-13.50.48:849][910]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.12-13.50.48:849][910]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.12-13.50.48:858][910]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B287FC654-4B6C-20AF-1329-28A48F4D7A07%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=b0ac86314fdb9296ed4132a27c914a59%7C494f2aed8aaa4653abca0652b0f5a05a%7Cb86bf638-1274-43ec-8911-8996a7acdd88&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.12-13.50.48:872][910]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.12-13.50.48:886][910]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.12-13.50.48:886][910]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.12-13.50.48:886][910]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.12-13.50.48:886][910]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.12-13.50.48:887][910]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.12-13.50.48:887][910]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.12-13.50.48:887][910]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.12-13.50.48:902][910]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.12-13.50.48:910][910]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.12-13.50.48:910][910]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.12-13.50.48:926][910]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.12-13.50.48:937][910]LogExit: Exiting.
-[2018.04.12-13.50.48:950][910]Log file closed, 04/12/18 14:50:48
+[2018.04.14-00.56.03:361][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.14-00.56.03:361][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.14-00.56.03:416][  0]LogInit: Computer: GRANDPOPO
+[2018.04.14-00.56.03:416][  0]LogInit: User: kinop
+[2018.04.14-00.56.03:416][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.14-00.56.03:416][  0]LogInit: High frequency timer resolution =2.531247 MHz
+[2018.04.14-00.56.03:416][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.14-00.56.03:416][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.14-00.56.03:416][  0]LogMemory: Process Physical Memory: 279.65 MB used, 279.65 MB peak
+[2018.04.14-00.56.03:416][  0]LogMemory: Process Virtual Memory: 276.66 MB used, 276.66 MB peak
+[2018.04.14-00.56.03:416][  0]LogMemory: Physical Memory: 5579.13 MB used,  27124.73 MB free, 32703.86 MB total
+[2018.04.14-00.56.03:416][  0]LogMemory: Virtual Memory: 700.73 MB used,  27124.73 MB free, 134217728.00 MB total
+[2018.04.14-00.56.03:824][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.14-00.56.03:824][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.14-00.56.03:897][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.14-00.56.04:461][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.14-00.56.07:145][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.14-00.56.07:196][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2018.04.14-00.56.07:196][  0]LogD3D11RHI:       8152/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.14-00.56.07:199][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.14-00.56.07:199][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.14-00.56.07:199][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.14-00.56.07:206][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.14-00.56.07:206][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.14-00.56.07:206][  0]LogWindows: EnumDisplayDevices:
+[2018.04.14-00.56.07:206][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
+[2018.04.14-00.56.07:207][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.04.14-00.56.07:207][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.04.14-00.56.07:207][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.04.14-00.56.07:207][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.14-00.56.07:207][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2018.04.14-00.56.07:208][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2018.04.14-00.56.07:208][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2018.04.14-00.56.07:208][  0]LogRHI: Texture pool is 5706 MB (70% of 8152 MB)
+[2018.04.14-00.56.07:233][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.14-00.56.07:255][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.14-00.56.07:302][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/14484/).
+[2018.04.14-00.56.07:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kinop/AppData/Local/Temp/UnrealShaderWorkingDir/C3652D014068FE0D22FEB392F542E01F/'.
+[2018.04.14-00.56.07:303][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.14-00.56.09:809][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.14-00.56.09:883][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.14-00.56.09:954][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.14-00.56.10:026][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.14-00.56.10:107][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.14-00.56.10:187][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.14-00.56.10:257][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.14-00.56.10:330][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.14-00.56.10:394][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.14-00.56.10:464][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.14-00.56.10:534][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.14-00.56.10:602][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.14-00.56.10:669][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.14-00.56.10:735][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.14-00.56.10:871][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.14-00.56.10:871][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.14-00.56.10:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.14-00.56.10:997][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.14-00.56.11:117][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.14-00.56.11:150][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.14-00.56.11:224][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.14-00.56.11:291][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.14-00.56.11:356][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.14-00.56.11:430][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.14-00.56.11:430][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.14-00.56.12:196][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.14-00.56.12:397][  0]LogDerivedDataCache: Loaded boot cache 0.20s 79MB C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.14-00.56.12:397][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.14-00.56.12:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.14-00.56.12:398][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.14-00.56.12:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.14-00.56.12:398][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.14-00.56.12:430][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.14-00.56.12:444][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kinop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.14-00.56.12:456][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.14-00.56.12:460][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.14-00.56.12:476][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.14-00.56.12:477][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.14-00.56.13:592][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.14-00.56.14:342][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.14-00.56.14:398][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.14-00.56.14:399][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.14-00.56.14:399][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.14-00.56.14:399][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.14-00.56.14:399][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.14-00.56.14:515][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
+[2018.04.14-00.56.15:123][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.04.14-00.56.16:695][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.175914 seconds
+[2018.04.14-00.56.16:702][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.14-00.56.16:702][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.14-00.56.16:702][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.14-00.56.16:772][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.14-00.56.25:094][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.14-00.56.25:199][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.14-00.56.26:667][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.14-00.56.27:495][  0]SourceControl: Source control is disabled
+[2018.04.14-00.56.27:495][  0]SourceControl: Source control is disabled
+[2018.04.14-00.56.27:633][  0]SourceControl: Source control is disabled
+[2018.04.14-00.56.27:755][  0]SourceControl: Source control is disabled
+[2018.04.14-00.56.29:710][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.14-00.56.30:328][  0]LogOcInput: OculusInput pre-init called
+[2018.04.14-00.56.30:908][  0]LogEngine: Initializing Engine...
+[2018.04.14-00.56.31:039][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.04.14-00.56.31:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.14-00.56.31:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.14-00.56.31:648][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.14-00.56.31:679][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.14-00.56.31:764][  0]LogInit: FAudioDevice initialized.
+[2018.04.14-00.56.31:826][  0]LogDerivedDataCache: Saved boot cache 0.06s 79MB C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.14-00.56.31:837][  0]LogInit: Texture streaming: Enabled
+[2018.04.14-00.56.31:968][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.14-00.56.32:198][  0]LogInit: Transaction tracking system initialized
+[2018.04.14-00.56.32:713][  0]BlueprintLog: New page: Editor Load
+[2018.04.14-00.56.34:017][  0]LocalizationService: Localization service is disabled
+[2018.04.14-00.56.35:209][  0]LogConsoleResponse: Display: 
+[2018.04.14-00.56.35:975][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.14-00.56.35:976][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.14-00.56.35:976][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.14-00.56.36:030][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/' took 0.07s
+[2018.04.14-00.56.38:955][  0]SourceControl: Source control is disabled
+[2018.04.14-00.56.38:957][  0]Cmd: MAP LOAD FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.14-00.56.38:958][  0]LightingResults: New page: Lighting Build
+[2018.04.14-00.56.39:015][  0]MapCheck: New page: Map Check
+[2018.04.14-00.56.39:015][  0]LightingResults: New page: Lighting Build
+[2018.04.14-00.56.41:438][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.14-00.56.41:438][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.04.14-00.56.41:438][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.14-00.56.41:479][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.14-00.56.41:479][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.04.14-00.56.41:479][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.14-00.56.41:483][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.14-00.56.41:483][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.14-00.56.41:483][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.14-00.56.41:483][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.14-00.56.41:483][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.14-00.56.41:484][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.14-00.56.41:484][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.14-00.56.41:484][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.04.14-00.56.41:484][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.14-00.56.41:484][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.04.14-00.56.41:484][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.14-00.56.41:702][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.14-00.56.41:702][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset.
+[2018.04.14-00.56.41:702][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SoundManager : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.14-00.56.41:708][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.14-00.56.41:708][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset.
+[2018.04.14-00.56.41:708][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SoundManager : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.14-00.56.41:709][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.14-00.56.41:709][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.14-00.56.41:709][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.14-00.56.41:709][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.14-00.56.41:709][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.14-00.56.41:709][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.14-00.56.41:711][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.14-00.56.41:711][  0]LoadErrors: Failed to load /Game/Assets/music_yovenek/Ｐｕｒｅ.Ｐｕｒｅ Referenced by K2Node_CallFunction_45
+[2018.04.14-00.56.41:711][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.14-00.56.41:711][  0]LoadErrors: Failed to load /Game/Assets/music_yovenek/Ｐｕｒｅ.Ｐｕｒｅ Referenced by K2Node_CallFunction_45
+[2018.04.14-00.56.41:711][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.14-00.56.49:837][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.04.14-00.56.50:874][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.14-00.56.50:900][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.14-00.56.51:026][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 126.193ms to complete.
+[2018.04.14-00.56.51:026][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 12.071
+[2018.04.14-00.56.51:265][  0]LogCollectionManager: Loaded 0 collections in 0.003749 seconds
+[2018.04.14-00.56.51:384][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
+[2018.04.14-00.56.51:384][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Developers/kinop/Collections/' took 0.01s
+[2018.04.14-00.56.51:384][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
+[2018.04.14-00.56.51:384][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.14-00.56.51:395][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2363 classes and 519 folders.
+[2018.04.14-00.56.51:481][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.14-00.56.52:093][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.04.14-00.56.52:154][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.14-00.56.52:432][  0]LogSlate: Took 0.006756 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.14-00.56.52:440][  0]LogSlate: Took 0.005365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.14-00.56.52:452][  0]LogSlate: Took 0.005627 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.14-00.56.52:636][  0]LogRenderer: Reallocating scene render targets to support 1020x684 Format 26 NumSamples 1 (Frame:1).
+[2018.04.14-00.56.52:862][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.14-00.56.52:862][  0]LogLoad: (Engine Initialization) Total time: 59.06 seconds
+[2018.04.14-00.56.52:862][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.14-00.56.52:863][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.14-00.56.52:863][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.14-00.56.52:900][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.14-00.56.52:980][  0]LogSlate: Took 0.005707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.14-00.56.53:007][  0]LogSlate: Took 0.011884 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.04.14-00.56.53:036][  1]LogAssetRegistry: Asset discovery search completed in 37.9358 seconds
+[2018.04.14-00.56.53:039][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.14-00.56.53:039][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2018.04.14-00.57.52:797][276]LogSlate: Took 0.000776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.14-00.57.53:402][276]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/callyou.wav)
+[2018.04.14-00.57.53:454][276]Error: Currently, only 16 bit WAV files are supported (callyou).
+[2018.04.14-00.57.55:275][276]LogAssetTools: Warning: Failed to import 'D:/projects pc/uni/vaporwave/tracks/callyou.wav'. Failed to create asset '/Game/Assets/music_yovenek/callyou'.
+Please see Output Log for details.
+[2018.04.14-00.58.02:244][481]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/Ｃａｌｍ.wav)
+[2018.04.14-00.58.02:309][481]Error: Currently, only 16 bit WAV files are supported (Ｃａｌｍ).
+[2018.04.14-00.58.03:798][481]LogAssetTools: Warning: Failed to import 'D:/projects pc/uni/vaporwave/tracks/Ｃａｌｍ.wav'. Failed to create asset '/Game/Assets/music_yovenek/Ｃａｌｍ'.
+Please see Output Log for details.
+[2018.04.14-00.59.38:083][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harriet123Yes.wav)
+[2018.04.14-00.59.38:094][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harriet123Yes...
+[2018.04.14-00.59.38:269][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harriet123Yes.harriet123Yes.
+[2018.04.14-00.59.38:297][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietDontTouchThis01.wav)
+[2018.04.14-00.59.38:302][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietDontTouchThis01...
+[2018.04.14-00.59.38:341][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietDontTouchThis01.harrietDontTouchThis01.
+[2018.04.14-00.59.38:677][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietFinalBeforeJump.wav)
+[2018.04.14-00.59.38:763][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietFinalBeforeJump...
+[2018.04.14-00.59.40:476][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietFinalBeforeJump.harrietFinalBeforeJump.
+[2018.04.14-00.59.40:599][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietFinfPhone.wav)
+[2018.04.14-00.59.40:619][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietFinfPhone...
+[2018.04.14-00.59.40:940][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietFinfPhone.harrietFinfPhone.
+[2018.04.14-00.59.41:018][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietGotToMoveOn.wav)
+[2018.04.14-00.59.41:023][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietGotToMoveOn...
+[2018.04.14-00.59.41:074][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietGotToMoveOn.harrietGotToMoveOn.
+[2018.04.14-00.59.41:136][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietImportantBusiness.wav)
+[2018.04.14-00.59.41:144][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietImportantBusiness...
+[2018.04.14-00.59.41:261][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietImportantBusiness.harrietImportantBusiness.
+[2018.04.14-00.59.41:447][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietLuckyCat.wav)
+[2018.04.14-00.59.41:522][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietLuckyCat...
+[2018.04.14-00.59.42:970][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietLuckyCat.harrietLuckyCat.
+[2018.04.14-00.59.43:075][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietMrBubble.wav)
+[2018.04.14-00.59.43:111][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietMrBubble...
+[2018.04.14-00.59.43:723][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietMrBubble.harrietMrBubble.
+[2018.04.14-00.59.43:778][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietMrBubble02.wav)
+[2018.04.14-00.59.43:788][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietMrBubble02...
+[2018.04.14-00.59.43:970][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietMrBubble02.harrietMrBubble02.
+[2018.04.14-00.59.44:138][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietMu03.wav)
+[2018.04.14-00.59.44:194][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietMu03...
+[2018.04.14-00.59.45:329][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietMu03.harrietMu03.
+[2018.04.14-00.59.45:375][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietOutch01.wav)
+[2018.04.14-00.59.45:379][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietOutch01...
+[2018.04.14-00.59.45:411][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietOutch01.harrietOutch01.
+[2018.04.14-00.59.45:416][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietOutch02.wav)
+[2018.04.14-00.59.45:423][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietOutch02...
+[2018.04.14-00.59.45:455][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietOutch02.harrietOutch02.
+[2018.04.14-00.59.45:494][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietPhoneRingBin.wav)
+[2018.04.14-00.59.45:510][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietPhoneRingBin...
+[2018.04.14-00.59.45:785][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietPhoneRingBin.harrietPhoneRingBin.
+[2018.04.14-00.59.45:880][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietPhotoBook.wav)
+[2018.04.14-00.59.45:921][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietPhotoBook...
+[2018.04.14-00.59.46:719][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietPhotoBook.harrietPhotoBook.
+[2018.04.14-00.59.46:849][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietReactionElliot01.wav)
+[2018.04.14-00.59.46:891][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietReactionElliot01...
+[2018.04.14-00.59.47:634][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietReactionElliot01.harrietReactionElliot01.
+[2018.04.14-00.59.47:712][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietReactionElliot03.wav)
+[2018.04.14-00.59.47:728][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietReactionElliot03...
+[2018.04.14-00.59.48:027][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietReactionElliot03.harrietReactionElliot03.
+[2018.04.14-00.59.48:455][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietReactionMum01.wav)
+[2018.04.14-00.59.48:562][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietReactionMum01...
+[2018.04.14-00.59.51:010][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietReactionMum01.harrietReactionMum01.
+[2018.04.14-00.59.51:118][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietReactionMum02.wav)
+[2018.04.14-00.59.51:147][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietReactionMum02...
+[2018.04.14-00.59.51:699][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietReactionMum02.harrietReactionMum02.
+[2018.04.14-00.59.51:893][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietReactionMum03.wav)
+[2018.04.14-00.59.51:944][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietReactionMum03...
+[2018.04.14-00.59.52:971][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietReactionMum03.harrietReactionMum03.
+[2018.04.14-00.59.53:039][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietSoftToy01.wav)
+[2018.04.14-00.59.53:053][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietSoftToy01...
+[2018.04.14-00.59.53:291][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietSoftToy01.harrietSoftToy01.
+[2018.04.14-00.59.53:550][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietStart.wav)
+[2018.04.14-00.59.53:627][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietStart...
+[2018.04.14-00.59.55:264][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietStart.harrietStart.
+[2018.04.14-00.59.55:310][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietThisIsLifeBeguine.wav)
+[2018.04.14-00.59.55:320][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietThisIsLifeBeguine...
+[2018.04.14-00.59.55:412][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietThisIsLifeBeguine.harrietThisIsLifeBeguine.
+[2018.04.14-00.59.55:439][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietThisIsPlant.wav)
+[2018.04.14-00.59.55:444][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietThisIsPlant...
+[2018.04.14-00.59.55:498][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietThisIsPlant.harrietThisIsPlant.
+[2018.04.14-00.59.55:538][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietToyMini.wav)
+[2018.04.14-00.59.55:548][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietToyMini...
+[2018.04.14-00.59.55:742][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietToyMini.harrietToyMini.
+[2018.04.14-00.59.55:832][982]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 D:/projects pc/uni/vaporwave/tracks/soundRender/voiceOverRender/harrietUnicornWater.wav)
+[2018.04.14-00.59.55:857][982]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietUnicornWater...
+[2018.04.14-00.59.56:343][982]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/voiceover/harrietUnicornWater.harrietUnicornWater.
+[2018.04.14-01.00.05:131][759]SourceControl: On branch master
+[2018.04.14-01.00.05:131][759]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2018.04.14-01.00.05:131][759]SourceControl: Changes not staged for commit:
+[2018.04.14-01.00.05:131][759]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.04.14-01.00.05:131][759]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.14-01.00.05:131][759]SourceControl: 	modified:   VRaporwave/Intermediate/CachedAssetRegistry.bin
+[2018.04.14-01.00.05:131][759]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/Editor.ini
+[2018.04.14-01.00.05:131][759]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.14-01.00.05:131][759]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/Engine.ini
+[2018.04.14-01.00.05:131][759]SourceControl: 	modified:   VRaporwave/Saved/Logs/VRaporwave.log
+[2018.04.14-01.00.05:131][759]SourceControl: Untracked files:
+[2018.04.14-01.00.05:131][759]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.04.14-01.00.05:131][759]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_2018-04-13-00-21-45.umap
+[2018.04.14-01.00.05:131][759]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_2018-04-13-08-48-56.umap
+[2018.04.14-01.00.05:131][759]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_BuiltData_2018-04-13-00-21-48.uasset
+[2018.04.14-01.00.05:131][759]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_BuiltData_2018-04-13-08-48-57.uasset
+[2018.04.14-01.00.05:132][759]SourceControl: 	VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-43EC059640B79C7EEA7B34961CB9A37B/
+[2018.04.14-01.00.05:132][759]SourceControl: 	VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-A9CA080D45C5BEB8940CFB9E02DA75E5/
+[2018.04.14-01.00.05:132][759]SourceControl: 	VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-B9B9DE934B5B0FD6082661B3C75122E7/
+[2018.04.14-01.00.05:132][759]SourceControl: 	VRaporwave/Saved/Logs/VRaporwave-backup-2018.04.13-00.00.34.log
+[2018.04.14-01.00.05:132][759]SourceControl: 	VRaporwave/Saved/Logs/VRaporwave-backup-2018.04.13-08.44.04.log
+[2018.04.14-01.00.05:132][759]SourceControl: 	VRaporwave/Saved/Logs/VRaporwave-backup-2018.04.14-01.55.58.log
+[2018.04.14-01.00.05:132][759]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.04.14-01.00.09:807][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harriet123Yes" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harriet123Yes.uasset" SILENT=true
+[2018.04.14-01.00.09:826][989]LogSavePackage: Save=13.93ms
+[2018.04.14-01.00.09:826][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harriet123YesF7370F514BC6F2EF4FDF358B2DE448F0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harriet123Yes.uasset'
+[2018.04.14-01.00.09:842][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harriet123Yes.uasset
+[2018.04.14-01.00.10:685][989]LogSavePackage: Save=11.94ms
+[2018.04.14-01.00.10:685][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietDontTouchThis0148036EE341E4D743D0602091CFE4C4D1.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietDontTouchThis01.uasset'
+[2018.04.14-01.00.10:697][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietDontTouchThis01.uasset
+[2018.04.14-01.00.11:391][989]LogSavePackage: Save=17.67ms
+[2018.04.14-01.00.11:391][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietFinalBeforeJumpB3BBB55C46B274072715259DBC4F70CA.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietFinalBeforeJump.uasset'
+[2018.04.14-01.00.11:406][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietFinalBeforeJump.uasset
+[2018.04.14-01.00.13:211][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietFinfPhone" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietFinfPhone.uasset" SILENT=true
+[2018.04.14-01.00.13:230][989]LogSavePackage: Save=13.96ms
+[2018.04.14-01.00.13:230][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietFinfPhone04551593423C3AC1AAF193AF45E37165.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietFinfPhone.uasset'
+[2018.04.14-01.00.13:241][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietFinfPhone.uasset
+[2018.04.14-01.00.13:830][989]LogSavePackage: Save=10.61ms
+[2018.04.14-01.00.13:830][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietGotToMoveOn40A8442542F629EB13A0868390118359.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietGotToMoveOn.uasset'
+[2018.04.14-01.00.13:836][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietGotToMoveOn.uasset
+[2018.04.14-01.00.14:195][989]LogSavePackage: Save=10.13ms
+[2018.04.14-01.00.14:195][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietImportantBusinessFE6AE3474367D7C5060FBBBFEFC3DA96.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietImportantBusiness.uasset'
+[2018.04.14-01.00.14:201][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietImportantBusiness.uasset
+[2018.04.14-01.00.14:641][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietLuckyCat" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietLuckyCat.uasset" SILENT=true
+[2018.04.14-01.00.14:661][989]LogSavePackage: Save=15.00ms
+[2018.04.14-01.00.14:661][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietLuckyCat304E7FEE404A6B37AAB6448214AE19F1.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietLuckyCat.uasset'
+[2018.04.14-01.00.14:669][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietLuckyCat.uasset
+[2018.04.14-01.00.16:120][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietMrBubble" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMrBubble.uasset" SILENT=true
+[2018.04.14-01.00.16:136][989]LogSavePackage: Save=11.64ms
+[2018.04.14-01.00.16:136][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietMrBubbleEC95789A4830C8DB125F95A76D0C6103.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMrBubble.uasset'
+[2018.04.14-01.00.16:145][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMrBubble.uasset
+[2018.04.14-01.00.16:970][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietMrBubble02" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMrBubble02.uasset" SILENT=true
+[2018.04.14-01.00.16:986][989]LogSavePackage: Save=11.60ms
+[2018.04.14-01.00.16:986][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietMrBubble029688CE99445693D092CDB2AF0DBA7DB8.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMrBubble02.uasset'
+[2018.04.14-01.00.16:997][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMrBubble02.uasset
+[2018.04.14-01.00.17:379][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietMu03" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMu03.uasset" SILENT=true
+[2018.04.14-01.00.17:394][989]LogSavePackage: Save=12.62ms
+[2018.04.14-01.00.17:394][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietMu032C5DB91B4544940B8AB7279675627DDC.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMu03.uasset'
+[2018.04.14-01.00.17:402][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietMu03.uasset
+[2018.04.14-01.00.18:333][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietOutch01" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietOutch01.uasset" SILENT=true
+[2018.04.14-01.00.18:345][989]LogSavePackage: Save=9.30ms
+[2018.04.14-01.00.18:345][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietOutch0197A322B1440B8F0031E8E8A8AC4BA553.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietOutch01.uasset'
+[2018.04.14-01.00.18:352][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietOutch01.uasset
+[2018.04.14-01.00.18:631][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietOutch02" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietOutch02.uasset" SILENT=true
+[2018.04.14-01.00.18:644][989]LogSavePackage: Save=9.94ms
+[2018.04.14-01.00.18:644][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietOutch02E5CA42EE4FD4B665F540C59491940980.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietOutch02.uasset'
+[2018.04.14-01.00.18:650][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietOutch02.uasset
+[2018.04.14-01.00.18:918][989]LogSavePackage: Save=12.09ms
+[2018.04.14-01.00.18:918][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietPhoneRingBinFB1B47C445A58DB243EB0EA1F9ADB621.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietPhoneRingBin.uasset'
+[2018.04.14-01.00.18:924][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietPhoneRingBin.uasset
+[2018.04.14-01.00.19:397][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietPhotoBook" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietPhotoBook.uasset" SILENT=true
+[2018.04.14-01.00.19:413][989]LogSavePackage: Save=11.91ms
+[2018.04.14-01.00.19:413][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietPhotoBook8081AD35402CABB73F9E06B7D2FE9C0F.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietPhotoBook.uasset'
+[2018.04.14-01.00.19:418][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietPhotoBook.uasset
+[2018.04.14-01.00.20:173][989]LogSavePackage: Save=12.57ms
+[2018.04.14-01.00.20:173][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietReactionElliot015F4541F74899FE27344CA697556657BD.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionElliot01.uasset'
+[2018.04.14-01.00.20:181][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionElliot01.uasset
+[2018.04.14-01.00.20:918][989]LogSavePackage: Save=10.22ms
+[2018.04.14-01.00.20:918][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietReactionElliot03CF3CFF784AA9CC28471085B77F69A86F.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionElliot03.uasset'
+[2018.04.14-01.00.20:926][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionElliot03.uasset
+[2018.04.14-01.00.21:413][989]LogSavePackage: Save=26.08ms
+[2018.04.14-01.00.21:413][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietReactionMum010FE5930C484E903645F10A846CAC8B21.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionMum01.uasset'
+[2018.04.14-01.00.21:419][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionMum01.uasset
+[2018.04.14-01.00.22:838][989]LogSavePackage: Save=11.48ms
+[2018.04.14-01.00.22:838][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietReactionMum0214F5441A4A615ADFC17D819736718603.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionMum02.uasset'
+[2018.04.14-01.00.22:844][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionMum02.uasset
+[2018.04.14-01.00.23:464][989]LogSavePackage: Save=12.79ms
+[2018.04.14-01.00.23:464][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietReactionMum0398CB0D934149975CD621A8B260FB8F87.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionMum03.uasset'
+[2018.04.14-01.00.23:469][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietReactionMum03.uasset
+[2018.04.14-01.00.24:146][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietSoftToy01" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietSoftToy01.uasset" SILENT=true
+[2018.04.14-01.00.24:161][989]LogSavePackage: Save=12.25ms
+[2018.04.14-01.00.24:161][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietSoftToy010365A2574736139376F285B735EAE6DF.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietSoftToy01.uasset'
+[2018.04.14-01.00.24:168][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietSoftToy01.uasset
+[2018.04.14-01.00.24:585][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietStart" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietStart.uasset" SILENT=true
+[2018.04.14-01.00.24:602][989]LogSavePackage: Save=14.68ms
+[2018.04.14-01.00.24:602][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietStartEF5E6E3E410F73569FA32D97BD4E9E66.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietStart.uasset'
+[2018.04.14-01.00.24:610][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietStart.uasset
+[2018.04.14-01.00.25:646][989]LogSavePackage: Save=9.98ms
+[2018.04.14-01.00.25:646][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietThisIsLifeBeguineDD67C5CB4F616D01D59ECFA4685833A3.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietThisIsLifeBeguine.uasset'
+[2018.04.14-01.00.25:652][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietThisIsLifeBeguine.uasset
+[2018.04.14-01.00.25:936][989]LogSavePackage: Save=9.87ms
+[2018.04.14-01.00.25:936][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietThisIsPlantEEED60AE409594AFF8B252A211541626.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietThisIsPlant.uasset'
+[2018.04.14-01.00.25:941][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietThisIsPlant.uasset
+[2018.04.14-01.00.26:213][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietToyMini" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietToyMini.uasset" SILENT=true
+[2018.04.14-01.00.26:227][989]LogSavePackage: Save=10.28ms
+[2018.04.14-01.00.26:227][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietToyMiniA08B99A540B222C8CB4DC882CC92DFCD.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietToyMini.uasset'
+[2018.04.14-01.00.26:234][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietToyMini.uasset
+[2018.04.14-01.00.26:654][989]LogSavePackage: Save=11.19ms
+[2018.04.14-01.00.26:654][989]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietUnicornWaterACAB35C143FF4D70ED7B42857AD5989D.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietUnicornWater.uasset'
+[2018.04.14-01.00.26:662][989]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietUnicornWater.uasset
+[2018.04.14-01.00.28:976][ 69]LogSavePackage: Save=751.40ms
+[2018.04.14-01.00.28:976][ 69]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap24622F4A4DADB8006AD52D95502A2E02.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.14-01.00.28:985][ 69]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.14-01.00.30:091][ 69]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.14-01.00.30:474][ 69]LogSavePackage: Save=1049.32ms
+[2018.04.14-01.00.30:474][ 69]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltData713241F941F8CB1223A455A46B9FE754.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2018.04.14-01.00.30:479][ 69]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2018.04.14-01.00.32:979][309]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2018.04.14-01.00.52:694][309]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.14-01.00.52:853][309]SourceControl: [master 14402ec] added Harriet voice over
+[2018.04.14-01.00.52:853][309]SourceControl:  26 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harriet123Yes.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietDontTouchThis01.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietFinalBeforeJump.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietFinfPhone.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietGotToMoveOn.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietImportantBusiness.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietLuckyCat.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietMrBubble.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietMrBubble02.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietMu03.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietOutch01.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietOutch02.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietPhoneRingBin.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietPhotoBook.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietReactionElliot01.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietReactionElliot03.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietReactionMum01.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietReactionMum02.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietReactionMum03.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietSoftToy01.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietStart.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietThisIsLifeBeguine.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietThisIsPlant.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietToyMini.uasset
+[2018.04.14-01.00.52:853][309]SourceControl:  create mode 100644 VRaporwave/Content/Assets/voiceover/harrietUnicornWater.uasset
+[2018.04.14-01.00.52:858][309]SourceControl: Commited [master 14402ec] added Harriet voice over.
