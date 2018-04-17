@@ -1,0 +1,1178 @@
+﻿Log file open, 04/17/18 09:23:29
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: VRaporwave
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1064528305) SRandInit(1064528305).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.198970
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Display: Disabled plugin 'HoudiniEngine', continuing.
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.19.0
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.17-08.23.35:267][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.17-08.23.35:267][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.17-08.23.35:361][  0]LogInit: Computer: GRANDPOPO
+[2018.04.17-08.23.35:361][  0]LogInit: User: kinop
+[2018.04.17-08.23.35:361][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.17-08.23.35:361][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2018.04.17-08.23.35:361][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.17-08.23.35:361][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.17-08.23.35:361][  0]LogMemory: Process Physical Memory: 279.91 MB used, 279.91 MB peak
+[2018.04.17-08.23.35:361][  0]LogMemory: Process Virtual Memory: 277.00 MB used, 277.00 MB peak
+[2018.04.17-08.23.35:361][  0]LogMemory: Physical Memory: 7492.75 MB used,  25211.11 MB free, 32703.86 MB total
+[2018.04.17-08.23.35:362][  0]LogMemory: Virtual Memory: 720.36 MB used,  25211.11 MB free, 134217728.00 MB total
+[2018.04.17-08.23.35:792][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.17-08.23.35:792][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.17-08.23.35:863][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.17-08.23.36:447][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.17-08.23.39:704][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.17-08.23.39:750][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
+[2018.04.17-08.23.39:750][  0]LogD3D11RHI:       8152/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.17-08.23.39:752][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.17-08.23.39:752][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.17-08.23.39:752][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.17-08.23.39:761][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.17-08.23.39:761][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.17-08.23.39:761][  0]LogWindows: EnumDisplayDevices:
+[2018.04.17-08.23.39:761][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
+[2018.04.17-08.23.39:762][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.04.17-08.23.39:762][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.04.17-08.23.39:762][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
+[2018.04.17-08.23.39:762][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.04.17-08.23.39:762][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
+[2018.04.17-08.23.39:762][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2018.04.17-08.23.39:762][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2018.04.17-08.23.39:762][  0]LogRHI: Texture pool is 5706 MB (70% of 8152 MB)
+[2018.04.17-08.23.39:785][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.17-08.23.39:806][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.17-08.23.39:852][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/10532/).
+[2018.04.17-08.23.39:852][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kinop/AppData/Local/Temp/UnrealShaderWorkingDir/633FF9F04F0CC067835288ADB910EE6A/'.
+[2018.04.17-08.23.39:852][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.17-08.23.42:492][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.17-08.23.42:566][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.17-08.23.42:635][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.17-08.23.42:707][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.17-08.23.42:784][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.17-08.23.42:854][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.17-08.23.42:923][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.17-08.23.42:993][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.17-08.23.43:057][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.17-08.23.43:126][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.17-08.23.43:200][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.17-08.23.43:271][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.17-08.23.43:342][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.17-08.23.43:415][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.17-08.23.43:568][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.17-08.23.43:568][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.17-08.23.43:644][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.17-08.23.43:700][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.17-08.23.43:828][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.17-08.23.43:866][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.17-08.23.43:934][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.17-08.23.44:004][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.17-08.23.44:071][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.17-08.23.44:145][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.17-08.23.44:145][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.17-08.23.45:107][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.17-08.23.45:340][  0]LogDerivedDataCache: Loaded boot cache 0.23s 79MB C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.17-08.23.45:340][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.17-08.23.45:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.17-08.23.45:340][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.17-08.23.45:340][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.17-08.23.45:340][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.17-08.23.45:373][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.17-08.23.45:388][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kinop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.17-08.23.45:403][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.17-08.23.45:405][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.17-08.23.45:417][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.17-08.23.45:418][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.17-08.23.46:680][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.17-08.23.47:560][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.17-08.23.47:626][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.17-08.23.47:626][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.17-08.23.47:626][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.17-08.23.47:627][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.17-08.23.47:627][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.17-08.23.47:794][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
+[2018.04.17-08.23.48:535][  0]LogAssetRegistry: FAssetRegistry took 0.0322 seconds to start up
+[2018.04.17-08.23.50:453][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.134077 seconds
+[2018.04.17-08.23.50:460][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.17-08.23.50:460][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.17-08.23.50:460][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.17-08.23.50:540][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.17-08.24.00:762][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.17-08.24.00:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.17-08.24.02:958][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.17-08.24.04:081][  0]SourceControl: Source control is disabled
+[2018.04.17-08.24.04:081][  0]SourceControl: Source control is disabled
+[2018.04.17-08.24.04:253][  0]SourceControl: Source control is disabled
+[2018.04.17-08.24.04:427][  0]SourceControl: Source control is disabled
+[2018.04.17-08.24.07:206][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.17-08.24.08:091][  0]LogOcInput: OculusInput pre-init called
+[2018.04.17-08.24.08:840][  0]LogEngine: Initializing Engine...
+[2018.04.17-08.24.08:973][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.04.17-08.24.09:394][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.17-08.24.09:394][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.17-08.24.09:641][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.17-08.24.09:675][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.17-08.24.09:705][  0]LogInit: FAudioDevice initialized.
+[2018.04.17-08.24.09:764][  0]LogDerivedDataCache: Saved boot cache 0.06s 79MB C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.17-08.24.09:780][  0]LogInit: Texture streaming: Enabled
+[2018.04.17-08.24.09:956][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.17-08.24.10:169][  0]LogInit: Transaction tracking system initialized
+[2018.04.17-08.24.10:830][  0]BlueprintLog: New page: Editor Load
+[2018.04.17-08.24.12:234][  0]LocalizationService: Localization service is disabled
+[2018.04.17-08.24.13:614][  0]LogConsoleResponse: Display: 
+[2018.04.17-08.24.14:647][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.17-08.24.14:647][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.17-08.24.14:647][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.17-08.24.15:518][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/' took 0.10s
+[2018.04.17-08.24.19:246][  0]SourceControl: Source control is disabled
+[2018.04.17-08.24.19:247][  0]Cmd: MAP LOAD FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.17-08.24.19:249][  0]LightingResults: New page: Lighting Build
+[2018.04.17-08.24.19:313][  0]MapCheck: New page: Map Check
+[2018.04.17-08.24.19:314][  0]LightingResults: New page: Lighting Build
+[2018.04.17-08.24.19:399][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.04.17-08.24.19:399][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
+[2018.04.17-08.24.19:399][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
+[2018.04.17-08.24.19:399][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.04.17-08.24.19:399][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
+[2018.04.17-08.24.19:399][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
+[2018.04.17-08.24.22:009][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.17-08.24.22:009][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.04.17-08.24.22:009][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.17-08.24.22:059][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.17-08.24.22:059][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.04.17-08.24.22:059][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.17-08.24.22:064][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.17-08.24.22:065][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.17-08.24.22:065][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.17-08.24.22:065][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.17-08.24.22:065][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.17-08.24.22:065][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.17-08.24.22:065][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.04.17-08.24.22:065][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.04.17-08.24.22:065][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.17-08.24.22:066][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.04.17-08.24.22:066][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.04.17-08.24.22:270][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.17-08.24.22:270][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset.
+[2018.04.17-08.24.22:270][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SoundManager : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.17-08.24.22:275][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.17-08.24.22:275][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset.
+[2018.04.17-08.24.22:275][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SoundManager : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.17-08.24.22:276][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.17-08.24.22:276][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.17-08.24.22:276][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.17-08.24.22:276][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.17-08.24.22:276][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.17-08.24.22:276][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.17-08.24.22:279][  0]LogLinker: Warning: Can't find file '/Game/Assets/music_yovenek/Ｐｕｒｅ'
+[2018.04.17-08.24.22:279][  0]LoadErrors: Failed to load /Game/Assets/music_yovenek/Ｐｕｒｅ.Ｐｕｒｅ Referenced by K2Node_CallFunction_45
+[2018.04.17-08.24.22:279][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/music_yovenek/Ｐｕｒｅ' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.04.17-08.24.22:279][  0]LoadErrors: Failed to load /Game/Assets/music_yovenek/Ｐｕｒｅ.Ｐｕｒｅ Referenced by K2Node_CallFunction_45
+[2018.04.17-08.24.22:279][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/music_yovenek/Ｐｕｒｅ
+[2018.04.17-08.24.25:536][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.04.17-08.24.25:536][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2018.04.17-08.24.25:536][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading NULL.
+[2018.04.17-08.24.25:536][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2018.04.17-08.24.27:940][  0]LogMaterial: Missing cached shader map for material Portal1-RT2_Mat, compiling. 
+[2018.04.17-08.24.28:295][  0]LogMaterial: Missing cached shader map for material Portal1-RT_Mat, compiling. 
+[2018.04.17-08.24.29:210][  0]LogStaticMesh: Building static mesh Med_S_Middle...
+[2018.04.17-08.24.29:211][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modular_Room/Med_S_Middle.Med_S_Middle
+[2018.04.17-08.24.29:213][  0]LogStaticMesh: Building static mesh Slm_M_Middle...
+[2018.04.17-08.24.29:213][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modular_Room/Slm_M_Middle.Slm_M_Middle
+[2018.04.17-08.24.29:214][  0]LogStaticMesh: Building static mesh Slm_B_Mid...
+[2018.04.17-08.24.29:215][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modular_Room/Slm_B_Mid.Slm_B_Mid
+[2018.04.17-08.24.29:216][  0]LogStaticMesh: Building static mesh Med_M_End...
+[2018.04.17-08.24.29:217][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modular_Room/Med_M_End.Med_M_End
+[2018.04.17-08.24.29:218][  0]LogStaticMesh: Building static mesh Corner...
+[2018.04.17-08.24.29:220][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modular_Room/Corner.Corner
+[2018.04.17-08.24.29:221][  0]LogStaticMesh: Building static mesh Corner_S...
+[2018.04.17-08.24.29:223][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Modular_Room/Corner_S.Corner_S
+[2018.04.17-08.24.29:224][  0]LogStaticMesh: Building static mesh Window_Mod...
+[2018.04.17-08.24.29:248][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Modular_Room/Window_Mod.Window_Mod
+[2018.04.17-08.24.31:019][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.04.17-08.24.32:215][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.17-08.24.32:242][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.17-08.24.32:383][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 140.733ms to complete.
+[2018.04.17-08.24.32:384][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 13.137
+[2018.04.17-08.24.32:636][  0]LogCollectionManager: Loaded 0 collections in 0.006490 seconds
+[2018.04.17-08.24.32:751][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
+[2018.04.17-08.24.32:751][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Developers/kinop/Collections/' took 0.01s
+[2018.04.17-08.24.32:751][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
+[2018.04.17-08.24.32:752][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.17-08.24.32:765][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 2363 classes and 519 folders.
+[2018.04.17-08.24.32:854][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.17-08.24.33:611][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.17-08.24.33:677][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.17-08.24.33:962][  0]LogSlate: Took 0.010472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.17-08.24.33:972][  0]LogSlate: Took 0.006786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.17-08.24.33:984][  0]LogSlate: Took 0.005870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.17-08.24.34:189][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.04.17-08.24.34:532][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.17-08.24.34:532][  0]LogLoad: (Engine Initialization) Total time: 111.49 seconds
+[2018.04.17-08.24.34:532][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.17-08.24.34:532][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.17-08.24.34:532][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.17-08.24.34:585][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.17-08.24.34:670][  0]LogSlate: Took 0.006775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.17-08.24.34:697][  0]LogSlate: Took 0.013849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.04.17-08.24.34:771][  1]LogAssetRegistry: Asset discovery search completed in 46.2573 seconds
+[2018.04.17-08.24.34:774][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.17-08.24.34:774][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000090 seconds (updated 0 objects)
+[2018.04.17-08.24.35:618][ 19]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.17-08.25.38:296][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (airconUV)
+[2018.04.17-08.26.09:976][ 76]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Hip_Hop_Dancing_Anim)
+[2018.04.17-08.26.36:644][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle6)
+[2018.04.17-08.27.03:863][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2018.04.17-08.27.06:438][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle8)
+[2018.04.17-08.27.24:024][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.27.24:024][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-08.27.24:026][174]PIE: New page: SIE session: MotionControllerMap (17 Apr 2018 10:27:24)
+[2018.04.17-08.27.24:026][174]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.04.17-08.27.24:113][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087193s)
+[2018.04.17-08.27.24:115][174]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.04.17-08.27.24:115][174]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2018.04.17-08.27.24:115][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.089487s)
+[2018.04.17-08.27.24:147][174]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.17-08.27.24:160][174]LogInit: FAudioDevice initialized.
+[2018.04.17-08.27.24:209][174]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.17-08.27.24:209][174]LogLoad: Game class is 'GameModeBase'
+[2018.04.17-08.27.24:219][174]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.04.17-09.27.24
+[2018.04.17-08.27.24:221][174]LogWorld: Bringing up level for play took: 0.010317
+[2018.04.17-08.27.24:222][174]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.17-08.27.24:285][174]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.17-08.27.24:291][174]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0016
+[2018.04.17-08.27.24:291][174]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.04.17-08.27.24:292][174]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.726
+[2018.04.17-08.27.24:333][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.27.33:098][419]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.27.33:145][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.27.33:164][419]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.04.17-08.27.34:210][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (backpack)
+[2018.04.17-08.27.57:573][ 26]LogTemp: Repeating last play command: Simulate
+[2018.04.17-08.27.57:597][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.27.57:597][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-08.27.57:598][ 26]PIE: New page: SIE session: MotionControllerMap (17 Apr 2018 10:27:57)
+[2018.04.17-08.27.57:598][ 26]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.04.17-08.27.57:659][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061961s)
+[2018.04.17-08.27.57:660][ 26]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.04.17-08.27.57:660][ 26]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2018.04.17-08.27.57:661][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.063316s)
+[2018.04.17-08.27.57:690][ 26]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.17-08.27.57:701][ 26]LogInit: FAudioDevice initialized.
+[2018.04.17-08.27.57:739][ 26]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.17-08.27.57:739][ 26]LogLoad: Game class is 'GameModeBase'
+[2018.04.17-08.27.57:748][ 26]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.04.17-09.27.57
+[2018.04.17-08.27.57:749][ 26]LogWorld: Bringing up level for play took: 0.009391
+[2018.04.17-08.27.57:750][ 26]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.17-08.27.57:754][ 26]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0016
+[2018.04.17-08.27.57:755][ 26]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.04.17-08.27.57:755][ 26]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.738
+[2018.04.17-08.27.57:780][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.28.12:306][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.28.12:344][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-08.28.12:364][429]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.04.17-08.28.19:986][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle4)
+[2018.04.17-08.30.16:986][460]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.17-08.30.17:003][460]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/gabi_textures/GAME Controller_initialShadingGroup_BaseColor.jpg)
+[2018.04.17-08.30.17:039][460]LogTexture: Display: Building textures: GAME_Controller_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
+[2018.04.17-08.30.17:316][460]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/gabi_textures/GAME Controller_initialShadingGroup_Normal.jpg)
+[2018.04.17-08.30.17:370][460]LogTexture: Display: Building textures: GAME_Controller_initialShadingGroup_Normal (BC5, 1024X1024)
+[2018.04.17-08.30.17:516][460]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/gabi_textures/GAME Controller_initialShadingGroup_OcclusionRoughnessMetallic.jpg)
+[2018.04.17-08.30.17:549][460]LogTexture: Display: Building textures: GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.04.17-08.30.31:215][100]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.32:359][130]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2018.04.17-08.30.32:362][130]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.32:813][130]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.17-08.30.32:838][130]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.32:871][130]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.32:926][130]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.30.32:948][130]LogSlate: Took 0.007135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.17-08.30.35:643][194]MaterialEditorStats: Base pass shader: 148 instructions
+[2018.04.17-08.30.35:643][194]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
+[2018.04.17-08.30.35:643][194]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.30.35:643][194]MaterialEditorStats: Texture samplers: 3/16
+[2018.04.17-08.30.35:643][194]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.30.41:139][361]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.41:162][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.17-08.30.41:192][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.30.41:198][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.17-08.30.41:217][361]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.41:245][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.30.41:282][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.30.41:290][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.17-08.30.41:298][361]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.30.43:198][426]MaterialEditorStats: Base pass shader: 148 instructions
+[2018.04.17-08.30.43:198][426]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
+[2018.04.17-08.30.43:198][426]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.30.43:198][426]MaterialEditorStats: Texture samplers: 3/16
+[2018.04.17-08.30.43:198][426]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.30.48:332][633]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.48:361][633]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.17-08.30.50:574][704]MaterialEditorStats: Base pass shader: 154 instructions
+[2018.04.17-08.30.50:574][704]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.04.17-08.30.50:574][704]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.30.50:574][704]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.17-08.30.50:574][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.30.55:011][866]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.55:038][866]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.30.57:717][981]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.57:740][981]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.30.59:722][ 56]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.30.59:749][ 56]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.31.01:450][ 98]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.04.17-08.31.01:450][ 98]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.04.17-08.31.01:450][ 98]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.31.01:450][ 98]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-08.31.01:450][ 98]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.31.10:608][476]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.10:630][476]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.10:683][476]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.31.10:690][476]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.13:093][568]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.04.17-08.31.13:094][568]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.04.17-08.31.13:094][568]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.31.13:094][568]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-08.31.13:094][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.31.18:778][786]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.20:492][824]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.04.17-08.31.20:492][824]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.04.17-08.31.20:492][824]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.31.20:492][824]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-08.31.20:492][824]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.31.30:295][ 66]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.30:325][ 66]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.32:152][108]MaterialEditorStats: Base pass shader: 166 instructions
+[2018.04.17-08.31.32:152][108]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2018.04.17-08.31.32:152][108]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.31.32:152][108]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-08.31.32:152][108]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.31.33:199][134]LogMaterialEditor: Applying material GAME_Controller_initialShadingGroup_BaseColor_Mat
+[2018.04.17-08.31.33:800][134]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.33:876][134]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.33:934][134]LogMaterial: Missing cached shader map for material GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.34:008][134]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GAME_Controller_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.31.35:367][134]TextureStreamingBuild: Display: Compiling optional shaders took 1.368 seconds.
+[2018.04.17-08.31.38:160][193]MaterialEditorStats: Base pass shader: 166 instructions
+[2018.04.17-08.31.38:160][193]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2018.04.17-08.31.38:160][193]MaterialEditorStats: Vertex shader: 127 instructions
+[2018.04.17-08.31.38:160][193]MaterialEditorStats: Texture samplers: 6/16
+[2018.04.17-08.31.38:160][193]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.32.15:001][924]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.15:119][924]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.15:143][924]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.17:147][985]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.04.17-08.32.17:147][985]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.04.17-08.32.17:147][985]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.32.17:147][985]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.32.20:305][ 51]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.20:332][ 51]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.22:037][ 89]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.04.17-08.32.22:037][ 89]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.04.17-08.32.22:037][ 89]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.32.22:037][ 89]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.32.22:227][ 92]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.22:250][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.32.24:386][161]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.24:414][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.32.26:142][203]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.04.17-08.32.26:142][203]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.04.17-08.32.26:142][203]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.32.26:142][203]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.32.31:771][463]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.31:799][463]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.32.32:901][483]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.32:941][483]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.32.35:616][584]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.32.35:616][584]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.32.35:616][584]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.32.35:616][584]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.32.38:379][646]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.40:764][722]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.43:059][790]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.32.43:059][790]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.32.43:059][790]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.32.43:059][790]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.32.50:651][956]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.52:646][ 27]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.32.54:368][ 84]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.32.54:368][ 84]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.32.54:368][ 84]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.32.54:368][ 84]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.32.59:056][258]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.01:027][304]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.33.01:027][304]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.33.01:027][304]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.33.01:027][304]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.33.02:986][386]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.04:649][420]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.33.04:649][420]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.33.04:649][420]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.33.04:649][420]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.33.06:224][486]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.07:933][522]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.33.07:933][522]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.33.07:933][522]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.33.07:933][522]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.33.12:490][686]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.14:166][719]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.33.14:166][719]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.33.14:166][719]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.33.14:166][719]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.33.17:275][833]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.18:923][863]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-08.33.18:923][863]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-08.33.18:923][863]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.33.18:923][863]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.33.26:589][  3]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.26:624][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.33.27:942][ 31]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.27:983][ 31]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.33.30:306][134]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.30:337][134]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.33.31:751][192]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.31:785][192]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.33.33:283][222]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.33:318][222]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-08.33.35:241][273]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.04.17-08.33.35:241][273]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.04.17-08.33.35:241][273]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-08.33.35:241][273]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-08.33.42:724][582]LogMaterialEditor: Applying material TV_material
+[2018.04.17-08.33.43:306][582]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.43:379][582]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.43:438][582]LogMaterial: Missing cached shader map for material TV_material, compiling. 
+[2018.04.17-08.33.43:511][582]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TV_material, compiling. 
+[2018.04.17-08.33.44:692][582]TextureStreamingBuild: Display: Compiling optional shaders took 1.189 seconds.
+[2018.04.17-08.34.07:930][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.17-08.34.13:810][306]LogActorFactory: Actor Factory created TV_Flat_Bot
+[2018.04.17-08.34.15:635][414]LogActorFactory: Actor Factory created TV_Flat_Bot
+[2018.04.17-08.34.57:787][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.17-08.35.06:325][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TV_Flat_Bot)
+[2018.04.17-08.35.12:856][634]Cmd: TRANSACTION UNDO
+[2018.04.17-08.35.12:857][634]LogEditorTransaction: Undo Scale Actors
+[2018.04.17-08.35.19:822][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.17-08.35.53:357][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TV_Flat_Bot)
+[2018.04.17-08.36.10:679][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.17-08.36.35:113][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle4)
+[2018.04.17-08.36.48:075][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TV_Flat_Bot)
+[2018.04.17-08.37.17:552][344]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/GAME Controller.obj)
+[2018.04.17-08.37.17:611][344]LogFbx: Loading FBX Scene from D:/projects pc/uni/vaporwave/fromGabi/GAME Controller.obj
+[2018.04.17-08.37.17:633][344]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.17-08.37.20:217][344]LogFbx: Loading FBX Scene from D:/projects pc/uni/vaporwave/fromGabi/GAME Controller.obj
+[2018.04.17-08.37.20:233][344]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.17-08.37.20:234][344]LogLinker: Can't find file '/Game/Assets/from_gaby/polySurface8Mat'
+[2018.04.17-08.37.20:234][344]LogLinker: Can't find file '/Game/Assets/from_gaby/polySurface8Mat'
+[2018.04.17-08.37.20:240][344]LogMaterial: Missing cached shader map for material polySurface8Mat, compiling. 
+[2018.04.17-08.37.20:270][344]LogFbx: Warning: Triangulating static mesh polySurface8
+[2018.04.17-08.37.20:312][344]LogStaticMesh: Building static mesh GAME_Controller...
+[2018.04.17-08.37.20:358][344]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/from_gaby/GAME_Controller.GAME_Controller
+[2018.04.17-08.37.20:366][344]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.04.17-08.37.27:497][526]LogSavePackage: Save=896.06ms
+[2018.04.17-08.37.27:497][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto1DE2EA29C405DE3AE6B60E488D1681ACD.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2018.04.17-08.37.27:503][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2018.04.17-08.37.27:507][526]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.940
+[2018.04.17-08.37.27:507][526]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.940
+[2018.04.17-08.37.27:510][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/TV_material] ([1] browsable assets)...
+[2018.04.17-08.37.27:528][526]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/from_gaby/Gab_textures/TV_material.TV_material]
+[2018.04.17-08.37.27:528][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/TV_material]
+[2018.04.17-08.37.27:551][526]LogSavePackage: Save=19.54ms
+[2018.04.17-08.37.27:551][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/TV_material_Auto1CEA167BE425285C4140B48BC53F6D8F0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/TV_material_Auto1.uasset'
+[2018.04.17-08.37.27:554][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/TV_material_Auto1.uasset
+[2018.04.17-08.37.27:555][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor] ([1] browsable assets)...
+[2018.04.17-08.37.27:566][526]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor.GAME_Controller_initialShadingGroup_BaseColor]
+[2018.04.17-08.37.27:566][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor]
+[2018.04.17-08.37.27:585][526]LogSavePackage: Save=15.13ms
+[2018.04.17-08.37.27:585][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGr408F5D10486BF304B810FA85FCAB7EA5.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Auto1.uasset'
+[2018.04.17-08.37.27:587][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Auto1.uasset
+[2018.04.17-08.37.27:588][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal] ([1] browsable assets)...
+[2018.04.17-08.37.27:597][526]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal.GAME_Controller_initialShadingGroup_Normal]
+[2018.04.17-08.37.27:597][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal]
+[2018.04.17-08.37.27:644][526]LogSavePackage: Save=18.38ms
+[2018.04.17-08.37.27:644][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGr6A8912834CF5750963A7E6BE2805578C.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal_Auto1.uasset'
+[2018.04.17-08.37.27:647][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal_Auto1.uasset
+[2018.04.17-08.37.27:649][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2018.04.17-08.37.27:663][526]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic.GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic]
+[2018.04.17-08.37.27:663][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic]
+[2018.04.17-08.37.27:683][526]LogSavePackage: Save=15.66ms
+[2018.04.17-08.37.27:683][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGrBAF2A2964A9C97F4E3F141841FDF6F31.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic_Auto1.uasset'
+[2018.04.17-08.37.27:687][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic_Auto1.uasset
+[2018.04.17-08.37.27:688][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat] ([1] browsable assets)...
+[2018.04.17-08.37.27:701][526]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat.GAME_Controller_initialShadingGroup_BaseColor_Mat]
+[2018.04.17-08.37.27:701][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat]
+[2018.04.17-08.37.27:725][526]LogSavePackage: Save=21.70ms
+[2018.04.17-08.37.27:725][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGr5FB15AEB4C5CCA88631755805B1AB7A0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat_Auto1.uasset'
+[2018.04.17-08.37.27:728][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat_Auto1.uasset
+[2018.04.17-08.37.27:729][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/GAME_Controller] ([1] browsable assets)...
+[2018.04.17-08.37.27:741][526]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/from_gaby/GAME_Controller.GAME_Controller]
+[2018.04.17-08.37.27:741][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/GAME_Controller]
+[2018.04.17-08.37.27:761][526]LogSavePackage: Save=16.72ms
+[2018.04.17-08.37.27:761][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_Auto1A31F6F424EB92F073B78398E8A945103.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/GAME_Controller_Auto1.uasset'
+[2018.04.17-08.37.27:764][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/GAME_Controller_Auto1.uasset
+[2018.04.17-08.37.27:765][526]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/polySurface8Mat] ([1] browsable assets)...
+[2018.04.17-08.37.27:779][526]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/from_gaby/polySurface8Mat.polySurface8Mat]
+[2018.04.17-08.37.27:779][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/polySurface8Mat]
+[2018.04.17-08.37.27:804][526]LogSavePackage: Save=21.71ms
+[2018.04.17-08.37.27:804][526]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/polySurface8Mat_Auto1F1C1B15442628BCA980162A4655CCEB7.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/polySurface8Mat_Auto1.uasset'
+[2018.04.17-08.37.27:807][526]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/polySurface8Mat_Auto1.uasset
+[2018.04.17-08.37.27:807][526]LogFileHelpers: Auto-saving content packages took 0.299
+[2018.04.17-08.37.28:803][558]LogActorFactory: Actor Factory created GAME_Controller
+[2018.04.17-08.37.30:352][650]LogActorFactory: Actor Factory created GAME_Controller
+[2018.04.17-08.38.21:175][790]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.17-08.38.21:362][790]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.17-08.38.21:390][790]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2018.04.17-08.38.21:444][790]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.38.21:451][790]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.04.17-08.38.21:456][790]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.04.17-08.38.23:488][813]MaterialEditorStats: Base pass shader: 166 instructions
+[2018.04.17-08.38.23:488][813]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2018.04.17-08.38.23:488][813]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.38.23:488][813]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-08.38.23:488][813]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-08.39.31:126][667]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/gabi_textures/Toy Teddy Bear_initialShadingGroup_BaseColor.jpg)
+[2018.04.17-08.39.31:256][667]LogTexture: Display: Building textures: Toy_Teddy_Bear_initialShadingGroup_BaseColor (AutoDXT, 2048X2048)
+[2018.04.17-08.39.32:945][667]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/gabi_textures/Toy Teddy Bear_initialShadingGroup_Normal.jpg)
+[2018.04.17-08.39.33:119][667]LogTexture: Display: Building textures: Toy_Teddy_Bear_initialShadingGroup_Normal (BC5, 2048X2048)
+[2018.04.17-08.39.33:580][667]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/gabi_textures/Toy Teddy Bear_initialShadingGroup_OcclusionRoughnessMetallic.jpg)
+[2018.04.17-08.39.33:712][667]LogTexture: Display: Building textures: Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.04.17-08.39.40:447][863]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.39.40:893][874]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.39.40:997][874]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.39.41:029][874]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.39.41:085][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.39.44:768][974]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.39.44:797][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.17-08.39.44:832][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.39.44:840][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.17-08.39.44:864][974]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-08.39.44:894][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.04.17-08.39.44:930][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.17-08.39.44:938][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.17-08.39.44:946][974]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.04.17-08.39.47:175][ 43]MaterialEditorStats: Base pass shader: 148 instructions
+[2018.04.17-08.39.47:175][ 43]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
+[2018.04.17-08.39.47:175][ 43]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-08.39.47:175][ 43]MaterialEditorStats: Texture samplers: 3/16
+[2018.04.17-08.39.47:175][ 43]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-09.00.37:395][677]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.00.37:420][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.04.17-09.00.41:048][815]MaterialEditorStats: Base pass shader: 154 instructions
+[2018.04.17-09.00.41:049][815]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.04.17-09.00.41:049][815]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-09.00.41:049][815]MaterialEditorStats: Texture samplers: 4/16
+[2018.04.17-09.00.41:049][815]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-09.00.48:057][124]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.00.48:085][124]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.04.17-09.00.49:836][169]MaterialEditorStats: Base pass shader: 154 instructions
+[2018.04.17-09.00.49:837][169]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 231 instructions
+[2018.04.17-09.00.49:837][169]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-09.00.49:837][169]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-09.00.49:837][169]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-09.00.55:101][435]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.00.55:127][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.04.17-09.00.59:277][626]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.00.59:312][626]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.04.17-09.01.01:009][669]MaterialEditorStats: Base pass shader: 161 instructions
+[2018.04.17-09.01.01:009][669]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 237 instructions
+[2018.04.17-09.01.01:009][669]MaterialEditorStats: Vertex shader: 87 instructions
+[2018.04.17-09.01.01:009][669]MaterialEditorStats: Texture samplers: 5/16
+[2018.04.17-09.01.01:009][669]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.17-09.01.10:957][996]LogMaterialEditor: Applying material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat
+[2018.04.17-09.01.11:534][996]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.01.11:600][996]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.01.11:645][996]LogMaterial: Missing cached shader map for material Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.01.11:706][996]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.04.17-09.01.13:025][996]TextureStreamingBuild: Display: Compiling optional shaders took 1.327 seconds.
+[2018.04.17-09.01.49:885][890]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:/projects pc/uni/vaporwave/fromGabi/Toy Teddy Bear.obj)
+[2018.04.17-09.01.49:899][890]LogFbx: Loading FBX Scene from D:/projects pc/uni/vaporwave/fromGabi/Toy Teddy Bear.obj
+[2018.04.17-09.01.49:905][890]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.17-09.01.52:196][890]LogFbx: Loading FBX Scene from D:/projects pc/uni/vaporwave/fromGabi/Toy Teddy Bear.obj
+[2018.04.17-09.01.52:203][890]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.17-09.01.52:204][890]LogLinker: Can't find file '/Game/Assets/from_gaby/pCube2Mat'
+[2018.04.17-09.01.52:204][890]LogLinker: Can't find file '/Game/Assets/from_gaby/pCube2Mat'
+[2018.04.17-09.01.52:210][890]LogMaterial: Missing cached shader map for material pCube2Mat, compiling. 
+[2018.04.17-09.01.52:243][890]LogFbx: Warning: Triangulating static mesh pCube2
+[2018.04.17-09.01.52:260][890]LogStaticMesh: Building static mesh Toy_Teddy_Bear...
+[2018.04.17-09.01.52:274][890]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/from_gaby/Toy_Teddy_Bear.Toy_Teddy_Bear
+[2018.04.17-09.01.55:118][977]LogActorFactory: Actor Factory created Toy_Teddy_Bear
+[2018.04.17-09.01.57:189][100]LogActorFactory: Actor Factory created Toy_Teddy_Bear
+[2018.04.17-09.01.59:424][139]LogSavePackage: Save=913.29ms
+[2018.04.17-09.01.59:424][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto2CFE030184B0E9D4D81DB3B87FA2BDFA2.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap'
+[2018.04.17-09.01.59:430][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2018.04.17-09.01.59:438][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.962
+[2018.04.17-09.01.59:438][139]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.962
+[2018.04.17-09.01.59:442][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor] ([1] browsable assets)...
+[2018.04.17-09.01.59:451][139]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor.Toy_Teddy_Bear_initialShadingGroup_BaseColor]
+[2018.04.17-09.01.59:451][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor]
+[2018.04.17-09.01.59:477][139]LogSavePackage: Save=23.80ms
+[2018.04.17-09.01.59:477][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGroEBE36F6344C03EE817B62999BE325061.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Auto2.uasset'
+[2018.04.17-09.01.59:481][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Auto2.uasset
+[2018.04.17-09.01.59:482][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal] ([1] browsable assets)...
+[2018.04.17-09.01.59:492][139]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal.Toy_Teddy_Bear_initialShadingGroup_Normal]
+[2018.04.17-09.01.59:492][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal]
+[2018.04.17-09.01.59:519][139]LogSavePackage: Save=24.37ms
+[2018.04.17-09.01.59:519][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGro2D53C0374348C3F30EAA99969262AB4B.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal_Auto2.uasset'
+[2018.04.17-09.01.59:523][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal_Auto2.uasset
+[2018.04.17-09.01.59:524][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2018.04.17-09.01.59:533][139]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic.Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic]
+[2018.04.17-09.01.59:533][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic]
+[2018.04.17-09.01.59:603][139]LogSavePackage: Save=20.57ms
+[2018.04.17-09.01.59:603][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGro3F763751482FA63E638D5E946531921B.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic_Auto2.uasset'
+[2018.04.17-09.01.59:606][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic_Auto2.uasset
+[2018.04.17-09.01.59:607][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat] ([1] browsable assets)...
+[2018.04.17-09.01.59:630][139]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat.Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat]
+[2018.04.17-09.01.59:630][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat]
+[2018.04.17-09.01.59:659][139]LogSavePackage: Save=25.59ms
+[2018.04.17-09.01.59:659][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGro05B1D4694FC2C9B96B9CF29D481B2FB0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat_Auto2.uasset'
+[2018.04.17-09.01.59:662][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat_Auto2.uasset
+[2018.04.17-09.01.59:663][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/Toy_Teddy_Bear] ([1] browsable assets)...
+[2018.04.17-09.01.59:675][139]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/from_gaby/Toy_Teddy_Bear.Toy_Teddy_Bear]
+[2018.04.17-09.01.59:675][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/Toy_Teddy_Bear]
+[2018.04.17-09.01.59:697][139]LogSavePackage: Save=17.65ms
+[2018.04.17-09.01.59:697][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_Auto29DC682444F2BF40783AA61B5E7E71769.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Toy_Teddy_Bear_Auto2.uasset'
+[2018.04.17-09.01.59:699][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/Toy_Teddy_Bear_Auto2.uasset
+[2018.04.17-09.01.59:700][139]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/from_gaby/pCube2Mat] ([1] browsable assets)...
+[2018.04.17-09.01.59:712][139]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/from_gaby/pCube2Mat.pCube2Mat]
+[2018.04.17-09.01.59:712][139]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/from_gaby/pCube2Mat]
+[2018.04.17-09.01.59:737][139]LogSavePackage: Save=22.52ms
+[2018.04.17-09.01.59:737][139]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/pCube2Mat_Auto22A9C82344ED82484550C16B11665C743.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/pCube2Mat_Auto2.uasset'
+[2018.04.17-09.01.59:741][139]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/pCube2Mat_Auto2.uasset
+[2018.04.17-09.01.59:741][139]LogFileHelpers: Auto-saving content packages took 0.300
+[2018.04.17-09.02.20:987][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
+[2018.04.17-09.02.28:084][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toy_Teddy_Bear)
+[2018.04.17-09.03.09:796][775]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle6)
+[2018.04.17-09.03.12:473][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (backpack)
+[2018.04.17-09.06.18:786][620]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/models/textures/PlayerNext.png)
+[2018.04.17-09.06.18:830][620]LogTexture: Display: Building textures: PlayerNext (AutoDXT, 1000X1000)
+[2018.04.17-09.06.18:968][620]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/models/textures/playerPlay.png)
+[2018.04.17-09.06.19:004][620]LogTexture: Display: Building textures: playerPlay (AutoDXT, 1000X1000)
+[2018.04.17-09.06.19:133][620]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/projects pc/uni/vaporwave/models/textures/PlayerStop.png)
+[2018.04.17-09.06.19:164][620]LogTexture: Display: Building textures: PlayerStop (AutoDXT, 1000X1000)
+[2018.04.17-09.06.55:409][766]LogSavePackage: Save=119.45ms
+[2018.04.17-09.06.55:409][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGr5EC5B7B74C0A451CFE01D59B2160B441.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor.uasset'
+[2018.04.17-09.06.55:422][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor.uasset
+[2018.04.17-09.06.55:471][766]LogSavePackage: Save=20.86ms
+[2018.04.17-09.06.55:471][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGrEA06B95F451C02BE1FA9539591C969E0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat.uasset'
+[2018.04.17-09.06.55:485][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat.uasset
+[2018.04.17-09.06.55:718][766]LogSavePackage: Save=212.57ms
+[2018.04.17-09.06.55:718][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGr703692284F5BA53F70133EAAB72B81FC.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal.uasset'
+[2018.04.17-09.06.55:731][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal.uasset
+[2018.04.17-09.06.55:897][766]LogSavePackage: Save=147.30ms
+[2018.04.17-09.06.55:898][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller_initialShadingGrE8C3A23545F16902CC3941B5D3B73442.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
+[2018.04.17-09.06.55:911][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic.uasset
+[2018.04.17-09.06.56:598][766]LogSavePackage: Save=664.98ms
+[2018.04.17-09.06.56:598][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGroBDA2FD6E4B1408828A4167ADED00A8AC.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor.uasset'
+[2018.04.17-09.06.56:612][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor.uasset
+[2018.04.17-09.06.56:661][766]LogSavePackage: Save=23.44ms
+[2018.04.17-09.06.56:661][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGro9F5FC05B4679B8ED470474831F23CCDE.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat.uasset'
+[2018.04.17-09.06.56:675][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat.uasset
+[2018.04.17-09.06.57:670][766]LogSavePackage: Save=977.86ms
+[2018.04.17-09.06.57:670][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGro50104BFF4F83A3025BE7F8B669C52CD3.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal.uasset'
+[2018.04.17-09.06.57:684][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal.uasset
+[2018.04.17-09.06.58:333][766]LogSavePackage: Save=633.52ms
+[2018.04.17-09.06.58:333][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear_initialShadingGro8ACACCA4490E1706DCFE34AED14186B4.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic.uasset'
+[2018.04.17-09.06.58:346][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic.uasset
+[2018.04.17-09.06.58:389][766]LogSavePackage: Save=18.30ms
+[2018.04.17-09.06.58:389][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/TV_material77E1B6344EE8F65A6B9D8F8E5E84219B.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/TV_material.uasset'
+[2018.04.17-09.06.58:403][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/TV_material.uasset
+[2018.04.17-09.06.58:420][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/from_gaby/GAME_Controller" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/GAME_Controller.uasset" SILENT=true
+[2018.04.17-09.06.58:561][766]LogSavePackage: Save=16.07ms
+[2018.04.17-09.06.58:561][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/GAME_Controller4259A0FC48072397CF54B49201C0D636.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/GAME_Controller.uasset'
+[2018.04.17-09.06.58:575][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/GAME_Controller.uasset
+[2018.04.17-09.06.58:594][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/from_gaby/pCube2Mat" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/pCube2Mat.uasset" SILENT=true
+[2018.04.17-09.06.58:616][766]LogSavePackage: Save=19.02ms
+[2018.04.17-09.06.58:616][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/pCube2MatB26935714F441353F19F759BE41DAEB2.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/pCube2Mat.uasset'
+[2018.04.17-09.06.58:630][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/pCube2Mat.uasset
+[2018.04.17-09.06.58:648][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/from_gaby/polySurface8Mat" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/polySurface8Mat.uasset" SILENT=true
+[2018.04.17-09.06.58:671][766]LogSavePackage: Save=19.71ms
+[2018.04.17-09.06.58:671][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/polySurface8MatA938257D45A4FC4A023A7EA2E71EC968.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/polySurface8Mat.uasset'
+[2018.04.17-09.06.58:682][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/polySurface8Mat.uasset
+[2018.04.17-09.06.58:700][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/from_gaby/Toy_Teddy_Bear" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Toy_Teddy_Bear.uasset" SILENT=true
+[2018.04.17-09.06.58:720][766]LogSavePackage: Save=16.91ms
+[2018.04.17-09.06.58:720][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Toy_Teddy_Bear95831CB641A34C9C1A3BEA965DD44A40.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Toy_Teddy_Bear.uasset'
+[2018.04.17-09.06.58:730][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Toy_Teddy_Bear.uasset
+[2018.04.17-09.06.58:802][766]LogSavePackage: Save=54.60ms
+[2018.04.17-09.06.58:802][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/PlayerNext0F211B634463D017A3D935AFB5D3D572.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/fromPablo/textures/PlayerNext.uasset'
+[2018.04.17-09.06.58:811][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/fromPablo/textures/PlayerNext.uasset
+[2018.04.17-09.06.58:877][766]LogSavePackage: Save=49.32ms
+[2018.04.17-09.06.58:877][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/playerPlay628C15B44599A5518717C49F951B9590.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/fromPablo/textures/playerPlay.uasset'
+[2018.04.17-09.06.58:884][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/fromPablo/textures/playerPlay.uasset
+[2018.04.17-09.06.58:950][766]LogSavePackage: Save=48.08ms
+[2018.04.17-09.06.58:950][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/PlayerStop7C06F3194410ED40580192A4F0704877.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/fromPablo/textures/PlayerStop.uasset'
+[2018.04.17-09.06.58:958][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/fromPablo/textures/PlayerStop.uasset
+[2018.04.17-09.07.00:021][766]LogSavePackage: Save=877.81ms
+[2018.04.17-09.07.00:021][766]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMapFA02B0C442C8981D543E98B86ACCF7B2.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.17-09.07.00:035][766]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.07.00:080][766]LogFileHelpers: Saving map 'MotionControllerMap' took 1.116
+[2018.04.17-09.07.35:053][683]LogSavePackage: Save=890.11ms
+[2018.04.17-09.07.35:053][683]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap588E14874C44E92B7368DDB2275C9B2E.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.17-09.07.35:063][683]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.07.36:410][683]LogSavePackage: Save=1043.14ms
+[2018.04.17-09.07.36:410][683]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltData13C28032411462B84DC79A87EA66BA8A.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2018.04.17-09.07.36:414][683]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: On branch master
+[2018.04.17-09.07.44:274][955]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2018.04.17-09.07.44:274][955]SourceControl: Changes not staged for commit:
+[2018.04.17-09.07.44:274][955]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2018.04.17-09.07.44:274][955]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Intermediate/CachedAssetRegistry.bin
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Saved/Autosaves/PackageRestoreData.json
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/MotionControllerMap_BuiltData_2018-04-09-23-55-12.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/MotionControllerMap_BuiltData_2018-04-12-13-03-41.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/MotionControllerMap_BuiltData_2018-04-14-02-00-29.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvader2_2018-04-05-13-04-48.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvader2_2018-04-06-12-48-26.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-05-12-28-30.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-05-12-42-49.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-05-12-59-33.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-05-13-04-48.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-06-13-01-52.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-06-13-20-56.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/SpaceInvaderManager2_2018-04-06-17-02-17.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/VHSTape2_2018-04-06-17-32-12.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/VHS_2018-04-06-17-15-28.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/VHS_2018-04-06-17-21-44.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/VHS_2018-04-06-17-32-12.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Backup/neon02_2018-04-05-12-23-30.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	deleted:    VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-B9B9DE934B5B0FD6082661B3C75122E7/CrashReportClient.ini
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/Engine.ini
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/Saved/Logs/VRaporwave.log
+[2018.04.17-09.07.44:274][955]SourceControl: 	modified:   VRaporwave/VRaporwave.uproject
+[2018.04.17-09.07.44:274][955]SourceControl: Untracked files:
+[2018.04.17-09.07.44:274][955]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/fromPablo/textures/PlayerNext.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/fromPablo/textures/PlayerStop.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/fromPablo/textures/playerPlay.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/GAME_Controller.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_BaseColor_Mat.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_Normal.uasset
+[2018.04.17-09.07.44:274][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/GAME_Controller_initialShadingGroup_OcclusionRoughnessMetallic.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/TV_material.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_BaseColor_Mat.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_Normal.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Gab_textures/Toy_Teddy_Bear_initialShadingGroup_OcclusionRoughnessMetallic.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/Toy_Teddy_Bear.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/pCube2Mat.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Content/Assets/from_gaby/polySurface8Mat.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Autosaves/Game/Assets/from_gaby/
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_2018-04-17-09-37-26.umap
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_2018-04-17-10-01-58.umap
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_2018-04-17-10-06-59.umap
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Backup/MotionControllerMap_BuiltData_2018-04-17-10-07-35.uasset
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-248C581C4B3CBBEC1C2B6F917ACD5D9B/
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-5DC377694ECB7AF17FEC4F9A572A4BF0/
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Logs/VRaporwave-backup-2018.04.17-09.22.30.log
+[2018.04.17-09.07.44:275][955]SourceControl: 	VRaporwave/Saved/Logs/VRaporwave-backup-2018.04.17-09.22.45.log
+[2018.04.17-09.07.44:275][955]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.04.17-09.10.12:023][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.04.17-09.11.15:930][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (nokiacityman)
+[2018.04.17-09.11.20:239][649]Cmd: TRANSACTION UNDO
+[2018.04.17-09.11.20:239][649]LogEditorTransaction: Undo Create Actors
+[2018.04.17-09.11.22:435][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (nokiacityman)
+[2018.04.17-09.11.27:439][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle14)
+[2018.04.17-09.11.35:317][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (nokiacityman)
+[2018.04.17-09.11.39:260][159]Cmd: TRANSACTION UNDO
+[2018.04.17-09.11.39:260][159]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.17-09.11.41:012][232]Cmd: TRANSACTION UNDO
+[2018.04.17-09.11.41:012][232]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.17-09.11.41:746][249]Cmd: TRANSACTION UNDO
+[2018.04.17-09.11.41:746][249]LogEditorTransaction: Undo Create Actors
+[2018.04.17-09.11.54:384][628]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.11.57:300][628]LogSavePackage: Save=18.63ms
+[2018.04.17-09.11.57:300][628]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Phone01_material116E1FFCF4280384380C45CB090806A21.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1.uasset'
+[2018.04.17-09.11.57:306][628]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1.uasset
+[2018.04.17-09.11.59:236][669]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.11.59:373][669]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.11.59:398][669]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.11.59:453][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.12.01:769][751]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.04.17-09.12.01:769][751]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.04.17-09.12.01:769][751]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-09.12.01:769][751]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-09.12.05:455][869]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.05:484][869]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.12.06:272][887]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.06:312][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.12.07:887][921]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.07:926][921]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.12.08:876][944]LogMaterialEditor: Applying material Phone01_material1
+[2018.04.17-09.12.09:729][944]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.09:813][944]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.09:877][944]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.09:950][944]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Phone01_material1, compiling. 
+[2018.04.17-09.12.11:203][944]TextureStreamingBuild: Display: Compiling optional shaders took 1.261 seconds.
+[2018.04.17-09.12.14:084][ 21]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-09.12.14:084][ 21]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-09.12.14:084][ 21]MaterialEditorStats: Vertex shader: 127 instructions
+[2018.04.17-09.12.14:084][ 21]MaterialEditorStats: Texture samplers: 3/16
+[2018.04.17-09.12.35:954][516]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.17-09.12.50:333][820]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.50:362][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.12.51:685][839]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.51:723][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.12.52:910][859]LogMaterialEditor: Applying material Phone01_material1
+[2018.04.17-09.12.53:732][859]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.53:814][859]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.53:871][859]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.12.53:941][859]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Phone01_material1, compiling. 
+[2018.04.17-09.12.55:185][859]TextureStreamingBuild: Display: Compiling optional shaders took 1.253 seconds.
+[2018.04.17-09.13.08:643][173]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.11:131][173]LogSavePackage: Save=25.05ms
+[2018.04.17-09.13.11:131][173]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Phone01_material1_28F033DDA4AD82DF8FE624A8473847B71.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1_2.uasset'
+[2018.04.17-09.13.11:141][173]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1_2.uasset
+[2018.04.17-09.13.20:576][413]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.20:699][413]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.20:728][413]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.20:775][413]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.13.22:570][450]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-09.13.22:570][450]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-09.13.22:570][450]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-09.13.22:570][450]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-09.13.33:046][692]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.33:077][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.13.34:781][722]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-09.13.34:781][722]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-09.13.34:781][722]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-09.13.34:781][722]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-09.13.36:277][745]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.36:306][745]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.13.37:505][762]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.37:541][762]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.13.39:346][791]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-09.13.39:346][791]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-09.13.39:346][791]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-09.13.39:346][791]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-09.13.39:659][797]LogMaterialEditor: Applying material Phone01_material1_2
+[2018.04.17-09.13.40:238][797]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.40:317][797]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.40:372][797]LogMaterial: Missing cached shader map for material Phone01_material1_2, compiling. 
+[2018.04.17-09.13.40:439][797]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Phone01_material1_2, compiling. 
+[2018.04.17-09.13.41:672][797]TextureStreamingBuild: Display: Compiling optional shaders took 1.240 seconds.
+[2018.04.17-09.13.46:856][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (nokiacityman)
+[2018.04.17-09.13.50:751][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle14)
+[2018.04.17-09.13.59:520][194]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.17-09.13.59:657][194]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.17-09.13.59:682][194]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.17-09.13.59:732][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.14.01:435][227]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.04.17-09.14.01:435][227]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 223 instructions
+[2018.04.17-09.14.01:435][227]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.04.17-09.14.01:435][227]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.17-09.14.04:033][277]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.17-09.14.04:062][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.14.05:415][300]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.17-09.14.05:453][300]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.04.17-09.14.06:671][324]LogMaterialEditor: Applying material Phone01_material1
+[2018.04.17-09.14.07:448][324]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2018.04.17-09.14.07:524][324]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.14.07:579][324]LogMaterial: Missing cached shader map for material Phone01_material1, compiling. 
+[2018.04.17-09.14.07:649][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Phone01_material1, compiling. 
+[2018.04.17-09.14.08:870][324]TextureStreamingBuild: Display: Compiling optional shaders took 1.230 seconds.
+[2018.04.17-09.14.13:649][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sehpa2)
+[2018.04.17-09.17.27:488][503]LogSavePackage: Save=17.57ms
+[2018.04.17-09.17.27:488][503]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Phone01_material18E0D34BB4FAC468F3E233EBB011C0D69.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1.uasset'
+[2018.04.17-09.17.27:495][503]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1.uasset
+[2018.04.17-09.17.27:554][503]LogSavePackage: Save=19.55ms
+[2018.04.17-09.17.27:554][503]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Phone01_material1_243C6E34A432E7436FE5882817752B9FF.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1_2.uasset'
+[2018.04.17-09.17.27:561][503]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/from_gaby/Gab_textures/Phone01_material1_2.uasset
+[2018.04.17-09.17.28:660][503]LogSavePackage: Save=915.30ms
+[2018.04.17-09.17.28:660][503]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap58DB1DD7456B41781AACE5AE037202C0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.17-09.17.28:670][503]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.17.28:719][503]LogFileHelpers: Saving map 'MotionControllerMap' took 1.152
+[2018.04.17-09.17.31:229][535]LogSavePackage: Save=905.54ms
+[2018.04.17-09.17.31:229][535]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap16C63A3B4D19FA3D832A878B8728ED61.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.17-09.17.31:239][535]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.17.32:195][535]LogSavePackage: Save=761.28ms
+[2018.04.17-09.17.32:195][535]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltData4D811F264D153089E0225BB4429603F8.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2018.04.17-09.17.32:200][535]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2018.04.17-09.24.22:925][433]LogTemp: Repeating last play command: Simulate
+[2018.04.17-09.24.22:954][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-09.24.22:955][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.17-09.24.22:955][433]PIE: New page: SIE session: MotionControllerMap (17 Apr 2018 11:24:22)
+[2018.04.17-09.24.22:955][433]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.04.17-09.24.23:023][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068299s)
+[2018.04.17-09.24.23:024][433]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.04.17-09.24.23:025][433]LogPlayLevel: PIE: World Init took: (0.001407s)
+[2018.04.17-09.24.23:025][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.070292s)
+[2018.04.17-09.24.23:055][433]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.17-09.24.23:069][433]LogInit: FAudioDevice initialized.
+[2018.04.17-09.24.23:102][433]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.17-09.24.23:102][433]LogLoad: Game class is 'GameModeBase'
+[2018.04.17-09.24.23:112][433]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.04.17-10.24.23
+[2018.04.17-09.24.23:113][433]LogWorld: Bringing up level for play took: 0.009529
+[2018.04.17-09.24.23:114][433]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.17-09.24.23:117][433]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0016
+[2018.04.17-09.24.23:117][433]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.04.17-09.24.23:117][433]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.1
+[2018.04.17-09.24.23:122][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-09.24.43:123][845]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-09.24.43:166][845]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.04.17-09.24.43:190][845]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.Sound.AudioComponent_0) Not currently registered. Aborting.
+[2018.04.17-09.24.48:969][122]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2018.04.17-09.24.48:969][122]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2018.04.17-09.25.01:211][814]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2018.04.17-09.25.01:211][814]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2018.04.17-09.25.22:836][109]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2018.04.17-09.25.22:836][109]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2018.04.17-09.25.27:009][316]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.04.17-09.25.28:026][317]LogSlate: Took 0.006452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.17-09.28.16:136][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.17-09.28.50:973][265]LogSavePackage: Save=987.56ms
+[2018.04.17-09.28.50:973][265]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto3A7BB08074795845776943BB8CDE629F8.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap'
+[2018.04.17-09.28.50:979][265]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
+[2018.04.17-09.28.50:983][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 1.048
+[2018.04.17-09.28.50:983][265]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.048
+[2018.04.17-09.28.50:987][265]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/voiceover/harrietStart_Cue] ([1] browsable assets)...
+[2018.04.17-09.28.50:987][265]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/voiceover/harrietStart_Cue]
+[2018.04.17-09.28.51:000][265]LogSavePackage: Save=9.66ms
+[2018.04.17-09.28.51:000][265]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietStart_Cue_Auto351FCA79A427C36A800F38AB6556439F0.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/voiceover/harrietStart_Cue_Auto3.uasset'
+[2018.04.17-09.28.51:003][265]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/voiceover/harrietStart_Cue_Auto3.uasset
+[2018.04.17-09.28.51:003][265]LogFileHelpers: Auto-saving content packages took 0.018
+[2018.04.17-09.30.16:126][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slm_M_Middle4)
+[2018.04.17-09.30.33:642][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/voiceover/harrietStart_Cue" FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietStart_Cue.uasset" SILENT=true
+[2018.04.17-09.30.33:656][782]LogSavePackage: Save=11.53ms
+[2018.04.17-09.30.33:656][782]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/harrietStart_Cue90C59A2C45D7F573F58D0786EC9AF151.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietStart_Cue.uasset'
+[2018.04.17-09.30.33:668][782]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Assets/voiceover/harrietStart_Cue.uasset
+[2018.04.17-09.30.35:324][782]LogSavePackage: Save=943.85ms
+[2018.04.17-09.30.35:324][782]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMapFA9996B34B23BEECAFD43AB1DD03FCB1.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.17-09.30.35:333][782]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.30.35:379][782]LogFileHelpers: Saving map 'MotionControllerMap' took 1.211
+[2018.04.17-09.30.37:025][795]LogSavePackage: Save=951.11ms
+[2018.04.17-09.30.37:025][795]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap17A6FD184B53E503AD8774994FA03F69.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.04.17-09.30.37:033][795]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.04.17-09.30.37:959][795]LogSavePackage: Save=755.29ms
+[2018.04.17-09.30.37:959][795]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltData1B2973544CC6967649B19FADFFCCF0D3.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2018.04.17-09.30.37:963][795]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2018.04.17-09.30.39:837][886]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
+[2018.04.17-09.30.40:852][886]LogPackageName: Error: Illegal call to DoesPackageExist: 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/VRaporwave.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2018.04.17-09.30.41:014][886]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.162 s
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: 
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 810]
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: Illegal call to DoesPackageExist: 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/VRaporwave.uproject' is not a standard unreal filename or a long path name. Reason: Path should be no less than 4 characters long.
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: Stack: 
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000008EC82786 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000008EA2123A UE4Editor-Core.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000008EA3B906 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x0000000083368B45 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000008FEA76B2 UE4Editor-SourceControl.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000008FEA7847 UE4Editor-SourceControl.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x0000000077C685AE UE4Editor-SourceControlWindows.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x0000000077C24475 UE4Editor-SourceControlWindows.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x0000000077C23A4D UE4Editor-SourceControlWindows.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x0000000077C38AA4 UE4Editor-SourceControlWindows.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000006D0439D9 UE4Editor-GitSourceControl.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000008FEAC5BC UE4Editor-SourceControl.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000007F0172EB UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000007F8C4AC6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000006EEF5A26 UE4Editor.exe!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000006EF05430 UE4Editor.exe!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000006EF054AA UE4Editor.exe!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000006EF12379 UE4Editor.exe!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x000000006EF13D57 UE4Editor.exe!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x00000000DBCE8364 KERNEL32.DLL!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: [Callstack] 0x00000000DBDF7091 ntdll.dll!UnknownFunction []
+[2018.04.17-09.30.41:014][886]LogOutputDevice: Error: 
+[2018.04.17-09.30.41:024][886]LogStats:                SubmitErrorReport -  0.000 s
