@@ -1512,3 +1512,796 @@ LogInit: Object subsystem initialized
 [2018.05.07-20.08.16:527][850]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap50AE9B454FF4316832A040B5A8AEB0BF.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
 [2018.05.07-20.08.16:531][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
 [2018.05.07-20.08.16:567][850]LogFileHelpers: Saving map 'MotionControllerMap' took 1.920
+[2018.05.07-20.16.18:221][120]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn2_C (MotionControllerPawn2)
+[2018.05.07-20.16.19:519][165]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.16.22:069][258]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.16.28:140][496]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.16.38:047][893]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-20.16.38:110][893]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.16.38:122][893]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.07-20.16.38:226][893]LogPlayLevel: [PlayLevel] Compiling VHSTape before play...
+[2018.05.07-20.16.38:888][893]LogPlayLevel: PlayLevel: Blueprint regeneration took 766 ms (1 blueprints)
+[2018.05.07-20.16.38:888][893]PIE: New page: PIE session: MotionControllerMap (May 7, 2018, 8:16:38 PM)
+[2018.05.07-20.16.38:888][893]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.07-20.16.38:971][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083103s)
+[2018.05.07-20.16.38:980][893]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.07-20.16.38:981][893]LogPlayLevel: PIE: World Init took: (0.009159s)
+[2018.05.07-20.16.38:981][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.092953s)
+[2018.05.07-20.16.39:051][893]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.05.07-20.16.39:127][893]LogInit: FAudioDevice initialized.
+[2018.05.07-20.16.39:177][893]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.07-20.16.39:177][893]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-20.16.39:193][893]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.05.07-20.16.39
+[2018.05.07-20.16.39:193][893]LogWorld: Bringing up level for play took: 0.015382
+[2018.05.07-20.16.39:210][893]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.113
+[2018.05.07-20.16.39:210][893]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.16.51:244][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.16.51:343][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.16.51:424][597]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.07-20.16.51:424][597]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane8_2.MediaSound.AudioComponent_2) Not currently registered. Aborting.
+[2018.05.07-20.16.59:807][  5]LogEditorViewport: Clicking on Actor (LMB): Mole_C (Mole2)
+[2018.05.07-20.17.03:159][164]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.17.06:507][324]LogEditorViewport: Clicking on Actor (LMB): Mole_C (Mole6)
+[2018.05.07-20.18.28:902][167]LogSavePackage: Save=1725.37ms
+[2018.05.07-20.18.28:902][167]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto3D329842E4EF12BAD6C7B1A98B2DEE58E.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap'
+[2018.05.07-20.18.28:904][167]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap
+[2018.05.07-20.18.28:908][167]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 1.825
+[2018.05.07-20.18.28:908][167]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.825
+[2018.05.07-20.19.06:611][154]Cmd: TRANSACTION UNDO
+[2018.05.07-20.19.06:611][154]LogEditorTransaction: Undo Move Actors
+[2018.05.07-20.19.06:967][166]Cmd: TRANSACTION UNDO
+[2018.05.07-20.19.06:967][166]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.07-20.19.07:905][209]Cmd: TRANSACTION UNDO
+[2018.05.07-20.19.07:905][209]LogEditorTransaction: Undo Move Actors
+[2018.05.07-20.20.08:235][972]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2018.05.07-20.20.10:595][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Right2)
+[2018.05.07-20.20.11:741][131]LogEditorViewport: Clicking on Actor (LMB): SpaceInvaderManager2_C (SpaceInvaderManager2)
+[2018.05.07-20.20.51:276][772]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.05.07-20.20.54:292][865]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn2_C (MotionControllerPawn2)
+[2018.05.07-20.20.58:581][ 41]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.21.11:023][527]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-20.21.11:082][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.11:082][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.07-20.21.11:082][527]PIE: New page: PIE session: MotionControllerMap (May 7, 2018, 8:21:11 PM)
+[2018.05.07-20.21.11:082][527]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.07-20.21.11:130][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047930s)
+[2018.05.07-20.21.11:131][527]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.07-20.21.11:131][527]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2018.05.07-20.21.11:131][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.049327s)
+[2018.05.07-20.21.11:191][527]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.05.07-20.21.11:253][527]LogInit: FAudioDevice initialized.
+[2018.05.07-20.21.11:284][527]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.07-20.21.11:284][527]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-20.21.11:293][527]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.05.07-20.21.11
+[2018.05.07-20.21.11:293][527]LogWorld: Bringing up level for play took: 0.008192
+[2018.05.07-20.21.11:325][527]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.228
+[2018.05.07-20.21.11:325][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.21:052][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.21:095][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.21:143][ 77]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.07-20.21.21:143][ 77]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane8_2.MediaSound.AudioComponent_2) Not currently registered. Aborting.
+[2018.05.07-20.21.36:289][719]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.05.07-20.21.38:594][798]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-20.21.38:650][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.38:650][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.07-20.21.38:650][798]PIE: New page: PIE session: MotionControllerMap (May 7, 2018, 8:21:38 PM)
+[2018.05.07-20.21.38:650][798]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.07-20.21.38:694][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044470s)
+[2018.05.07-20.21.38:696][798]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.07-20.21.38:696][798]LogPlayLevel: PIE: World Init took: (0.001522s)
+[2018.05.07-20.21.38:696][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.046616s)
+[2018.05.07-20.21.38:727][798]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.05.07-20.21.38:788][798]LogInit: FAudioDevice initialized.
+[2018.05.07-20.21.38:826][798]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.07-20.21.38:826][798]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-20.21.38:834][798]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.05.07-20.21.38
+[2018.05.07-20.21.38:835][798]LogWorld: Bringing up level for play took: 0.008247
+[2018.05.07-20.21.38:845][798]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.748
+[2018.05.07-20.21.38:846][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.46:118][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.46:167][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.21.46:202][222]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.07-20.21.46:202][222]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane8_2.MediaSound.AudioComponent_2) Not currently registered. Aborting.
+[2018.05.07-20.21.49:358][370]MapCheck: New page: Map Check
+[2018.05.07-20.21.49:449][370]LightingResults: New page: Lighting Build - May 7, 2018, 8:21:49 PM
+[2018.05.07-20.21.49:702][370]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.07-20.21.49:712][370]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.07-20.21.49:714][370]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.07-20.21.49:756][370]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.07-20.21.49:756][370]LogSwarmInterface: [TryOpenConnection] Local Process ID is 28604
+[2018.05.07-20.21.54:394][370]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.07-20.21.54:395][370]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.07-20.21.54:395][370]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.07-20.21.54:395][370]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.07-20.21.54:395][370]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.07-20.21.54:602][370]LogEditorBuildUtils: Build time 0:05
+[2018.05.07-20.22.26:143][564]LightingResults: Warning: HOUSE_3 Object has overlapping UVs.
+[2018.05.07-20.22.26:143][564]LightingResults: HOUSE_3 Lightmap UV are overlapping by 22.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.26:423][575]LightingResults: Warning: HOUSE_1 Object has overlapping UVs.
+[2018.05.07-20.22.26:423][575]LightingResults: HOUSE_1 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.26:625][582]LightingResults: Warning: SIGN_2 Object has overlapping UVs.
+[2018.05.07-20.22.26:626][582]LightingResults: SIGN_2 Lightmap UV are overlapping by 27.9%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.26:898][592]LightingResults: Warning: HOUSE_1 Object has overlapping UVs.
+[2018.05.07-20.22.26:898][592]LightingResults: HOUSE_1 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.27:304][606]LightingResults: Warning: HOUSE_3 Object has overlapping UVs.
+[2018.05.07-20.22.27:304][606]LightingResults: HOUSE_3 Lightmap UV are overlapping by 22.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.28:735][657]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.28:735][657]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.29:917][699]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.29:917][699]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.30:362][715]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.30:362][715]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.30:818][731]LightingResults: Warning: Sehpa2 Object has overlapping UVs.
+[2018.05.07-20.22.30:818][731]LightingResults: Sehpa2 Lightmap UV are overlapping by 7.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.31:262][747]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.31:262][747]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.31:426][753]LightingResults: Warning: cityBASENObuildings02 Object has overlapping UVs.
+[2018.05.07-20.22.31:426][753]LightingResults: cityBASENObuildings02 Lightmap UV are overlapping by 1.1%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.31:739][764]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.31:739][764]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.31:902][770]LightingResults: Warning: SkirtingBoards Object has overlapping UVs.
+[2018.05.07-20.22.31:902][770]LightingResults: SkirtingBoards Lightmap UV are overlapping by 37.3%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.32:997][809]LightingResults: Warning: HOUSE_2 Object has overlapping UVs.
+[2018.05.07-20.22.32:997][809]LightingResults: HOUSE_2 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.33:462][826]LightingResults: Warning: HOUSE_1 Object has overlapping UVs.
+[2018.05.07-20.22.33:463][826]LightingResults: HOUSE_1 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.33:735][836]LightingResults: Warning: HOUSE_1 Object has overlapping UVs.
+[2018.05.07-20.22.33:735][836]LightingResults: HOUSE_1 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.34:314][857]LightingResults: Warning: HOUSE_2 Object has overlapping UVs.
+[2018.05.07-20.22.34:314][857]LightingResults: HOUSE_2 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.34:396][860]LightingResults: Warning: coffeeTable_tall Object has overlapping UVs.
+[2018.05.07-20.22.34:397][860]LightingResults: coffeeTable_tall Lightmap UV are overlapping by 6.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.34:763][873]LightingResults: Warning: HOUSE_2 Object has overlapping UVs.
+[2018.05.07-20.22.34:764][873]LightingResults: HOUSE_2 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.34:836][876]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.34:836][876]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.34:999][882]LightingResults: Warning: roundabout Object has overlapping UVs.
+[2018.05.07-20.22.34:999][882]LightingResults: roundabout Lightmap UV are overlapping by 5.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.35:101][886]LightingResults: Warning: HOUSE_2 Object has overlapping UVs.
+[2018.05.07-20.22.35:101][886]LightingResults: HOUSE_2 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.35:284][893]LightingResults: Warning: HOUSE_1 Object has overlapping UVs.
+[2018.05.07-20.22.35:284][893]LightingResults: HOUSE_1 Lightmap UV are overlapping by 6.8%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.35:467][900]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.35:467][900]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.35:922][917]LightingResults: Warning: coffeeTable Object has overlapping UVs.
+[2018.05.07-20.22.35:922][917]LightingResults: coffeeTable Lightmap UV are overlapping by 29.9%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.36:248][929]LightingResults: Warning: sofa Object has overlapping UVs.
+[2018.05.07-20.22.36:248][929]LightingResults: sofa Lightmap UV are overlapping by 30.4%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.36:410][935]LightingResults: Warning: Building Object has wrapping UVs.
+[2018.05.07-20.22.36:986][957]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.36:986][957]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.37:961][996]Job is a success!
+[2018.05.07-20.22.37:961][996]LightingResults: Warning: greekColumn Object has overlapping UVs.
+[2018.05.07-20.22.37:961][996]LightingResults: greekColumn Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.024s
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport:      BrickData 20x5x5 = 0.0Mb
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport:          0: 25.0% covering 100.0% of volume
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport:          1: 25.0% covering 1.6% of volume
+[2018.05.07-20.22.38:402][998]LogVolumetricLightmapImport:          2: 50.0% covering 0.0% of volume
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2018.05.07-20.22.39:902][998]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_17 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_20 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_23 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_27 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:903][998]LogTexture: Display: Building textures: LQ_Lightmap_0_29 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_30 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_31 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_32 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_33 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_33 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_34 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_34 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_35 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_35 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_36 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_36 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_37 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_37 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_38 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_38 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_39 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_39 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_40 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_40 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_41 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_41 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_42 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_42 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_43 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_43 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_44 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_44 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_45 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_45 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_46 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_46 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_47 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_47 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_48 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_48 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_49 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_49 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_50 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_50 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_51 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: LQ_Lightmap_0_51 (DXT1, 128X128)
+[2018.05.07-20.22.39:904][998]LogTexture: Display: Building textures: HQ_Lightmap0_52 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_52 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_53 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_53 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_54 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_54 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_55 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_55 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_56 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_56 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_57 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_57 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_58 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_58 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_59 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_59 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_60 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_60 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_61 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_61 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_62 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_62 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_63 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_63 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_64 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_64 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_65 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_65 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_66 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_66 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_67 (AutoDXT, 256X256)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_67 (DXT1, 256X256)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_68 (AutoDXT, 256X256)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_68 (DXT1, 256X256)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_69 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_69 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_70 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_70 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_71 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_71 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_72 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_72 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_73 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_73 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_74 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_74 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_75 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_75 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_76 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_76 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_77 (AutoDXT, 256X256)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_77 (DXT1, 256X256)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_78 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_78 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_79 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_79 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_80 (AutoDXT, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_80 (DXT1, 128X128)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: HQ_Lightmap0_81 (AutoDXT, 64X64)
+[2018.05.07-20.22.39:905][998]LogTexture: Display: Building textures: LQ_Lightmap_0_81 (DXT1, 64X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (G8, 64X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (G8, 128X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 128X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (G8, 64X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 256X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (G8, 64X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (G8, 64X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 512X64)
+[2018.05.07-20.22.40:125][998]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (BGRA8, 1024X512)
+[2018.05.07-20.22.40:145][998]Lightmass on MSI: 44.8 sec total, 1.26 sec importing, 981 ms setup, 27.4 sec photons, 15.0 sec processing, 0 ms extra exporting [177/177 mappings]. Threads: 1:45 min total, 1:16 min processing.
+[2018.05.07-20.22.40:258][998]LogStaticLightingSystem: Illumination: 50.7 sec (1.41 sec encoding lightmaps, 141 ms encoding shadowmaps)
+[2018.05.07-20.22.40:258][998]LogStaticLightingSystem: Lightmap texture memory:  4.8 MB (4.8 MB streaming, 0.0 MB non-streaming), 162 textures
+[2018.05.07-20.22.40:258][998]LogStaticLightingSystem: Shadowmap texture memory: 2.8 MB (2.8 MB streaming, 0.0 MB non-streaming), 9 textures
+[2018.05.07-20.22.41:414][998]DumpUnbuiltLightIteractions
+[2018.05.07-20.22.41:414][998]Lights with unbuilt interactions: 0
+[2018.05.07-20.22.41:414][998]
+[2018.05.07-20.22.41:414][998]Primitives with unbuilt interactions: 0
+[2018.05.07-20.22.41:459][999]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.07-20.22.41:469][999]MapCheck: New page: MotionControllerMap - May 7, 2018, 8:22:41 PM
+[2018.05.07-20.22.41:491][999]MapCheck: Warning: Plane_2 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:495][999]MapCheck: Warning: Plane_2 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:510][999]MapCheck: Warning: Bottle5_72 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:510][999]MapCheck: Warning: Bottle5_72 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:510][999]MapCheck: Warning: Bottle6_75 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:510][999]MapCheck: Warning: Bottle6_75 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane10_33 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane10_33 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane11_36 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane11_36 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane12_39 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane12_39 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane13 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane13 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane14 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane14 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane15_15 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane15_15 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane16_10 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane16_10 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane17 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane17 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane18 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:514][999]MapCheck: Warning: Plane18 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane19 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane19 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane20 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane20 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane21 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane21 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane2_15 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane2_15 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane3 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane3 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane4 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane4 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane5 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane5 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane6 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane6 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane7 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Plane7 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Poster01_11 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Poster01_11 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: ruin_element_statue_pegasus_001_5 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: ruin_element_statue_pegasus_001_5 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:515][999]MapCheck: Warning: Three-storey_house_46 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: Three-storey_house_46 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: answeringMachineUV_Blueprint_350 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: holobaseUV_Blueprint Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: holobaseUV_Blueprint Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: radio_Blueprint Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: radio_Blueprint Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:516][999]MapCheck: Warning: radio_Blueprint Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:528][999]MapCheck: Warning: Portal_284 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:528][999]MapCheck: Warning: Portal2_458 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:528][999]MapCheck: Warning: VHS_1256 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:528][999]MapCheck: Warning: VHS_1256 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:528][999]MapCheck: Warning: SpaceInvaderManager2_136 Static mesh actor has NULL StaticMesh property 
+[2018.05.07-20.22.41:627][999]MapCheck: Map check complete: 0 Error(s), 59 Warning(s), took 157.804ms to complete.
+[2018.05.07-20.22.45:292][161]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.07-20.22.45:315][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.22.45:315][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.07-20.22.45:316][161]PIE: New page: PIE session: MotionControllerMap (May 7, 2018, 8:22:45 PM)
+[2018.05.07-20.22.45:316][161]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.07-20.22.45:345][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029638s)
+[2018.05.07-20.22.45:346][161]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.07-20.22.45:346][161]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2018.05.07-20.22.45:346][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.030613s)
+[2018.05.07-20.22.45:376][161]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.05.07-20.22.45:473][161]LogInit: FAudioDevice initialized.
+[2018.05.07-20.22.45:507][161]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.07-20.22.45:507][161]LogLoad: Game class is 'GameModeBase'
+[2018.05.07-20.22.45:516][161]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2018.05.07-20.22.45
+[2018.05.07-20.22.45:517][161]LogWorld: Bringing up level for play took: 0.008334
+[2018.05.07-20.22.45:527][161]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.57
+[2018.05.07-20.22.45:528][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.22.55:238][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.22.55:284][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.07-20.22.55:318][664]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.07-20.22.55:318][664]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane8_2.MediaSound.AudioComponent_2) Not currently registered. Aborting.
+[2018.05.07-20.28.20:977][119]LogTexture: Display: Building textures: buildingSapceInvaderBROKEN_buildingSapceInvaderBROKEN_default1_BaseColor (AutoDXT, 2048X2048)
+[2018.05.07-20.28.20:977][119]LogTexture: Display: Building textures: buildingSapceInvaderBROKEN_buildingSapceInvaderBROKEN_default1_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.05.07-20.28.20:977][119]LogTexture: Display: Building textures: buildingSapceInvaderBROKEN_buildingSapceInvaderBROKEN_default1_Normal (BC5, 2048X2048)
+[2018.05.07-20.28.20:977][119]LogMaterial: Missing cached shader map for material buildingSapceInvaderBROKEN_buildingSapceInvaderBROKEN_default1_BaseColor_Mat, compiling. 
+[2018.05.07-20.28.28:639][307]LogTexture: Display: Building textures: buildingSapceInvaderDESTROYED_buildingSapceInvaderDESTROYED_default1_BaseColor (AutoDXT, 1024X1024)
+[2018.05.07-20.28.28:639][307]LogTexture: Display: Building textures: buildingSapceInvaderDESTROYED_buildingSapceInvaderDESTROYED_default1_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.05.07-20.28.28:639][307]LogTexture: Display: Building textures: buildingSapceInvaderDESTROYED_buildingSapceInvaderDESTROYED_default1_Normal (BC5, 1024X1024)
+[2018.05.07-20.28.28:639][307]LogMaterial: Missing cached shader map for material buildingSapceInvaderDESTROYED_buildingSapceInvaderDESTROYED_default1_BaseColor_Mat, compiling. 
+[2018.05.07-20.28.30:446][365]BlueprintLog: New page: Compile SpaceInvaderBuilding
+[2018.05.07-20.28.40:052][756]BlueprintLog: New page: Compile SpaceInvaderManager2
+[2018.05.07-20.28.46:779][975]LogSavePackage: Save=42.63ms
+[2018.05.07-20.28.46:779][975]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderBuilding35258A9E4BF89427425DEC9EAAB98167.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderBuilding.uasset'
+[2018.05.07-20.28.46:793][975]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderBuilding.uasset
+[2018.05.07-20.28.47:086][975]LogSavePackage: Save=263.90ms
+[2018.05.07-20.28.47:086][975]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/SpaceInvaderManager2B281D2E64F3B0C1E24D07AAF56DBFCA1.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset'
+[2018.05.07-20.28.47:106][975]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset
+[2018.05.07-20.28.48:936][975]LogSavePackage: Save=1693.38ms
+[2018.05.07-20.28.48:936][975]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMapC9261AF9414193D4A29C9D91F6395139.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.05.07-20.28.48:941][975]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.05.07-20.28.48:977][975]LogFileHelpers: Saving map 'MotionControllerMap' took 1.867
+[2018.05.07-20.28.49:969][975]LogSavePackage: Save=535.39ms
+[2018.05.07-20.28.49:969][975]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltDataADC1C67E4DD851101CDDC8B547A1C718.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2018.05.07-20.28.49:981][975]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2018.05.07-20.29.35:832][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (greekColumn3)
+[2018.05.07-20.29.36:610][370]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.31.23:455][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.07-20.31.23:568][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.07-20.31.23:673][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.07-20.31.23:770][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.07-20.31.30:950][736]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fridgedoor2)
+[2018.05.07-20.31.32:560][810]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.31.35:387][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shelf)
+[2018.05.07-20.31.36:155][982]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.31.53:079][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sehpa2)
+[2018.05.07-20.31.53:953][787]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.33.35:274][290]LogEditorViewport: Clicking on Actor (LMB): holobaseUV_Blueprint_C (holobaseUV_Blueprint)
+[2018.05.07-20.33.36:003][322]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.38.42:876][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (roomOfChoices02)
+[2018.05.07-20.38.44:647][545]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.38.50:979][865]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.38.55:998][120]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HOUSE_7)
+[2018.05.07-20.38.56:856][161]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.38.58:869][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2018.05.07-20.38.59:736][306]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.39.02:406][435]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.05.07-20.39.03:226][472]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.39.05:499][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2018.05.07-20.39.06:276][606]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.39.29:507][722]LogEditorViewport: Clicking on Actor (LMB): answeringMachineUV_Blueprint_C (answeringMachineUV_Blueprint)
+[2018.05.07-20.39.30:402][759]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.07-20.39.33:449][901]LogEditorViewport: Clicking on Actor (LMB): Phone_C (Phone)
+[2018.05.07-20.40.11:361][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Right)
+[2018.05.07-20.40.13:865][183]Cmd: SELECT NONE
+[2018.05.07-20.40.15:838][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.05.07-20.40.17:141][304]LogEditorViewport: Clicking on Actor (LMB): BP_toy_car_C (BP_toy_car)
+[2018.05.07-20.40.51:726][850]LogSavePackage: Save=1785.12ms
+[2018.05.07-20.40.51:727][850]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto47BD554F649B7947888ACA5B9953C88DA.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto4.umap'
+[2018.05.07-20.40.51:730][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto4.umap
+[2018.05.07-20.40.51:733][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 1.882
+[2018.05.07-20.40.51:733][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.882
+[2018.05.07-20.44.18:848][447]LogSavePackage: Save=1738.07ms
+[2018.05.07-20.44.18:848][447]LogSavePackage: Moving '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/MotionControllerMap6977A28D4D3F738243852D8CBCB02367.tmp' to '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.05.07-20.44.18:853][447]LogSavePackage: Display: Finished SavePackage ../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.05.07-20.44.18:889][447]LogFileHelpers: Saving map 'MotionControllerMap' took 1.897
+[2018.05.07-20.44.21:160][501]Cmd: QUIT_EDITOR
+[2018.05.07-20.44.22:485][501]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.07-20.44.22:654][501]LogExit: Preparing to exit.
+[2018.05.07-20.44.24:371][501]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/' was aborted.
+[2018.05.07-20.44.24:937][501]LogExit: Editor shut down
+[2018.05.07-20.44.24:971][501]LogExit: Transaction tracking system shut down
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../../../../Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/' was aborted.
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.07-20.44.25:790][501]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.07-20.44.28:661][501]LogExit: Object subsystem successfully closed.
+[2018.05.07-20.44.29:079][501]LogD3D11RHI: Shutdown
+[2018.05.07-20.44.29:079][501]LogD3D11RHI: CleanupD3DDevice
+[2018.05.07-20.44.29:489][501]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.07-20.44.32:500][501]LogModuleManager: Shutting down and abandoning module TextureEditor (556)
+[2018.05.07-20.44.32:541][501]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.05.07-20.44.32:541][501]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (552)
+[2018.05.07-20.44.32:541][501]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
+[2018.05.07-20.44.32:541][501]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.05.07-20.44.32:541][501]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.05.07-20.44.32:541][501]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.05.07-20.44.32:581][501]LogDirectoryWatcher: A directory notification for 'D:/Program files (x86)/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.05.07-20.44.32:587][501]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.05.07-20.44.32:587][501]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.05.07-20.44.32:587][501]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.05.07-20.44.32:616][501]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Collections/' was aborted.
+[2018.05.07-20.44.32:616][501]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Content/Developers/PaopuKid/Collections/' was aborted.
+[2018.05.07-20.44.32:616][501]LogDirectoryWatcher: A directory notification for 'D:/Documentos/Unreal Projects/VRaporwave/VRaporwave/Saved/Collections/' was aborted.
+[2018.05.07-20.44.32:616][501]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.05.07-20.44.32:623][501]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.05.07-20.44.32:623][501]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.05.07-20.44.32:658][501]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.05.07-20.44.32:667][501]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.05.07-20.44.32:667][501]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.05.07-20.44.32:667][501]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.05.07-20.44.32:679][501]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.05.07-20.44.32:679][501]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.05.07-20.44.32:691][501]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.05.07-20.44.32:702][501]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.05.07-20.44.32:722][501]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.05.07-20.44.32:722][501]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.05.07-20.44.32:743][501]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.05.07-20.44.32:803][501]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.05.07-20.44.32:838][501]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.05.07-20.44.32:839][501]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.05.07-20.44.32:839][501]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.05.07-20.44.32:839][501]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.05.07-20.44.32:839][501]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.05.07-20.44.32:839][501]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.05.07-20.44.32:850][501]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.05.07-20.44.32:851][501]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.05.07-20.44.32:851][501]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.05.07-20.44.32:851][501]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.05.07-20.44.32:851][501]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.05.07-20.44.32:851][501]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.05.07-20.44.32:874][501]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.05.07-20.44.32:882][501]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.05.07-20.44.32:883][501]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.05.07-20.44.32:883][501]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.05.07-20.44.32:883][501]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.05.07-20.44.32:891][501]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.05.07-20.44.32:941][501]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.05.07-20.44.32:948][501]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.05.07-20.44.32:973][501]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.05.07-20.44.32:991][501]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.05.07-20.44.33:027][501]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.05.07-20.44.33:040][501]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.05.07-20.44.33:040][501]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.05.07-20.44.33:040][501]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.05.07-20.44.33:209][501]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.05.07-20.44.33:209][501]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.05.07-20.44.33:209][501]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.05.07-20.44.33:209][501]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.05.07-20.44.33:222][501]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.05.07-20.44.33:229][501]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.05.07-20.44.33:235][501]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.05.07-20.44.33:249][501]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.05.07-20.44.33:262][501]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.05.07-20.44.33:279][501]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.05.07-20.44.33:287][501]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.05.07-20.44.33:287][501]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.05.07-20.44.33:299][501]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.05.07-20.44.33:307][501]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.05.07-20.44.33:313][501]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.05.07-20.44.33:341][501]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.05.07-20.44.33:341][501]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.05.07-20.44.33:352][501]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.05.07-20.44.33:353][501]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.05.07-20.44.33:363][501]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.05.07-20.44.33:379][501]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.05.07-20.44.33:394][501]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.05.07-20.44.33:404][501]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.05.07-20.44.33:414][501]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.05.07-20.44.33:496][501]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.05.07-20.44.33:504][501]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.05.07-20.44.33:517][501]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.05.07-20.44.33:527][501]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.05.07-20.44.33:527][501]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.05.07-20.44.33:548][501]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.05.07-20.44.33:548][501]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.05.07-20.44.33:576][501]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.05.07-20.44.33:576][501]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.05.07-20.44.33:576][501]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.05.07-20.44.33:610][501]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.05.07-20.44.33:635][501]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.05.07-20.44.33:635][501]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.05.07-20.44.33:647][501]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.05.07-20.44.33:700][501]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.05.07-20.44.33:705][501]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.05.07-20.44.33:713][501]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.05.07-20.44.33:732][501]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.05.07-20.44.33:734][501]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.05.07-20.44.33:750][501]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.05.07-20.44.33:756][501]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.05.07-20.44.33:777][501]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.05.07-20.44.33:783][501]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.05.07-20.44.33:789][501]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.05.07-20.44.33:789][501]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.05.07-20.44.33:789][501]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.05.07-20.44.33:802][501]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.05.07-20.44.33:802][501]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.05.07-20.44.33:802][501]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.05.07-20.44.33:802][501]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.05.07-20.44.33:802][501]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.05.07-20.44.33:836][501]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.05.07-20.44.33:847][501]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.05.07-20.44.33:860][501]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.05.07-20.44.33:860][501]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.05.07-20.44.33:861][501]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.05.07-20.44.33:874][501]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.05.07-20.44.33:889][501]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.05.07-20.44.33:900][501]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.05.07-20.44.33:901][501]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.05.07-20.44.33:901][501]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.05.07-20.44.33:901][501]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.05.07-20.44.33:901][501]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.05.07-20.44.33:958][501]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.05.07-20.44.33:958][501]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.05.07-20.44.34:010][501]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.05.07-20.44.34:025][501]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.05.07-20.44.34:025][501]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.05.07-20.44.34:065][501]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.05.07-20.44.34:075][501]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.05.07-20.44.34:088][501]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.05.07-20.44.34:088][501]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.05.07-20.44.34:088][501]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.05.07-20.44.34:088][501]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.05.07-20.44.34:088][501]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.05.07-20.44.34:089][501]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.05.07-20.44.34:189][501]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.05.07-20.44.34:290][501]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.05.07-20.44.34:307][501]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.05.07-20.44.34:318][501]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.05.07-20.44.34:318][501]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.05.07-20.44.34:328][501]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.05.07-20.44.34:329][501]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.05.07-20.44.34:331][501]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.05.07-20.44.34:331][501]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.05.07-20.44.34:331][501]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.05.07-20.44.34:343][501]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.05.07-20.44.34:368][501]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.05.07-20.44.34:368][501]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.05.07-20.44.34:368][501]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.05.07-20.44.34:368][501]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.05.07-20.44.34:393][501]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.05.07-20.44.34:393][501]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.05.07-20.44.34:398][501]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.05.07-20.44.34:398][501]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.05.07-20.44.34:398][501]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.05.07-20.44.34:414][501]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.05.07-20.44.34:422][501]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.05.07-20.44.34:422][501]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.05.07-20.44.34:446][501]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.05.07-20.44.34:446][501]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.05.07-20.44.34:453][501]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.05.07-20.44.34:493][501]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.05.07-20.44.34:500][501]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.05.07-20.44.34:526][501]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.05.07-20.44.34:576][501]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.05.07-20.44.34:587][501]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.05.07-20.44.34:620][501]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.05.07-20.44.34:620][501]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.05.07-20.44.34:674][501]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.05.07-20.44.34:674][501]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.05.07-20.44.34:681][501]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.05.07-20.44.34:681][501]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.05.07-20.44.34:681][501]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.05.07-20.44.34:681][501]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.05.07-20.44.34:681][501]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.05.07-20.44.34:681][501]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.05.07-20.44.34:704][501]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.05.07-20.44.34:705][501]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.05.07-20.44.34:731][501]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.05.07-20.44.34:740][501]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.05.07-20.44.34:740][501]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.05.07-20.44.34:756][501]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.05.07-20.44.34:768][501]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.05.07-20.44.34:776][501]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.05.07-20.44.34:785][501]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.05.07-20.44.34:826][501]LogDerivedDataCache: Shutdown
+[2018.05.07-20.44.34:826][501]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.05.07-20.44.34:854][501]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.05.07-20.44.34:871][501]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.05.07-20.44.34:882][501]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.05.07-20.44.34:897][501]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.05.07-20.44.34:911][501]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.05.07-20.44.34:925][501]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.05.07-20.44.34:925][501]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.05.07-20.44.34:931][501]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.05.07-20.44.34:931][501]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.05.07-20.44.34:999][501]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.05.07-20.44.34:999][501]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.05.07-20.44.34:999][501]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.05.07-20.44.35:012][501]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.05.07-20.44.35:012][501]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.05.07-20.44.35:012][501]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.05.07-20.44.35:012][501]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.05.07-20.44.35:013][501]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.05.07-20.44.35:014][501]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.05.07-20.44.35:014][501]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.05.07-20.44.35:014][501]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.05.07-20.44.35:014][501]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.05.07-20.44.35:030][501]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.05.07-20.44.35:041][501]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.05.07-20.44.35:052][501]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.05.07-20.44.35:074][501]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.05.07-20.44.35:092][501]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.05.07-20.44.35:100][501]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.05.07-20.44.35:103][501]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.05.07-20.44.35:104][501]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.05.07-20.44.35:104][501]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.05.07-20.44.35:104][501]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.05.07-20.44.35:104][501]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.05.07-20.44.35:110][501]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.05.07-20.44.35:118][501]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.05.07-20.44.35:128][501]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.05.07-20.44.35:128][501]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.07-20.44.35:128][501]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.07-20.44.35:128][501]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.07-20.44.35:164][501]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.07-20.44.35:180][501]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.07-20.44.35:180][501]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.07-20.44.35:183][501]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3C4A8625-49A7-AAE4-7083-0E83CA635752%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.2-3794801%2B%2B%2BUE4%2BRelease-4.18&UserID=2fceb56d4a40ac257792998ca3b4fe96%7C494f2aed8aaa4653abca0652b0f5a05a%7Ce83211ac-8b44-4076-abaa-ade8133f85a6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.07-20.44.35:215][501]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.07-20.44.35:236][501]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.07-20.44.35:246][501]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.07-20.44.35:265][501]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.07-20.44.35:279][501]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.07-20.44.35:279][501]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.07-20.44.35:279][501]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.07-20.44.35:279][501]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.07-20.44.35:328][501]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.07-20.44.35:334][501]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.07-20.44.35:334][501]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.07-20.44.35:343][501]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.07-20.44.35:343][501]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.07-20.44.35:353][501]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.07-20.44.35:353][501]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.07-20.44.35:363][501]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.07-20.44.35:363][501]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.07-20.44.35:375][501]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.07-20.44.35:375][501]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.07-20.44.35:420][501]LogExit: Exiting.
+[2018.05.07-20.44.35:476][501]Log file closed, 05/07/18 20:44:35
