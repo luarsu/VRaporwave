@@ -1,4 +1,4 @@
-﻿Log file open, 05/09/18 17:53:50
+﻿Log file open, 05/09/18 19:56:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRaporwave
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1620177838) SRandInit(-1620177837).
+LogInit: Display: RandInit(506392752) SRandInit(506392752).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.237177
+LogStats: Stats thread started at 4.569743
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -190,750 +190,499 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
 LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Base directory: D:/UnrealEngine/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.09-16.54.02:227][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.09-16.54.02:227][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.09-16.54.02:247][  0]LogInit: Computer: GRANDPOPO
-[2018.05.09-16.54.02:247][  0]LogInit: User: kinop
-[2018.05.09-16.54.02:247][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.09-16.54.02:247][  0]LogInit: High frequency timer resolution =2.531253 MHz
-[2018.05.09-16.54.02:247][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.05.09-16.54.02:247][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.09-16.54.02:247][  0]LogMemory: Process Physical Memory: 280.37 MB used, 280.37 MB peak
-[2018.05.09-16.54.02:247][  0]LogMemory: Process Virtual Memory: 278.70 MB used, 278.70 MB peak
-[2018.05.09-16.54.02:247][  0]LogMemory: Physical Memory: 14052.13 MB used,  18651.72 MB free, 32703.86 MB total
-[2018.05.09-16.54.02:247][  0]LogMemory: Virtual Memory: 707.97 MB used,  18651.72 MB free, 134217728.00 MB total
-[2018.05.09-16.54.02:554][  0]LogInit: Using OS detected language (en-GB).
-[2018.05.09-16.54.02:554][  0]LogInit: Using OS detected locale (en-GB).
-[2018.05.09-16.54.02:565][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.05.09-16.54.03:107][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.09-16.54.03:496][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.09-16.54.03:555][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980M' (Feature Level 11_0)
-[2018.05.09-16.54.03:555][  0]LogD3D11RHI:       8152/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.09-16.54.03:556][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.09-16.54.03:556][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.09-16.54.03:557][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.09-16.54.03:566][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.09-16.54.03:566][  0]LogD3D11RHI:     GPU DeviceId: 0x1617 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.09-16.54.03:566][  0]LogWindows: EnumDisplayDevices:
-[2018.05.09-16.54.03:566][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980M' (P:1 D:1)
-[2018.05.09-16.54.03:566][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
-[2018.05.09-16.54.03:567][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
-[2018.05.09-16.54.03:567][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980M' (P:0 D:0)
-[2018.05.09-16.54.03:567][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.05.09-16.54.03:567][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980M
-[2018.05.09-16.54.03:567][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
-[2018.05.09-16.54.03:567][  0]LogD3D11RHI:      Driver Date: 8-1-2016
-[2018.05.09-16.54.03:567][  0]LogRHI: Texture pool is 5706 MB (70% of 8152 MB)
-[2018.05.09-16.54.03:601][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.09-16.54.03:619][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.09-16.54.03:668][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/5676/).
-[2018.05.09-16.54.03:668][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kinop/AppData/Local/Temp/UnrealShaderWorkingDir/B23065B74A83D825211BBCB5EE2455DA/'.
-[2018.05.09-16.54.03:668][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.09-16.54.05:208][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.09-16.54.05:294][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.09-16.54.05:383][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.09-16.54.05:475][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.09-16.54.05:567][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.09-16.54.05:649][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.09-16.54.05:734][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.09-16.54.05:821][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.09-16.54.05:894][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.09-16.54.05:985][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.09-16.54.06:077][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.09-16.54.06:159][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.09-16.54.06:240][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.09-16.54.06:327][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.09-16.54.06:495][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.09-16.54.06:495][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.09-16.54.06:584][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.09-16.54.06:658][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.09-16.54.06:793][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.09-16.54.06:837][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.09-16.54.06:933][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.09-16.54.07:018][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.09-16.54.07:098][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.09-16.54.07:180][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.09-16.54.07:180][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.09-16.54.08:465][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.09-16.54.08:561][  0]LogDerivedDataCache: Loaded boot cache 0.09s 79MB C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.09-16.54.08:561][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.09-16.54.08:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.09-16.54.08:562][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.09-16.54.08:562][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.09-16.54.08:562][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.09-16.54.08:588][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.09-16.54.08:602][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kinop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.09-16.54.08:616][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.09-16.54.08:616][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.09-16.54.08:617][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.09-16.54.08:617][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.09-16.54.09:326][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.09-16.54.10:213][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.09-16.54.10:314][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.09-16.54.10:314][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.09-16.54.10:314][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.09-16.54.10:314][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.09-16.54.10:314][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.09-16.54.10:620][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
-[2018.05.09-16.54.11:141][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
-[2018.05.09-16.54.13:319][  0]LogFileManager: Warning: DeleteFile was unable to delete 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
-[2018.05.09-16.54.13:319][  0]LogFileManager: Warning: DeleteFile recovered during retry!
-[2018.05.09-16.54.13:319][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.174179 seconds
-[2018.05.09-16.54.13:328][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.09-16.54.13:328][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.09-16.54.13:328][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.09-16.54.13:435][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.09-16.54.21:188][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.09-16.54.21:423][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.09-16.54.24:321][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.09-16.54.25:704][  0]SourceControl: Source control is disabled
-[2018.05.09-16.54.30:376][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.09-16.54.31:532][  0]LogOcInput: OculusInput pre-init called
-[2018.05.09-16.54.32:380][  0]LogEngine: Initializing Engine...
-[2018.05.09-16.54.32:384][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2018.05.09-16.54.32:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.09-16.54.32:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.09-16.54.32:959][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.09-16.54.32:994][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.09-16.54.33:013][  0]LogInit: FAudioDevice initialized.
-[2018.05.09-16.54.33:076][  0]LogDerivedDataCache: Saved boot cache 0.06s 79MB C:/Users/kinop/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.09-16.54.33:086][  0]LogInit: Texture streaming: Enabled
-[2018.05.09-16.54.33:226][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.09-16.54.33:432][  0]LogInit: Transaction tracking system initialized
-[2018.05.09-16.54.34:147][  0]BlueprintLog: New page: Editor Load
-[2018.05.09-16.54.35:613][  0]LocalizationService: Localization service is disabled
-[2018.05.09-16.54.37:192][  0]LogConsoleResponse: Display: 
-[2018.05.09-16.54.38:306][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.09-16.54.38:306][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.09-16.54.38:306][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.09-16.54.38:852][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/' took 0.29s
-[2018.05.09-16.54.45:598][  0]Cmd: MAP LOAD FILE="D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.09-16.54.45:599][  0]LightingResults: New page: Lighting Build
-[2018.05.09-16.54.45:677][  0]MapCheck: New page: Map Check
-[2018.05.09-16.54.45:677][  0]LightingResults: New page: Lighting Build
-[2018.05.09-16.54.45:772][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
-[2018.05.09-16.54.45:772][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
-[2018.05.09-16.54.45:772][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
-[2018.05.09-16.54.45:772][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
-[2018.05.09-16.54.45:772][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
-[2018.05.09-16.54.45:772][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
-[2018.05.09-16.54.50:191][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.09-16.54.50:191][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
-[2018.05.09-16.54.50:191][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.09-16.54.50:237][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.09-16.54.50:237][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
-[2018.05.09-16.54.50:237][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.09-16.54.50:246][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.09-16.54.50:246][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.05.09-16.54.50:246][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.09-16.54.50:246][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.09-16.54.50:246][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.05.09-16.54.50:246][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.09-16.54.50:247][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.09-16.54.50:247][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
-[2018.05.09-16.54.50:247][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.05.09-16.54.50:247][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
-[2018.05.09-16.54.50:247][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.09-16.54.54:897][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
-[2018.05.09-16.54.54:897][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
-[2018.05.09-16.54.54:897][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading NULL.
-[2018.05.09-16.54.54:897][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
-[2018.05.09-16.54.57:506][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.05.09-16.54.57:617][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.09-16.54.57:655][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.09-16.54.57:868][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 212.812ms to complete.
-[2018.05.09-16.54.57:868][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 12.270
-[2018.05.09-16.54.58:175][  0]LogCollectionManager: Loaded 0 collections in 0.022200 seconds
-[2018.05.09-16.54.58:466][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Collections/' took 0.02s
-[2018.05.09-16.54.58:466][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Developers/kinop/Collections/' took 0.00s
-[2018.05.09-16.54.58:466][  0]LogFileCache: Scanning file cache for directory 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Collections/' took 0.10s
-[2018.05.09-16.54.58:466][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.09-16.54.58:477][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2363 classes and 519 folders.
-[2018.05.09-16.54.58:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.09-16.54.59:180][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.09-16.54.59:254][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.09-16.54.59:470][  0]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.09-16.54.59:473][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.09-16.54.59:480][  0]LogSlate: Took 0.000999 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.09-16.54.59:672][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
-[2018.05.09-16.55.00:043][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2018.05.09-16.55.00:043][  0]LogLoad: (Engine Initialization) Total time: 79.21 seconds
-[2018.05.09-16.55.00:043][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.09-16.55.00:043][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.05.09-16.55.00:043][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.05.09-16.55.00:404][  0]LogOcInput: OculusInput is initialized
-[2018.05.09-16.55.00:435][  0]SourceControl: On branch master
-[2018.05.09-16.55.00:435][  0]SourceControl: Your branch is ahead of 'origin/master' by 1 commit.
-[2018.05.09-16.55.00:435][  0]SourceControl:   (use "git push" to publish your local commits)
-[2018.05.09-16.55.00:435][  0]SourceControl: Changes not staged for commit:
-[2018.05.09-16.55.00:435][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
-[2018.05.09-16.55.00:435][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.05.09-16.55.00:435][  0]SourceControl: 	modified:   VRaporwave/Intermediate/CachedAssetRegistry.bin
-[2018.05.09-16.55.00:435][  0]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/Engine.ini
-[2018.05.09-16.55.00:435][  0]SourceControl: 	deleted:    VRaporwave/Saved/Logs/VRaporwave-backup-2018.05.04-17.38.03.log
-[2018.05.09-16.55.00:435][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
-[2018.05.09-16.55.00:435][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.09-16.55.00:542][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.09-16.55.01:064][  2]LogAssetRegistry: Asset discovery search completed in 49.9457 seconds
-[2018.05.09-16.55.01:068][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.09-16.55.01:068][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
-[2018.05.09-16.55.17:676][210]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.05.09-16.55.17:676][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.09-16.55.17:676][210]LogHMD: Initializing OVRPlugin session
-[2018.05.09-16.55.17:968][210]PIE: New page: PIE session: MotionControllerMap (9 May 2018 18:55:17)
-[2018.05.09-16.55.17:968][210]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
-[2018.05.09-16.55.18:082][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113793s)
-[2018.05.09-16.55.18:083][210]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.05.09-16.55.18:084][210]LogPlayLevel: PIE: World Init took: (0.001002s)
-[2018.05.09-16.55.18:084][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.115471s)
-[2018.05.09-16.55.18:127][210]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.09-16.55.18:141][210]LogInit: FAudioDevice initialized.
-[2018.05.09-16.55.18:257][210]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.05.09-16.55.18:304][210]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.05.09-16.55.18:304][210]LogLoad: Game class is 'GameModeBase'
-[2018.05.09-16.55.18:319][210]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-17.55.18
-[2018.05.09-16.55.18:322][210]LogWorld: Bringing up level for play took: 0.015717
-[2018.05.09-16.55.18:393][210]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.05.09-16.55.18:417][210]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.024
-[2018.05.09-16.55.18:418][210]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.05.09-16.55.18:425][210]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.05.09-16.55.18:425][210]LogHMD: Allocating Oculus 1920 x 1080 depth rendertarget swapchain
-[2018.05.09-16.55.18:586][210]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
-[2018.05.09-16.55.18:586][210]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.05.09-16.55.23:741][268]LogScript: Warning: Accessed None trying to read property awns-mach
+[2018.05.09-18.56.14:837][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.09-18.56.14:837][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.09-18.56.14:942][  0]LogInit: Computer: DESKTOP-O4T3RME
+[2018.05.09-18.56.14:942][  0]LogInit: User: Luis
+[2018.05.09-18.56.14:942][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.09-18.56.14:942][  0]LogInit: High frequency timer resolution =3.914063 MHz
+[2018.05.09-18.56.14:967][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.09-18.56.14:967][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.09-18.56.14:967][  0]LogMemory: Process Physical Memory: 282.14 MB used, 282.14 MB peak
+[2018.05.09-18.56.14:967][  0]LogMemory: Process Virtual Memory: 278.47 MB used, 278.47 MB peak
+[2018.05.09-18.56.14:967][  0]LogMemory: Physical Memory: 4598.49 MB used,  11724.44 MB free, 16322.93 MB total
+[2018.05.09-18.56.14:967][  0]LogMemory: Virtual Memory: 739.83 MB used,  11724.44 MB free, 134217728.00 MB total
+[2018.05.09-18.56.15:882][  0]LogInit: Using OS detected language (en-GB).
+[2018.05.09-18.56.15:882][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.09-18.56.16:028][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.05.09-18.56.16:606][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.09-18.56.18:661][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.09-18.56.18:702][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.05.09-18.56.18:702][  0]LogD3D11RHI:       8079/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.05.09-18.56.18:704][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.09-18.56.18:704][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.09-18.56.18:704][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.09-18.56.18:730][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.09-18.56.18:731][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.09-18.56.18:731][  0]LogWindows: EnumDisplayDevices:
+[2018.05.09-18.56.18:731][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.05.09-18.56.18:736][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.05.09-18.56.18:736][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.09-18.56.18:736][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.05.09-18.56.18:736][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.09-18.56.18:736][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.05.09-18.56.18:736][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.09-18.56.18:736][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.09-18.56.18:736][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.05.09-18.56.18:760][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.09-18.56.19:041][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.09-18.56.19:165][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../Luis/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/14768/).
+[2018.05.09-18.56.19:165][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Luis/AppData/Local/Temp/UnrealShaderWorkingDir/1A60291D4F6931C00D36E1B94AD403B0/'.
+[2018.05.09-18.56.19:176][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.09-18.56.21:600][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.09-18.56.21:631][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.09-18.56.21:660][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.09-18.56.21:690][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.09-18.56.21:741][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.09-18.56.21:771][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.09-18.56.21:800][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.09-18.56.21:829][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.09-18.56.21:861][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.09-18.56.21:889][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.09-18.56.21:917][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.09-18.56.21:945][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.09-18.56.21:973][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.09-18.56.22:000][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.09-18.56.22:056][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.09-18.56.22:056][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.09-18.56.22:098][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.09-18.56.22:118][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.09-18.56.22:217][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.09-18.56.22:242][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.09-18.56.22:270][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.09-18.56.22:298][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.09-18.56.22:327][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.09-18.56.22:365][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.09-18.56.22:365][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.09-18.56.23:132][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.09-18.56.23:374][  0]LogDerivedDataCache: Loaded boot cache 0.24s 79MB C:/Users/Luis/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.09-18.56.23:374][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Luis/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.09-18.56.23:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Luis/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.09-18.56.23:374][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.09-18.56.23:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Luis/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.09-18.56.23:374][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.09-18.56.23:419][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.09-18.56.23:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Luis/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.09-18.56.23:504][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.09-18.56.23:559][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.09-18.56.23:627][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.09-18.56.23:627][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.09-18.56.28:981][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.09-18.56.30:460][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.09-18.56.30:516][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.09-18.56.30:527][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.09-18.56.30:535][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.09-18.56.30:535][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.09-18.56.30:535][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.09-18.56.31:090][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
+[2018.05.09-18.56.32:321][  0]LogAssetRegistry: FAssetRegistry took 0.0376 seconds to start up
+[2018.05.09-18.56.36:975][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.072011 seconds
+[2018.05.09-18.56.36:991][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.09-18.56.36:991][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.09-18.56.36:991][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.09-18.56.37:035][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.09-18.56.48:522][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.09-18.56.48:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.09-18.56.50:587][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.09-18.56.51:368][  0]SourceControl: Source control is disabled
+[2018.05.09-18.56.53:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.09-18.56.54:199][  0]LogOcInput: OculusInput pre-init called
+[2018.05.09-18.56.55:337][  0]LogEngine: Initializing Engine...
+[2018.05.09-18.56.55:547][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.05.09-18.56.56:055][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.09-18.56.56:058][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2018.05.09-18.56.57:304][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.09-18.56.57:842][  0]LogInit: XAudio2 using 'Optoma 1080P (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-18.56.57:873][  0]LogInit: FAudioDevice initialized.
+[2018.05.09-18.56.58:058][  0]LogDerivedDataCache: Saved boot cache 0.06s 79MB C:/Users/Luis/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.09-18.56.58:067][  0]LogInit: Texture streaming: Enabled
+[2018.05.09-18.56.59:229][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.09-18.57.00:776][  0]LogInit: Transaction tracking system initialized
+[2018.05.09-18.57.01:669][  0]BlueprintLog: New page: Editor Load
+[2018.05.09-18.57.04:661][  0]LocalizationService: Localization service is disabled
+[2018.05.09-18.57.06:408][  0]LogConsoleResponse: Display: 
+[2018.05.09-18.57.08:174][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Content/' took 0.08s
+[2018.05.09-18.57.08:174][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.09-18.57.08:175][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.09-18.57.08:181][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.09-18.57.10:650][  0]Cmd: MAP LOAD FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.09-18.57.10:652][  0]LightingResults: New page: Lighting Build
+[2018.05.09-18.57.10:801][  0]MapCheck: New page: Map Check
+[2018.05.09-18.57.10:801][  0]LightingResults: New page: Lighting Build
+[2018.05.09-18.57.11:274][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.11:274][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal.uasset.
+[2018.05.09-18.57.11:280][  0]LoadErrors: Error: /Game/PortalsBP/Portal : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.11:280][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.05.09-18.57.11:280][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
+[2018.05.09-18.57.11:281][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
+[2018.05.09-18.57.11:281][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.05.09-18.57.11:281][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
+[2018.05.09-18.57.11:281][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
+[2018.05.09-18.57.11:282][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.11:282][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal.uasset.
+[2018.05.09-18.57.11:282][  0]LoadErrors: Error: /Game/PortalsBP/Portal : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.11:282][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.11:282][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset.
+[2018.05.09-18.57.11:282][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.11:282][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.11:282][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset.
+[2018.05.09-18.57.11:282][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.11:294][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.11:294][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by PortalMesh_GEN_VARIABLE
+[2018.05.09-18.57.11:294][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset.
+[2018.05.09-18.57.11:294][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by PortalMesh_GEN_VARIABLE
+[2018.05.09-18.57.11:294][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:438][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:438][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal2.uasset.
+[2018.05.09-18.57.12:438][  0]LoadErrors: Error: /Game/PortalsBP/Portal2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:438][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:439][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal2.uasset.
+[2018.05.09-18.57.12:439][  0]LoadErrors: Error: /Game/PortalsBP/Portal2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:439][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:439][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.09-18.57.12:439][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:439][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:439][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.09-18.57.12:439][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:440][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:440][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by PortalMesh_GEN_VARIABLE
+[2018.05.09-18.57.12:440][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.09-18.57.12:440][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by PortalMesh_GEN_VARIABLE
+[2018.05.09-18.57.12:440][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:855][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:856][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Plane_GEN_VARIABLE
+[2018.05.09-18.57.12:856][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHSTape.uasset.
+[2018.05.09-18.57.12:856][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Plane_GEN_VARIABLE
+[2018.05.09-18.57.12:856][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/VHSTape : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.12:856][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.12:856][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by StaticMesh_GEN_VARIABLE
+[2018.05.09-18.57.12:856][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHSTape.uasset.
+[2018.05.09-18.57.12:856][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by StaticMesh_GEN_VARIABLE
+[2018.05.09-18.57.12:856][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/VHSTape : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:174][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:174][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.09-18.57.13:174][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:174][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:174][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.09-18.57.13:174][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:194][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:194][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Yes_GEN_VARIABLE
+[2018.05.09-18.57.13:194][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.09-18.57.13:194][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Yes_GEN_VARIABLE
+[2018.05.09-18.57.13:194][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:237][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:237][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.09-18.57.13:237][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:238][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:238][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.09-18.57.13:238][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:304][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:304][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHSTape.uasset.
+[2018.05.09-18.57.13:304][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/VHSTape : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:304][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:304][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHSTape.uasset.
+[2018.05.09-18.57.13:304][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/VHSTape : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:529][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:529][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset.
+[2018.05.09-18.57.13:529][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/VHS : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:531][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.09-18.57.13:531][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset.
+[2018.05.09-18.57.13:531][  0]LoadErrors: Error: /Game/FirstPersonBP/Blueprints/VHS : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.09-18.57.13:533][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.09-18.57.13:533][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.05.09-18.57.13:533][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.09-18.57.13:558][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.09-18.57.13:558][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.05.09-18.57.13:558][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.09-18.57.13:559][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.09-18.57.13:559][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.09-18.57.13:559][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.09-18.57.13:559][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.09-18.57.13:559][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.09-18.57.13:559][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.09-18.57.13:559][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.09-18.57.13:559][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.05.09-18.57.13:559][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.09-18.57.13:559][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.05.09-18.57.13:559][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.09-18.57.16:587][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.05.09-18.57.16:587][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2018.05.09-18.57.16:587][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading NULL.
+[2018.05.09-18.57.16:587][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2018.05.09-18.57.17:655][  0]LogTexture: Display: Building textures: wallpaper005-01 (AutoDXT, 4000X4000)
+[2018.05.09-18.57.17:655][  0]LogTexture: Display: Building textures: fan_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 1024X1024)
+[2018.05.09-18.57.17:655][  0]LogTexture: Display: Building textures: fan_initialShadingGroup_Normal (BC5, 1024X1024)
+[2018.05.09-18.57.17:655][  0]LogTexture: Display: Building textures: fan_initialShadingGroup_BaseColor (AutoDXT, 1024X1024)
+[2018.05.09-18.57.17:655][  0]LogTexture: Display: Building textures: BottlwImage_1 (AutoDXT, 2048X2048)
+[2018.05.09-18.57.17:804][  0]LogStaticMesh: Building static mesh plane02...
+[2018.05.09-18.57.17:852][  0]LogTexture: Display: Building textures: Wallpaper (AutoDXT, 1024X1024)
+[2018.05.09-18.57.17:852][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/lateAdition/plane02.plane02
+[2018.05.09-18.57.17:960][  0]LogTexture: Display: Building textures: Normal (BC5, 512X512)
+[2018.05.09-18.57.17:960][  0]LogTexture: Display: Building textures: a03a1205a872d6b2c936c8ffba133210 (AutoDXT, 1280X720)
+[2018.05.09-18.57.17:960][  0]LogTexture: Display: Building textures: Ambient_Occlusion (AutoDXT, 512X512)
+[2018.05.09-18.57.17:961][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/fromPablo/jellyFish/JellyFishANIM_Anim.JellyFishANIM_Anim
+[2018.05.09-18.57.17:967][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Assets/fromPablo/jellyFish/JellyFishANIM_Anim.JellyFishANIM_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.09-18.57.18:174][  0]LogTexture: Display: Building textures: images__1_ (BGRA8, 275X183)
+[2018.05.09-18.57.18:174][  0]LogTexture: Display: Building textures: 3c83004e03b55fba68b3abc540b5e22e (BC5, 512X512)
+[2018.05.09-18.57.18:398][  0]LogTexture: Display: Building textures: 7jj (BC5, 2048X2048)
+[2018.05.09-18.57.18:398][  0]LogStaticMesh: Building static mesh aquarium_pasted__pCube2_group...
+[2018.05.09-18.57.18:435][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/fromPablo/aquarium_pasted__pCube2_group.aquarium_pasted__pCube2_group
+[2018.05.09-18.57.18:437][  0]LogStaticMesh: Building static mesh aquarium_pCube1...
+[2018.05.09-18.57.18:441][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/fromPablo/aquarium_pCube1.aquarium_pCube1
+[2018.05.09-18.57.18:442][  0]LogStaticMesh: Building static mesh aquarium_pCube2...
+[2018.05.09-18.57.18:460][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/fromPablo/aquarium_pCube2.aquarium_pCube2
+[2018.05.09-18.57.18:730][  0]LogTexture: Display: Building textures: leopardSkinRGB (AutoDXT, 3620X3620)
+[2018.05.09-18.57.18:730][  0]LogStaticMesh: Building static mesh fan_pCylinder1...
+[2018.05.09-18.57.18:742][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/lateAdition/fan_pCylinder1.fan_pCylinder1
+[2018.05.09-18.57.18:743][  0]LogStaticMesh: Building static mesh fan_polySurface6...
+[2018.05.09-18.57.18:768][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/lateAdition/fan_polySurface6.fan_polySurface6
+[2018.05.09-18.57.18:815][  0]LogStaticMesh: Building static mesh CurtainLP_polySurface228...
+[2018.05.09-18.57.18:816][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Toby/CurtainLP_polySurface228.CurtainLP_polySurface228
+[2018.05.09-18.57.18:817][  0]LogStaticMesh: Building static mesh CurtainLP_polySurface227...
+[2018.05.09-18.57.18:819][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Toby/CurtainLP_polySurface227.CurtainLP_polySurface227
+[2018.05.09-18.57.18:998][  0]LogTexture: Display: Building textures: leopardSkinGradeint (AutoDXT, 3620X3620)
+[2018.05.09-18.57.18:998][  0]LogStaticMesh: Building static mesh House_2_storey...
+[2018.05.09-18.57.19:005][  0]LogStaticMesh: Built static mesh [0.01s] /Game/internet_import/House_2_storey.House_2_storey
+[2018.05.09-18.57.19:426][  0]LogTexture: Display: Building textures: wallpaper006-01 (AutoDXT, 4000X4000)
+[2018.05.09-18.57.19:426][  0]LogStaticMesh: Building static mesh Soda_Bottle...
+[2018.05.09-18.57.19:430][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/from_gaby/Soda_Bottle.Soda_Bottle
+[2018.05.09-18.57.20:222][  0]LogTexture: Display: Building textures: WallpaperNormal (BC5, 4096X4096)
+[2018.05.09-18.57.20:222][  0]LogTexture: Display: Building textures: JellyFishLOWPoly_UV_initialShadingGroup_Normal (BC5, 2048X2048)
+[2018.05.09-18.57.20:222][  0]LogTexture: Display: Building textures: JellyFishLOWPoly_UV_initialShadingGroup_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2018.05.09-18.57.20:222][  0]LogMaterial: Missing cached shader map for material blackRubber_SHD, compiling. 
+[2018.05.09-18.57.20:564][  0]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2018.05.09-18.57.20:682][  0]LogMaterial: Missing cached shader map for material plastBlack_SHD, compiling. 
+[2018.05.09-18.57.21:206][  0]LogTexture: Display: Building textures: JellyFishLOWPoly_UV_initialShadingGroup_Emissive (AutoDXT, 2048X2048)
+[2018.05.09-18.57.21:219][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave HughElliotMessage02...
+[2018.05.09-18.57.23:298][  0]LogTexture: Display: Building textures: JellyFishLOWPoly_UV_initialShadingGroup_BaseColor (AutoDXT, 2048X2048)
+[2018.05.09-18.57.23:299][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave harrietReactionElliot03...
+[2018.05.09-18.57.23:765][  0]LogMaterial: Missing cached shader map for material hole_SHD, compiling. 
+[2018.05.09-18.57.23:812][  0]LogMaterial: Missing cached shader map for material silver_SHD, compiling. 
+[2018.05.09-18.57.24:183][  0]LogMaterial: Missing cached shader map for material fan_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.05.09-18.57.24:998][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave clicButton...
+[2018.05.09-18.57.25:127][  0]LogMaterial: Missing cached shader map for material BottlwImage_1_Mat, compiling. 
+[2018.05.09-18.57.25:295][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Assets/lateAdition/DanceAnimationFinal_Anim.DanceAnimationFinal_Anim
+[2018.05.09-18.57.25:295][  0]LogAnimationCompression: Recompressing (AnimSequence /Game/Assets/lateAdition/DanceAnimationFinal_Anim.DanceAnimationFinal_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.09-18.57.25:318][  0]LogMaterial: Missing cached shader map for material coffeeTable_Glass_SHD, compiling. 
+[2018.05.09-18.57.25:592][  0]LogMaterial: Missing cached shader map for material Curtain, compiling. 
+[2018.05.09-18.57.25:788][  0]LogMaterial: Missing cached shader map for material SUn, compiling. 
+[2018.05.09-18.57.25:848][  0]LogMaterial: Missing cached shader map for material sea, compiling. 
+[2018.05.09-18.57.26:053][  0]LogMaterial: Missing cached shader map for material columns, compiling. 
+[2018.05.09-18.57.26:287][  0]LogMaterial: Missing cached shader map for material White, compiling. 
+[2018.05.09-18.57.26:329][  0]LogMaterial: Missing cached shader map for material WallpaperMat, compiling. 
+[2018.05.09-18.57.26:488][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave fridge...
+[2018.05.09-18.57.26:656][  0]LogMaterial: Missing cached shader map for material JellyFishLOWPoly_UV_initialShadingGroup_BaseColor_Mat, compiling. 
+[2018.05.09-18.57.26:990][  0]LogMaterial: Missing cached shader map for material TVStand, compiling. 
+[2018.05.09-18.57.27:131][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-18.57.28:725][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.09-18.57.29:044][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.09-18.57.29:180][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 125.419ms to complete.
+[2018.05.09-18.57.29:180][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 18.547
+[2018.05.09-18.57.30:923][  0]LogCollectionManager: Loaded 0 collections in 0.001191 seconds
+[2018.05.09-18.57.31:085][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
+[2018.05.09-18.57.31:085][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Content/Developers/Luis/Collections/' took 0.01s
+[2018.05.09-18.57.31:085][  0]LogFileCache: Scanning file cache for directory 'D:/Luis/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
+[2018.05.09-18.57.31:085][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.09-18.57.31:121][  0]LogContentBrowser: Native class hierarchy populated in 0.0260 seconds. Added 2363 classes and 519 folders.
+[2018.05.09-18.57.31:282][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.05.09-18.57.32:303][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.09-18.57.32:379][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.09-18.57.32:857][  0]LogSlate: Took 0.009541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.09-18.57.32:868][  0]LogSlate: Took 0.004596 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.09-18.57.32:923][  0]LogSlate: Took 0.009808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.09-18.57.33:417][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.05.09-18.57.34:006][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.09-18.57.34:006][  0]LogLoad: (Engine Initialization) Total time: 100.05 seconds
+[2018.05.09-18.57.34:006][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.09-18.57.34:014][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.09-18.57.34:014][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.09-18.57.34:063][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.09-18.57.34:069][  0]LogOcInput: OculusInput is initialized
+[2018.05.09-18.57.34:265][  0]SourceControl: On branch master
+[2018.05.09-18.57.34:265][  0]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2018.05.09-18.57.34:265][  0]SourceControl: Changes not staged for commit:
+[2018.05.09-18.57.34:265][  0]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2018.05.09-18.57.34:265][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.05.09-18.57.34:265][  0]SourceControl: 	modified:   VRaporwave/Intermediate/CachedAssetRegistry.bin
+[2018.05.09-18.57.34:265][  0]SourceControl: 	modified:   VRaporwave/Saved/Config/Windows/Engine.ini
+[2018.05.09-18.57.34:265][  0]SourceControl: 	modified:   VRaporwave/Saved/Logs/VRaporwave.log
+[2018.05.09-18.57.34:265][  0]SourceControl: Untracked files:
+[2018.05.09-18.57.34:265][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2018.05.09-18.57.34:265][  0]SourceControl: 	VRaporwave/Saved/Config/CrashReportClient/UE4CC-Windows-260229364D2FE41B3F8488BDE276FC30/
+[2018.05.09-18.57.34:265][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2018.05.09-18.57.34:279][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.09-18.57.34:534][  0]LogSlate: Took 0.009431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.09-18.57.34:791][  2]LogAssetRegistry: Asset discovery search completed in 62.4937 seconds
+[2018.05.09-18.57.34:804][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.09-18.57.34:804][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.05.09-18.58.53:795][537]LogSlate: Took 0.036439 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.05.09-18.58.54:887][654]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.09-18.58.54:933][654]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.05.09-18.58.55:161][654]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2018.05.09-18.58.56:228][754]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
+[2018.05.09-18.58.57:356][852]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
+[2018.05.09-18.59.24:757][446]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../Luis/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
+[2018.05.09-18.59.24:912][446]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../Luis/VRaporwave/Videos/ＣＯＯＬ ＫＩＤＳ １９９６.mp4)
+[2018.05.09-18.59.25:073][446]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../Luis/VRaporwave/Videos/ｄｉｆｆｅｒｅｎｔ.mp4)
+[2018.05.09-18.59.25:219][446]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../Luis/VRaporwave/Videos/f o r g e t.mp4)
+[2018.05.09-18.59.25:337][446]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../Luis/VRaporwave/Videos/MACINTOSH PLUS - リサフランク420  現代のコンピュー.mp4)
+[2018.05.09-18.59.33:840][277]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-18.59.33:986][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-18.59.33:986][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-18.59.33:987][277]LogHMD: Initializing OVRPlugin session
+[2018.05.09-18.59.34:134][277]PIE: New page: PIE session: MotionControllerMap (9 May 2018 20:59:34)
+[2018.05.09-18.59.34:144][277]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-18.59.34:210][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065986s)
+[2018.05.09-18.59.34:210][277]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-18.59.34:211][277]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2018.05.09-18.59.34:219][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.075430s)
+[2018.05.09-18.59.34:287][277]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-18.59.34:297][277]LogInit: FAudioDevice initialized.
+[2018.05.09-18.59.34:431][277]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-18.59.34:506][277]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-18.59.34:506][277]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-18.59.34:572][277]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-19.59.34
+[2018.05.09-18.59.34:614][277]LogWorld: Bringing up level for play took: 0.068559
+[2018.05.09-18.59.34:731][277]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.05.09-18.59.34:858][277]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.782
+[2018.05.09-18.59.34:863][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-18.59.34:938][277]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-18.59.34:938][277]LogHMD: Allocating Oculus 1920 x 1080 depth rendertarget swapchain
+[2018.05.09-18.59.35:043][277]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.09-18.59.35:043][277]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-18.59.40:173][583]LogScript: Warning: Accessed None trying to read property awns-mach
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:04CB
-[2018.05.09-16.55.23:741][268]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property awns-mach from function: 'PlayDialogue' from node: Interacted Objacts in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property awns-mach
-[2018.05.09-16.57.33:753][454]LogScript: Warning: Attempted to access AudioComponent_4 via property AudioManagerMusic, but AudioComponent_4 is pending kill
+[2018.05.09-18.59.40:173][583]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property awns-mach from function: 'PlayDialogue' from node: Interacted Objacts in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property awns-mach
+[2018.05.09-19.00.40:164][400]LogScript: Warning: Attempted to access AudioComponent_22 via property AudioManagerMusic, but AudioComponent_22 is pending kill
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
-[2018.05.09-16.57.33:753][454]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_4 via property AudioManagerMusic, but AudioComponent_4 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_4 via property AudioManagerMusic, but AudioComponent_4 is pending kill
-[2018.05.09-16.57.33:753][454]LogScript: Warning: Attempted to access AudioComponent_4 via property AudioManagerMusic, but AudioComponent_4 is pending kill
+[2018.05.09-19.00.40:164][400]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_22 via property AudioManagerMusic, but AudioComponent_22 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_22 via property AudioManagerMusic, but AudioComponent_22 is pending kill
+[2018.05.09-19.00.40:164][400]LogScript: Warning: Attempted to access AudioComponent_22 via property AudioManagerMusic, but AudioComponent_22 is pending kill
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0399
-[2018.05.09-16.57.33:753][454]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_4 via property AudioManagerMusic, but AudioComponent_4 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_4 via property AudioManagerMusic, but AudioComponent_4 is pending kill
-[2018.05.09-16.58.07:467][991]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:532][992]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:611][993]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:671][994]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:738][995]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:823][996]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:884][997]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.07:964][998]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:030][999]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:115][  0]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:196][  1]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:261][  2]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:324][  3]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:405][  4]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:473][  5]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:541][  6]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:628][  7]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:689][  8]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:767][  9]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:833][ 10]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:918][ 11]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.08:999][ 12]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:064][ 13]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:130][ 14]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:195][ 15]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:259][ 16]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:339][ 17]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:401][ 18]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:485][ 19]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:550][ 20]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:614][ 21]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:696][ 22]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:754][ 23]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:835][ 24]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:898][ 25]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.09:965][ 26]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:045][ 27]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:107][ 28]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:185][ 29]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:245][ 30]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:308][ 31]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:396][ 32]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:453][ 33]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:519][ 34]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:586][ 35]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:669][ 36]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:730][ 37]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:811][ 38]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:878][ 39]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.10:942][ 40]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:009][ 41]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:074][ 42]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:160][ 43]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:228][ 44]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:291][ 45]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:370][ 46]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:437][ 47]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:504][ 48]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:569][ 49]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:651][ 50]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:717][ 51]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:776][ 52]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:859][ 53]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:915][ 54]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.11:985][ 55]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.12:065][ 56]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.12:147][ 57]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.12:206][ 58]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.12:265][ 59]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.12:344][ 60]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.12:411][ 61]LogMediaAssets: Error: Failed to validate media source f_o_r_g_e_t (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/f o r g e t.mp4)
-[2018.05.09-16.58.13:744][ 80]LogScript: Warning: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
+[2018.05.09-19.00.40:165][400]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_22 via property AudioManagerMusic, but AudioComponent_22 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_22 via property AudioManagerMusic, but AudioComponent_22 is pending kill
+[2018.05.09-19.00.40:165][400]LogScript: Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [allsc],
+[2018.05.09-19.00.50:158][218]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
-[2018.05.09-16.58.13:744][ 80]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
-[2018.05.09-16.58.13:744][ 80]LogScript: Warning: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0399
-[2018.05.09-16.58.13:744][ 80]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
-[2018.05.09-16.58.47:098][547]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:161][548]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:219][549]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:283][550]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:347][551]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:430][552]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:490][553]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:568][554]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:627][555]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:712][556]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:775][557]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:857][558]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.47:918][559]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:001][560]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:066][561]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:127][562]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:190][563]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:272][564]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:350][565]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:409][566]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:476][567]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:539][568]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:625][569]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:687][570]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:767][571]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:827][572]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:912][573]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.48:978][574]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:043][575]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:107][576]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:189][577]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:253][578]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:314][579]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:383][580]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:467][581]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:532][582]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:613][583]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:671][584]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:739][585]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:807][586]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:873][587]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.49:940][588]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:026][589]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:085][590]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:168][591]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:228][592]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:295][593]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:381][594]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:442][595]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:506][596]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:584][597]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:650][598]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:720][599]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:803][600]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:867][601]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.50:950][602]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:008][603]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:066][604]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:147][605]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:217][606]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:286][607]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:350][608]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:432][609]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:491][610]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:553][611]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:634][612]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:700][613]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:766][614]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:833][615]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:899][616]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.51:983][617]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.52:047][618]LogMediaAssets: Error: Failed to validate media source Boy__Bear__Pogo (file://D:/Documentos/Unreal Projects/VRaporwave/Videos/Boy  Bear  Pogo.mp4)
-[2018.05.09-16.58.53:739][642]LogScript: Warning: Attempted to access AudioComponent_7 via property AudioManagerMusic, but AudioComponent_7 is pending kill
+[2018.05.09-19.00.50:158][218]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.01.00:162][921]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
-[2018.05.09-16.58.53:739][642]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_7 via property AudioManagerMusic, but AudioComponent_7 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_7 via property AudioManagerMusic, but AudioComponent_7 is pending kill
-[2018.05.09-16.58.53:739][642]LogScript: Warning: Attempted to access AudioComponent_7 via property AudioManagerMusic, but AudioComponent_7 is pending kill
+[2018.05.09-19.01.00:162][921]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.01.10:163][821]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0399
-[2018.05.09-16.58.53:739][642]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_7 via property AudioManagerMusic, but AudioComponent_7 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_7 via property AudioManagerMusic, but AudioComponent_7 is pending kill
-[2018.05.09-16.59.59:070][575]LogScript: Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [allsc],
-[2018.05.09-16.59.59:156][576]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.01.10:163][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.01.20:157][624]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:01F3
-[2018.05.09-16.59.59:156][576]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
-[2018.05.09-16.59.59:156][576]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0399
-[2018.05.09-16.59.59:156][576]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
-[2018.05.09-17.00.37:132][ 41]LogScript: Warning: Accessed None trying to read property AudioDialogues
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.01.20:157][624]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.01.25:802][878]LogScript: Warning: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:037C
-[2018.05.09-17.00.37:132][ 41]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioDialogues from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property AudioDialogues
-[2018.05.09-17.00.52:987][234]LogScript: Warning: Attempted to access AudioComponent_12 via property AudioDialogues, but AudioComponent_12 is pending kill
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:037C
-[2018.05.09-17.00.52:988][234]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_12 via property AudioDialogues, but AudioComponent_12 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_12 via property AudioDialogues, but AudioComponent_12 is pending kill
-[2018.05.09-17.03.43:562][415]LogScript: Warning: Attempted to access AudioComponent_13 via property AudioDialogues, but AudioComponent_13 is pending kill
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:037C
-[2018.05.09-17.03.43:563][415]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_13 via property AudioDialogues, but AudioComponent_13 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_13 via property AudioDialogues, but AudioComponent_13 is pending kill
-[2018.05.09-17.03.43:751][417]LogScript: Warning: Attempted to access AudioComponent_16 via property AudioManagerMusic, but AudioComponent_16 is pending kill
+[2018.05.09-19.01.25:802][878]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.01.30:154][122]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
-[2018.05.09-17.03.43:751][417]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_16 via property AudioManagerMusic, but AudioComponent_16 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_16 via property AudioManagerMusic, but AudioComponent_16 is pending kill
-[2018.05.09-17.03.43:751][417]LogScript: Warning: Attempted to access AudioComponent_16 via property AudioManagerMusic, but AudioComponent_16 is pending kill
-	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0399
-[2018.05.09-17.03.43:751][417]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_16 via property AudioManagerMusic, but AudioComponent_16 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_16 via property AudioManagerMusic, but AudioComponent_16 is pending kill
-[2018.05.09-17.05.54:880][688]LogScript: Warning: Attempted to access AudioComponent_18 via property AudioManagerMusic, but AudioComponent_18 is pending kill
+[2018.05.09-19.01.30:154][122]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.01.40:156][ 21]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
 	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
-[2018.05.09-17.05.54:880][688]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_18 via property AudioManagerMusic, but AudioComponent_18 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_18 via property AudioManagerMusic, but AudioComponent_18 is pending kill
-[2018.05.09-17.05.54:880][688]LogScript: Warning: Attempted to access AudioComponent_18 via property AudioManagerMusic, but AudioComponent_18 is pending kill
+[2018.05.09-19.01.40:156][ 21]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.01.50:158][921]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlaySong:0399
-[2018.05.09-17.05.54:880][688]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_18 via property AudioManagerMusic, but AudioComponent_18 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_18 via property AudioManagerMusic, but AudioComponent_18 is pending kill
-[2018.05.09-17.06.21:708][175]LogScript: Warning: Accessed None trying to read property AudioDialogues
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.01.50:158][921]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.02.00:157][821]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
 	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
-	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:PlayDialogue:037C
-[2018.05.09-17.06.21:708][175]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioDialogues from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property AudioDialogues
-[2018.05.09-17.08.24:913][844]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
-[2018.05.09-17.08.24:913][844]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
-[2018.05.09-17.08.24:913][844]LogScript: Warning: UGameplayStatics::SpawnSoundAttached: NULL AttachComponent specified! Trying to spawn sound [allsc],
-[2018.05.09-17.08.30:534][912]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioDialogues from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property AudioDialogues
-[2018.05.09-17.08.30:919][912]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
-	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
-	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:021F
-[2018.05.09-17.08.30:919][912]PIE: Error: Infinite Loop detected in  answeringMachineUV_Blueprint , asserted during  WhileLoop with the following  Call Stack
-[2018.05.09-17.08.30:924][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.05.09-17.08.31:150][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
-[2018.05.09-17.08.31:174][912]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
-[2018.05.09-17.08.31:174][912]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane_2.MediaSound.AudioComponent_1) Not currently registered. Aborting.
-[2018.05.09-17.08.31:174][912]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.Plane8_2.MediaSound.AudioComponent_2) Not currently registered. Aborting.
-[2018.05.09-17.11.09:095][589]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.09-17.11.10:319][589]LogSavePackage: Save=1145.06ms
-[2018.05.09-17.11.10:319][589]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMapF7FACEB24FA317B6E0C07DB5A5A942D4.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2018.05.09-17.11.10:339][589]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2018.05.09-17.11.10:411][589]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.09-17.11.11:762][589]LogSavePackage: Save=1104.17ms
-[2018.05.09-17.11.11:762][589]LogSavePackage: Moving 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltData47D0EBA14C2301AA39F0E1AE375E8D53.tmp' to 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
-[2018.05.09-17.11.11:770][589]LogSavePackage: Display: Finished SavePackage D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
-[2018.05.09-17.11.15:174][624]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository
-[2018.05.09-17.11.30:434][624]LogSourceControl: FGitCheckInWorker: commit successful
-[2018.05.09-17.11.30:636][624]SourceControl: [master 2f4358f] test semi working
-[2018.05.09-17.11.30:636][624]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
-[2018.05.09-17.11.30:692][624]SourceControl: Commited [master 2f4358f] test semi working.
-[2018.05.09-17.11.34:656][666]Cmd: QUIT_EDITOR
-[2018.05.09-17.11.35:319][666]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.09-17.11.35:339][666]LogExit: Preparing to exit.
-[2018.05.09-17.11.35:964][666]LogExit: Editor shut down
-[2018.05.09-17.11.35:969][666]LogExit: Transaction tracking system shut down
-[2018.05.09-17.11.36:189][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.09-17.11.36:190][666]LogDirectoryWatcher: A directory notification for 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/' was aborted.
-[2018.05.09-17.11.36:191][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.09-17.11.36:191][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.09-17.11.36:192][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.09-17.11.36:193][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.09-17.11.36:194][666]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.09-17.11.36:291][666]LogExit: Object subsystem successfully closed.
-[2018.05.09-17.11.36:320][666]LogD3D11RHI: Shutdown
-[2018.05.09-17.11.36:320][666]LogD3D11RHI: CleanupD3DDevice
-[2018.05.09-17.11.36:324][666]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.09-17.11.36:347][666]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2018.05.09-17.11.36:347][666]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.05.09-17.11.36:347][666]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.05.09-17.11.36:347][666]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.05.09-17.11.36:347][666]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.05.09-17.11.36:349][666]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.05.09-17.11.36:349][666]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.05.09-17.11.36:349][666]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.05.09-17.11.36:349][666]LogDirectoryWatcher: A directory notification for 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Collections/' was aborted.
-[2018.05.09-17.11.36:351][666]LogDirectoryWatcher: A directory notification for 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Content/Developers/kinop/Collections/' was aborted.
-[2018.05.09-17.11.36:351][666]LogDirectoryWatcher: A directory notification for 'D:/projects pc/uni/vaporwave/new_project/VRaporwave/VRaporwave/Saved/Collections/' was aborted.
-[2018.05.09-17.11.36:351][666]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.05.09-17.11.36:351][666]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.05.09-17.11.36:351][666]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.05.09-17.11.36:351][666]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.05.09-17.11.36:352][666]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.05.09-17.11.36:353][666]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.05.09-17.11.36:353][666]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.05.09-17.11.36:353][666]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.05.09-17.11.36:353][666]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.05.09-17.11.36:353][666]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.05.09-17.11.36:353][666]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.05.09-17.11.36:969][666]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.05.09-17.11.37:022][666]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.05.09-17.11.37:022][666]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.05.09-17.11.37:022][666]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.05.09-17.11.37:022][666]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.05.09-17.11.37:023][666]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.05.09-17.11.37:023][666]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.05.09-17.11.37:023][666]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.05.09-17.11.37:023][666]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.05.09-17.11.37:023][666]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.05.09-17.11.37:023][666]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.05.09-17.11.37:026][666]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.05.09-17.11.37:026][666]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.05.09-17.11.37:026][666]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.05.09-17.11.37:027][666]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.05.09-17.11.37:050][666]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.05.09-17.11.37:051][666]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.05.09-17.11.37:053][666]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.05.09-17.11.37:053][666]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.05.09-17.11.37:053][666]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.05.09-17.11.37:057][666]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.05.09-17.11.37:158][666]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.05.09-17.11.37:259][666]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.05.09-17.11.37:259][666]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.05.09-17.11.37:259][666]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.05.09-17.11.37:259][666]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.05.09-17.11.37:259][666]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.05.09-17.11.37:259][666]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.05.09-17.11.37:260][666]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.05.09-17.11.37:260][666]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.05.09-17.11.37:260][666]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.05.09-17.11.37:261][666]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.05.09-17.11.37:267][666]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.05.09-17.11.37:267][666]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.05.09-17.11.37:267][666]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.05.09-17.11.37:268][666]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.05.09-17.11.37:299][666]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.05.09-17.11.37:300][666]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.05.09-17.11.37:300][666]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.05.09-17.11.37:300][666]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.05.09-17.11.37:301][666]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.05.09-17.11.37:301][666]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.05.09-17.11.37:301][666]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.05.09-17.11.37:301][666]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.05.09-17.11.37:301][666]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.05.09-17.11.37:301][666]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.05.09-17.11.37:319][666]LogDerivedDataCache: Shutdown
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.05.09-17.11.37:319][666]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.05.09-17.11.37:320][666]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.09-17.11.37:321][666]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.09-17.11.37:322][666]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.09-17.11.37:322][666]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.09-17.11.37:322][666]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.09-17.11.37:322][666]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.09-17.11.37:322][666]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE2CA7637-4244-3D3F-2C71-2592B8631C58%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=2db98ffe4b7d4976664bb69020a091b2%7Cdfeee23a7a7245c89b9572bb71830046%7C4a961900-8863-4d3e-94ce-4ef2fdd47c3f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.09-17.11.37:335][666]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.09-17.11.37:337][666]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.09-17.11.37:337][666]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.09-17.11.37:339][666]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.09-17.11.37:339][666]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.09-17.11.37:339][666]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.09-17.11.37:339][666]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.09-17.11.37:339][666]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.09-17.11.37:340][666]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.09-17.11.37:340][666]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.09-17.11.37:340][666]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.09-17.11.37:340][666]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.09-17.11.37:340][666]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.09-17.11.37:340][666]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.09-17.11.37:341][666]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.09-17.11.37:341][666]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.09-17.11.37:341][666]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.09-17.11.37:341][666]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.09-17.11.37:341][666]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.09-17.11.37:361][666]LogExit: Exiting.
-[2018.05.09-17.11.37:422][666]Log file closed, 05/09/18 18:11:37
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.02.00:157][821]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.02.10:157][690]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.02.10:157][690]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.02.20:161][140]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.02.20:161][140]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.02.30:157][737]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.02.30:157][737]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.02.40:163][387]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.02.40:163][387]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.02.50:157][236]LogScript: Warning: Accessed None trying to read property AudioManagerMusic
+	SoundManager_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.SoundManager_138
+	Function /Game/VirtualRealityBP/Blueprints/SoundManager.SoundManager_C:ExecuteUbergraph_SoundManager:0325
+[2018.05.09-19.02.50:157][236]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.03.00:158][136]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.03.10:157][798]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.03.10:157][798]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.03.20:161][698]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_24 via property AudioManagerMusic, but AudioComponent_24 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_24 via property AudioManagerMusic, but AudioComponent_24 is pending kill
+[2018.05.09-19.03.20:161][698]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_24 via property AudioManagerMusic, but AudioComponent_24 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_24 via property AudioManagerMusic, but AudioComponent_24 is pending kill
+[2018.05.09-19.03.30:161][598]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_25 via property AudioManagerMusic, but AudioComponent_25 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_25 via property AudioManagerMusic, but AudioComponent_25 is pending kill
+[2018.05.09-19.03.30:162][598]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_25 via property AudioManagerMusic, but AudioComponent_25 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_25 via property AudioManagerMusic, but AudioComponent_25 is pending kill
+[2018.05.09-19.03.42:939][456]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_26 via property AudioManagerMusic, but AudioComponent_26 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_26 via property AudioManagerMusic, but AudioComponent_26 is pending kill
+[2018.05.09-19.04.28:277][704]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_23 via property AudioDialogues, but AudioComponent_23 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_23 via property AudioDialogues, but AudioComponent_23 is pending kill
+[2018.05.09-19.04.53:415][821]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.04.54:458][821]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.04.54:484][821]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.04.54:484][821]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.06.02:751][207]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.06.03:026][207]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.06.03:137][207]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.08.19:561][907]LogEditorViewport: Clicking on Actor (LMB): answeringMachineUV_Blueprint_C (answeringMachineUV_Blueprint)
+[2018.05.09-19.09.02:058][ 53]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2018.05.09-19.09.03:115][ 53]LogSlate: Took 0.018252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.09-19.09.03:515][ 54]LogSlate: Took 0.004080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.09-19.09.13:883][978]LogEditorViewport: Clicking on Actor (LMB): holobaseUV_Blueprint_C (holobaseUV_Blueprint)
+[2018.05.09-19.10.17:508][160]BlueprintLog: New page: Compile holobaseUV_Blueprint
+[2018.05.09-19.10.43:082][297]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.10.48:206][761]LogEditorViewport: Clicking on Actor (LMB): answeringMachineUV_Blueprint_C (answeringMachineUV_Blueprint)
+[2018.05.09-19.11.23:269][151]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.11.38:242][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GAME_Console)
+[2018.05.09-19.11.56:634][283]LogEditorViewport: Clicking on Actor (LMB): VHS_C (VHS)
+[2018.05.09-19.12.02:830][820]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.09-19.12.34:324][835]BlueprintLog: New page: Compile VHS
+[2018.05.09-19.12.40:030][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/VHS" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset" SILENT=true
+[2018.05.09-19.12.40:185][198]LogSavePackage: Save=126.31ms
+[2018.05.09-19.12.40:185][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/VHSA051528345F346FA26B6FAA2C163AA6F.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset'
+[2018.05.09-19.12.40:187][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset
+[2018.05.09-19.12.40:188][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/Boy__Bear__Pogo" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/Boy__Bear__Pogo.uasset" SILENT=true
+[2018.05.09-19.12.40:194][198]LogSavePackage: Save=2.94ms
+[2018.05.09-19.12.40:194][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/Boy__Bear__Pogo7D9DC51A4ED75365142548A437EBD8AA.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/Boy__Bear__Pogo.uasset'
+[2018.05.09-19.12.40:195][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/Boy__Bear__Pogo.uasset
+[2018.05.09-19.12.40:196][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/f_o_r_g_e_t" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/f_o_r_g_e_t.uasset" SILENT=true
+[2018.05.09-19.12.40:201][198]LogSavePackage: Save=3.00ms
+[2018.05.09-19.12.40:201][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/f_o_r_g_e_tBD38BCB049AD23FEA16CFFAB08A84401.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/f_o_r_g_e_t.uasset'
+[2018.05.09-19.12.40:202][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/f_o_r_g_e_t.uasset
+[2018.05.09-19.12.40:205][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/MACINTOSH_PLUS_-_リサフランク420__現代のコンピュー" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/MACINTOSH_PLUS_-_リサフランク420__現代のコンピュー.uasset" SILENT=true
+[2018.05.09-19.12.40:213][198]LogSavePackage: Save=2.99ms
+[2018.05.09-19.12.40:213][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/MACINTOSH_PLUS_-_リサフランク420__現代のコ4765A39A46D11DE9DEAA6E822641EF73.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/MACINTOSH_PLUS_-_リサフランク420__現代のコンピュー.uasset'
+[2018.05.09-19.12.40:214][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/MACINTOSH_PLUS_-_リサフランク420__現代のコンピュー.uasset
+[2018.05.09-19.12.40:215][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/ＣＯＯＬ_ＫＩＤＳ_１９９６" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/ＣＯＯＬ_ＫＩＤＳ_１９９６.uasset" SILENT=true
+[2018.05.09-19.12.40:220][198]LogSavePackage: Save=2.89ms
+[2018.05.09-19.12.40:220][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/ＣＯＯＬ_ＫＩＤＳ_１９９６706C5A4648DA70E386A43DB39FDE86BD.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/ＣＯＯＬ_ＫＩＤＳ_１９９６.uasset'
+[2018.05.09-19.12.40:222][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/ＣＯＯＬ_ＫＩＤＳ_１９９６.uasset
+[2018.05.09-19.12.40:223][198]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Videos/ｄｉｆｆｅｒｅｎｔ" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/ｄｉｆｆｅｒｅｎｔ.uasset" SILENT=true
+[2018.05.09-19.12.40:230][198]LogSavePackage: Save=2.89ms
+[2018.05.09-19.12.40:230][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/ｄｉｆｆｅｒｅｎｔ1E310BD14E6CFB5484AD9F9C74B33AF2.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/ｄｉｆｆｅｒｅｎｔ.uasset'
+[2018.05.09-19.12.40:231][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/Videos/ｄｉｆｆｅｒｅｎｔ.uasset
+[2018.05.09-19.12.40:325][198]LogSavePackage: Save=79.57ms
+[2018.05.09-19.12.40:325][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/answeringMachineUV_Blueprint4B135DDC454568410F39078D2D592EE5.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset'
+[2018.05.09-19.12.40:326][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset
+[2018.05.09-19.12.40:382][198]LogSavePackage: Save=41.01ms
+[2018.05.09-19.12.40:382][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/holobaseUV_Blueprint23528FC14011AD94B8A4F3B24CE03984.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/holobaseUV_Blueprint.uasset'
+[2018.05.09-19.12.40:383][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/holobaseUV_Blueprint.uasset
+[2018.05.09-19.12.41:125][198]LogSavePackage: Save=627.00ms
+[2018.05.09-19.12.41:125][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/MotionControllerMapB5126DCB4EAC3E7AA182C5A0D77D328D.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.05.09-19.12.41:127][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.05.09-19.12.41:185][198]LogFileHelpers: Saving map 'MotionControllerMap' took 0.801
