@@ -686,3 +686,938 @@ LogInit: Object subsystem initialized
 [2018.05.09-19.12.41:125][198]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/MotionControllerMapB5126DCB4EAC3E7AA182C5A0D77D328D.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
 [2018.05.09-19.12.41:127][198]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
 [2018.05.09-19.12.41:185][198]LogFileHelpers: Saving map 'MotionControllerMap' took 0.801
+[2018.05.09-19.13.12:923][762]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.13.12:961][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.13.12:977][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.13.12:977][762]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.13.13:000][762]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:13:12)
+[2018.05.09-19.13.13:000][762]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.13.13:042][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042062s)
+[2018.05.09-19.13.13:043][762]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.13.13:043][762]LogPlayLevel: PIE: World Init took: (0.001292s)
+[2018.05.09-19.13.13:043][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.043891s)
+[2018.05.09-19.13.13:071][762]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.13.13:079][762]LogInit: FAudioDevice initialized.
+[2018.05.09-19.13.13:165][762]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.13.13:193][762]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.13.13:193][762]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.13.13:201][762]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.13.13
+[2018.05.09-19.13.13:201][762]LogWorld: Bringing up level for play took: 0.008214
+[2018.05.09-19.13.13:213][762]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.136
+[2018.05.09-19.13.13:229][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.13.13:233][762]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.13.13:233][762]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.13.18:418][214]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property awns-mach from function: 'PlayDialogue' from node: Interacted Objacts in graph: PlayDialogue in object: SoundManager with description: Accessed None trying to read property awns-mach
+[2018.05.09-19.14.42:847][228]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.14.43:331][228]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:0738
+[2018.05.09-19.14.43:377][228]PIE: Error: Infinite Loop detected in  answeringMachineUV_Blueprint , asserted during  WhileLoop with the following  Call Stack
+[2018.05.09-19.14.43:380][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.14.43:513][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.14.43:542][228]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.15.46:551][619]BlueprintLog: New page: Compile SoundManager
+[2018.05.09-19.15.48:886][820]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.15.48:922][820]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.15.48:922][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.15.48:922][820]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.15.48:939][820]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:15:48)
+[2018.05.09-19.15.48:939][820]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.15.48:974][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034276s)
+[2018.05.09-19.15.48:974][820]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.15.48:974][820]LogPlayLevel: PIE: World Init took: (0.000436s)
+[2018.05.09-19.15.48:974][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.034977s)
+[2018.05.09-19.15.48:997][820]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.15.49:003][820]LogInit: FAudioDevice initialized.
+[2018.05.09-19.15.49:086][820]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.15.49:113][820]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.15.49:113][820]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.15.49:120][820]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.15.49
+[2018.05.09-19.15.49:120][820]LogWorld: Bringing up level for play took: 0.006932
+[2018.05.09-19.15.49:131][820]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 1.054
+[2018.05.09-19.15.49:131][820]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.15.49:135][820]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.15.49:135][820]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.16.14:194][190]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.16.14:681][190]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:0738
+[2018.05.09-19.16.14:681][190]PIE: Error: Infinite Loop detected in  answeringMachineUV_Blueprint , asserted during  WhileLoop with the following  Call Stack
+[2018.05.09-19.16.14:682][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.16.14:827][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.16.14:851][190]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.16.40:487][658]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.16.40:738][658]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.251 s
+[2018.05.09-19.16.40:743][658]LogOutputDevice: Error: === Handled ensure: ===
+[2018.05.09-19.16.40:743][658]LogOutputDevice: Error: 
+[2018.05.09-19.16.40:743][658]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1029]
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: Stack: 
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000099F12786 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000099CB123A UE4Editor-Core.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000099CCB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000095C433F6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000092D403AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000092353EBA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000921E74AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000921EABF9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000092318225 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000096B47397 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000096B4CE61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000096D89913 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000096BA3484 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000096B7B68C UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x0000000096B6D6B7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000C92EE39E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000C92E1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000C92F03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000C92DD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000ECB8B85D USER32.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000ECB8B1EF USER32.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000C92F1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x000000002E1550C8 UE4Editor.exe!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x000000002E165430 UE4Editor.exe!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x000000002E1654AA UE4Editor.exe!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x000000002E172379 UE4Editor.exe!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x000000002E173D57 UE4Editor.exe!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000EC0B1FE4 KERNEL32.DLL!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: [Callstack] 0x00000000ECDAF061 ntdll.dll!UnknownFunction []
+[2018.05.09-19.16.40:744][658]LogOutputDevice: Error: 
+[2018.05.09-19.16.40:749][658]LogStats:                SubmitErrorReport -  0.000 s
+[2018.05.09-19.16.43:743][658]LogStats:                    SendNewReport -  2.994 s
+[2018.05.09-19.16.43:743][658]LogStats:             FDebug::EnsureFailed -  3.256 s
+[2018.05.09-19.16.43:743][658]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.16.46:835][753]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.16.46:835][753]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.16.48:234][881]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.16.48:234][881]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.03:171][281]LogHttp: Warning: 0000024E1B49EE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x24cc645bfe8 [can pipeline])
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 1 (Re-using existing connection! (#6) with host datarouter.ol.epicgames.com)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.145.104) port 443 (#6))
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 3 (upload completely sent off: 1153 out of 1153 bytes)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 6 (Closing connection 6)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFBBAC493-4754-9294-138E-8A8A5DB3F449%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=b0ac86314fdb9296ed4132a27c914a59%7C494f2aed8aaa4653abca0652b0f5a05a%7Cb86bf638-1274-43ec-8911-8996a7acdd88&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.05.09-19.17.03:172][281]LogHttp: Warning: 0000024E1B49EE00: libcurl info message cache 9 (Closing connection 7)
+[2018.05.09-19.17.18:214][804]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.18:214][804]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.27:899][789]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.27:899][789]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.27:900][789]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.27:903][789]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:502][946]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:502][946]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:503][946]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:506][946]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:512][947]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:512][947]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:513][947]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:516][947]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:558][951]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:558][951]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:559][951]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:562][951]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:568][952]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:569][952]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.29:571][952]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.30:264][ 27]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.30:272][ 28]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.30:272][ 28]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.46:997][681]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.46:997][681]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:009][682]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:009][682]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:020][683]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:020][683]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:700][746]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:700][746]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:701][746]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:705][746]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:712][747]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:713][747]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:716][747]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:723][748]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:724][748]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:728][748]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:735][749]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:736][749]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:739][749]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:746][750]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:747][750]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:750][750]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:758][751]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:758][751]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:762][751]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:772][752]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:773][752]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.17.47:777][752]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.19.11:022][816]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.19.11:023][816]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.19.11:024][816]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.19.11:027][816]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.19.11:202][831]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.19.11:202][831]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.20.16:724][  7]LogSavePackage: Save=82.93ms
+[2018.05.09-19.20.16:724][  7]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/answeringMachineUV_Blueprint1FD9F5F0342245F8AFA14D18DDC0FD6EA.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint1.uasset'
+[2018.05.09-19.20.16:725][  7]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint1.uasset
+[2018.05.09-19.20.46:825][ 34]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.20.46:825][ 34]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.20.46:826][ 34]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.20.46:829][ 34]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.20.55:859][970]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.20.55:859][970]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.21.47:081][560]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.21.57:300][604]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.21.57:328][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.21.57:328][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.21.57:329][604]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.21.57:346][604]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:21:57)
+[2018.05.09-19.21.57:346][604]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.21.57:380][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033843s)
+[2018.05.09-19.21.57:380][604]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.21.57:380][604]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2018.05.09-19.21.57:380][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.034645s)
+[2018.05.09-19.21.57:405][604]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.21.57:412][604]LogInit: FAudioDevice initialized.
+[2018.05.09-19.21.57:496][604]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.21.57:523][604]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.21.57:523][604]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.21.57:530][604]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.21.57
+[2018.05.09-19.21.57:530][604]LogWorld: Bringing up level for play took: 0.006994
+[2018.05.09-19.21.57:540][604]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.537
+[2018.05.09-19.21.57:540][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.21.57:544][604]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.21.57:544][604]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.22.27:726][652]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.22.31:720][870]LogScript: Warning: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:0375
+[2018.05.09-19.22.31:720][870]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill from function: 'ExecuteUbergraph_answeringMachineUV_Blueprint' from node: Branch in graph: EventGraph in object: answeringMachineUV_Blueprint with description: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill
+[2018.05.09-19.22.31:721][870]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill
+[2018.05.09-19.24.12:803][142]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill
+[2018.05.09-19.24.12:804][142]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill
+[2018.05.09-19.24.20:602][493]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_5 via property AudioDialogues, but AudioComponent_5 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_5 via property AudioDialogues, but AudioComponent_5 is pending kill
+[2018.05.09-19.24.21:081][493]LogScript: Warning: Runaway loop detected (over 1,000,000 iterations) - see log for stack trace
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:063B
+[2018.05.09-19.24.21:081][493]PIE: Error: Infinite Loop detected in  answeringMachineUV_Blueprint , asserted during  WhileLoop with the following  Call Stack
+[2018.05.09-19.24.21:090][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.24.21:224][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.24.21:262][493]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.26.56:860][936]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.27.04:554][685]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.27.04:584][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.27.04:585][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.27.04:585][685]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.27.04:602][685]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:27:04)
+[2018.05.09-19.27.04:602][685]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.27.04:636][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034076s)
+[2018.05.09-19.27.04:636][685]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.27.04:636][685]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2018.05.09-19.27.04:636][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.034834s)
+[2018.05.09-19.27.04:660][685]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.27.04:666][685]LogInit: FAudioDevice initialized.
+[2018.05.09-19.27.04:747][685]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.27.04:774][685]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.27.04:774][685]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.27.04:780][685]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.27.04
+[2018.05.09-19.27.04:781][685]LogWorld: Bringing up level for play took: 0.006976
+[2018.05.09-19.27.04:790][685]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.714
+[2018.05.09-19.27.04:791][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.27.04:794][685]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.27.04:794][685]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.27.40:452][974]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.27.44:456][268]LogScript: Warning: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:0213
+[2018.05.09-19.27.44:456][268]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill from function: 'ExecuteUbergraph_answeringMachineUV_Blueprint' from node: Branch in graph: EventGraph in object: answeringMachineUV_Blueprint with description: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill
+[2018.05.09-19.27.44:456][268]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_4 via property AudioDialogues, but AudioComponent_4 is pending kill
+[2018.05.09-19.28.10:076][677]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill
+[2018.05.09-19.28.10:076][677]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Attempted to access AudioComponent_2 via property AudioManagerMusic, but AudioComponent_2 is pending kill
+[2018.05.09-19.28.30:070][576]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
+[2018.05.09-19.28.40:075][ 26]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
+[2018.05.09-19.28.50:076][476]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
+[2018.05.09-19.29.00:067][ 27]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
+[2018.05.09-19.29.10:056][925]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Attempted to access AudioComponent_6 via property AudioManagerMusic, but AudioComponent_6 is pending kill
+[2018.05.09-19.29.20:067][825]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.29.25:049][ 94]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_5 via property AudioDialogues, but AudioComponent_5 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_5 via property AudioDialogues, but AudioComponent_5 is pending kill
+[2018.05.09-19.29.30:074][320]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'ExecuteUbergraph_SoundManager' from node: Branch in graph: EventGraph in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.29.30:075][320]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AudioManagerMusic from function: 'PlaySong' from node: Branch in graph: PlaySong in object: SoundManager with description: Accessed None trying to read property AudioManagerMusic
+[2018.05.09-19.29.37:030][633]LogScript: Warning: Attempted to access AudioComponent_7 via property AudioDialogues, but AudioComponent_7 is pending kill
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:008A
+[2018.05.09-19.29.37:030][633]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_7 via property AudioDialogues, but AudioComponent_7 is pending kill from function: 'ExecuteUbergraph_answeringMachineUV_Blueprint' from node: Branch in graph: EventGraph in object: answeringMachineUV_Blueprint with description: Attempted to access AudioComponent_7 via property AudioDialogues, but AudioComponent_7 is pending kill
+[2018.05.09-19.29.37:031][633]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_7 via property AudioDialogues, but AudioComponent_7 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_7 via property AudioDialogues, but AudioComponent_7 is pending kill
+[2018.05.09-19.31.42:222][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.31.42:377][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.31.42:402][147]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.32.02:540][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2018.05.09-19.32.03:582][368]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.09-19.32.10:741][147]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2018.05.09-19.33.27:689][884]BlueprintLog: New page: Compile Portal2
+[2018.05.09-19.33.34:092][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GAME_Console)
+[2018.05.09-19.33.34:520][575]LogEditorViewport: Clicking on Actor (LMB): VHS_C (VHS)
+[2018.05.09-19.34.31:080][ 42]BlueprintLog: New page: Compile VHS
+[2018.05.09-19.35.04:112][939]LogSavePackage: Save=624.90ms
+[2018.05.09-19.35.04:112][939]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto10D04BA2845C0F1BAF4EBFAA954C7A3F8.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2018.05.09-19.35.04:113][939]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2018.05.09-19.35.04:116][939]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.680
+[2018.05.09-19.35.04:116][939]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.680
+[2018.05.09-19.35.04:137][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint] ([1] browsable assets)...
+[2018.05.09-19.35.04:152][939]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint]
+[2018.05.09-19.35.04:152][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint]
+[2018.05.09-19.35.04:236][939]LogSavePackage: Save=79.14ms
+[2018.05.09-19.35.04:236][939]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/answeringMachineUV_Blueprint_AutB613A881454E96C0F210D8B4DDE4DACA.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint_Auto1.uasset'
+[2018.05.09-19.35.04:252][939]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint_Auto1.uasset
+[2018.05.09-19.35.04:252][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PortalsBP/Portal] ([1] browsable assets)...
+[2018.05.09-19.35.04:265][939]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PortalsBP/Portal.Portal]
+[2018.05.09-19.35.04:265][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/PortalsBP/Portal]
+[2018.05.09-19.35.04:265][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PortalsBP/Portal" FILE="../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/PortalsBP/Portal_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.09-19.35.04:287][939]LogSavePackage: Save=17.12ms
+[2018.05.09-19.35.04:287][939]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/Portal_Auto18237C8B8406E7EC10BE4AC99C6598485.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/PortalsBP/Portal_Auto1.uasset'
+[2018.05.09-19.35.04:287][939]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/PortalsBP/Portal_Auto1.uasset
+[2018.05.09-19.35.04:288][939]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/SoundManager] ([1] browsable assets)...
+[2018.05.09-19.35.04:288][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/SoundManager]
+[2018.05.09-19.35.04:483][939]LogSavePackage: Save=190.97ms
+[2018.05.09-19.35.04:483][939]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/SoundManager_Auto1442E6EBB47B352A672775AB409F89441.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SoundManager_Auto1.uasset'
+[2018.05.09-19.35.04:484][939]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/SoundManager_Auto1.uasset
+[2018.05.09-19.35.04:484][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PortalsBP/Portal2] ([1] browsable assets)...
+[2018.05.09-19.35.04:497][939]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PortalsBP/Portal2.Portal2]
+[2018.05.09-19.35.04:497][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/PortalsBP/Portal2]
+[2018.05.09-19.35.04:497][939]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PortalsBP/Portal2" FILE="../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/PortalsBP/Portal2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.09-19.35.04:519][939]LogSavePackage: Save=16.78ms
+[2018.05.09-19.35.04:519][939]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/Portal2_Auto19A062C814AE6454F5A10A7A52D063AAE.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/PortalsBP/Portal2_Auto1.uasset'
+[2018.05.09-19.35.04:519][939]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/PortalsBP/Portal2_Auto1.uasset
+[2018.05.09-19.35.04:520][939]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/VHS] ([1] browsable assets)...
+[2018.05.09-19.35.04:527][939]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/VHS.VHS]
+[2018.05.09-19.35.04:527][939]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/VHS]
+[2018.05.09-19.35.04:675][939]LogSavePackage: Save=143.35ms
+[2018.05.09-19.35.04:675][939]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/VHS_Auto1FA76E9894207D9681D15A2A55150D2BE.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/FirstPersonBP/Blueprints/VHS_Auto1.uasset'
+[2018.05.09-19.35.04:690][939]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Saved/Autosaves/Game/FirstPersonBP/Blueprints/VHS_Auto1.uasset
+[2018.05.09-19.35.04:690][939]LogFileHelpers: Auto-saving content packages took 0.574
+[2018.05.09-19.35.04:690][939]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.09-19.36.02:667][309]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2018.05.09-19.36.31:506][143]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.36.31:541][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.36.31:542][143]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.09-19.36.31:554][143]LogPlayLevel: [PlayLevel] Compiling Portal before play...
+[2018.05.09-19.36.31:905][143]LogPlayLevel: PlayLevel: Blueprint regeneration took 363 ms (1 blueprints)
+[2018.05.09-19.36.31:905][143]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.36.31:922][143]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:36:31)
+[2018.05.09-19.36.31:922][143]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.36.31:954][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031993s)
+[2018.05.09-19.36.31:955][143]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.36.31:955][143]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.05.09-19.36.31:955][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.032941s)
+[2018.05.09-19.36.31:981][143]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.36.31:987][143]LogInit: FAudioDevice initialized.
+[2018.05.09-19.36.32:071][143]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.36.32:097][143]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.36.32:097][143]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.36.32:104][143]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.36.32
+[2018.05.09-19.36.32:105][143]LogWorld: Bringing up level for play took: 0.007618
+[2018.05.09-19.36.32:115][143]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.039
+[2018.05.09-19.36.32:116][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.36.32:119][143]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.36.32:119][143]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.36.50:142][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.36.50:288][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.36.50:313][153]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.36.52:933][446]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2018.05.09-19.37.00:368][278]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.37.00:389][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.37.00:390][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.37.00:390][278]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.37.00:407][278]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:37:00)
+[2018.05.09-19.37.00:407][278]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.37.00:440][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031835s)
+[2018.05.09-19.37.00:440][278]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.37.00:440][278]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2018.05.09-19.37.00:440][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.032610s)
+[2018.05.09-19.37.00:465][278]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.37.00:470][278]LogInit: FAudioDevice initialized.
+[2018.05.09-19.37.00:551][278]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.37.00:578][278]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.37.00:578][278]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.37.00:584][278]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.37.00
+[2018.05.09-19.37.00:585][278]LogWorld: Bringing up level for play took: 0.006852
+[2018.05.09-19.37.00:596][278]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.519
+[2018.05.09-19.37.00:597][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.37.00:600][278]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.37.00:600][278]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.37.32:260][493]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.37.32:391][493]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.37.32:418][493]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.37.39:778][282]Cmd: SELECT NONE
+[2018.05.09-19.39.43:403][958]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:403][958]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:405][958]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:407][958]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:413][959]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:414][959]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:417][959]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:422][960]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:423][960]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:425][960]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:431][961]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:432][961]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:435][961]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:441][962]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:443][962]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:450][963]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:453][963]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:459][964]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:461][964]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:468][965]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:470][965]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:477][966]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:479][966]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:486][967]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:489][967]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:497][968]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:500][968]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:506][969]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:507][969]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:509][969]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:515][970]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:517][970]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:523][971]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:525][971]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:531][972]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:532][972]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:534][972]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:540][973]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:541][973]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:544][973]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:550][974]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:551][974]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:553][974]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:558][975]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:559][975]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.43:562][975]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:937][466]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:937][466]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:939][466]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:942][466]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:947][467]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:948][467]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.47:951][467]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.48:053][479]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.48:053][479]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.48:054][479]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.48:057][479]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.49:909][682]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.49:909][682]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.49:910][682]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.49:913][682]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.50:669][765]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.50:670][765]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.50:671][765]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.50:674][765]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:085][148]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:106][149]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:786][224]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:786][224]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:787][224]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:790][224]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:796][225]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:796][225]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:799][225]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:805][226]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:806][226]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:808][226]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:814][227]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:815][227]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:817][227]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:824][228]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:826][228]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:833][229]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:836][229]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:842][230]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:845][230]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:851][231]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:852][231]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:854][231]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:860][232]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:861][232]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.54:863][232]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.57:661][550]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.57:662][550]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.57:663][550]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.57:666][550]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:128][712]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:128][712]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:129][712]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:132][712]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:138][713]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:141][713]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:147][714]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:150][714]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:156][715]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:159][715]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:165][716]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:168][716]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:174][717]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:176][717]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:183][718]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:185][718]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:192][719]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:195][719]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:201][720]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:202][720]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:205][720]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:211][721]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:212][721]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:214][721]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:220][722]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:221][722]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:224][722]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:230][723]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:233][723]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:239][724]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:241][724]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:247][725]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:250][725]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:256][726]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:259][726]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:265][727]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:268][727]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:275][728]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:278][728]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:287][729]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:290][729]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:296][730]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:299][730]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:306][731]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:308][731]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:314][732]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:317][732]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:323][733]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:326][733]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:333][734]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:335][734]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:342][735]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:344][735]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:350][736]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:353][736]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:359][737]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:362][737]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:368][738]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:371][738]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:377][739]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:380][739]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:386][740]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:388][740]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:394][741]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:395][741]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:398][741]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:404][742]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:406][742]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:412][743]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:413][743]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:415][743]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:422][744]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:425][744]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:430][745]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:431][745]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:434][745]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:440][746]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:443][746]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:449][747]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:452][747]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:458][748]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:461][748]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:467][749]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:470][749]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:476][750]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:479][750]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:486][751]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:488][751]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:494][752]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.39.59:497][752]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.05.09-19.40.38:887][  3]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.40.42:119][312]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.40.42:148][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.40.42:148][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.40.42:148][312]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.40.42:165][312]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:40:42)
+[2018.05.09-19.40.42:165][312]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.40.42:197][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031546s)
+[2018.05.09-19.40.42:197][312]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.40.42:197][312]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2018.05.09-19.40.42:197][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.032335s)
+[2018.05.09-19.40.42:222][312]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.40.42:228][312]LogInit: FAudioDevice initialized.
+[2018.05.09-19.40.42:310][312]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.40.42:337][312]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.40.42:337][312]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.40.42:345][312]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.40.42
+[2018.05.09-19.40.42:346][312]LogWorld: Bringing up level for play took: 0.008363
+[2018.05.09-19.40.42:356][312]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.279
+[2018.05.09-19.40.42:356][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.40.42:360][312]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.40.42:360][312]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.40.47:749][769]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.40.47:881][769]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.40.47:905][769]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.40.49:323][927]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2018.05.09-19.40.55:374][604]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.40.55:393][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.40.55:393][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.40.55:393][604]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.40.55:410][604]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:40:55)
+[2018.05.09-19.40.55:410][604]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.40.55:441][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030893s)
+[2018.05.09-19.40.55:442][604]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.40.55:442][604]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2018.05.09-19.40.55:442][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.031651s)
+[2018.05.09-19.40.55:468][604]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.40.55:473][604]LogInit: FAudioDevice initialized.
+[2018.05.09-19.40.55:554][604]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.40.55:581][604]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.40.55:581][604]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.40.55:588][604]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.40.55
+[2018.05.09-19.40.55:589][604]LogWorld: Bringing up level for play took: 0.007657
+[2018.05.09-19.40.55:600][604]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.476
+[2018.05.09-19.40.55:600][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.40.55:604][604]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.40.55:604][604]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.41.21:313][  6]LogScript: Warning: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:0227
+[2018.05.09-19.41.21:313][  6]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'ExecuteUbergraph_answeringMachineUV_Blueprint' from node: Branch in graph: EventGraph in object: answeringMachineUV_Blueprint with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.41.21:313][  6]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.41.36:398][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.41.36:532][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.41.36:556][684]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.41.47:561][687]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.41.49:283][819]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.41.49:312][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.41.49:312][819]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.41.49:312][819]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.41.49:329][819]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:41:49)
+[2018.05.09-19.41.49:329][819]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.41.49:361][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031358s)
+[2018.05.09-19.41.49:361][819]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.41.49:361][819]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2018.05.09-19.41.49:361][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.032180s)
+[2018.05.09-19.41.49:387][819]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.41.49:393][819]LogInit: FAudioDevice initialized.
+[2018.05.09-19.41.49:479][819]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.41.49:506][819]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.41.49:506][819]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.41.49:513][819]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.41.49
+[2018.05.09-19.41.49:514][819]LogWorld: Bringing up level for play took: 0.007203
+[2018.05.09-19.41.49:524][819]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.552
+[2018.05.09-19.41.49:525][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.41.49:528][819]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.41.49:528][819]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.42.09:339][840]LogScript: Warning: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:008A
+[2018.05.09-19.42.09:339][840]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'ExecuteUbergraph_answeringMachineUV_Blueprint' from node: Branch in graph: EventGraph in object: answeringMachineUV_Blueprint with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.42.09:339][840]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.42.34:908][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.42.35:069][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.42.35:097][648]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.42.49:806][998]LogEditorViewport: Clicking on Actor (LMB): Portal_C (Portal)
+[2018.05.09-19.43.37:196][462]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.43.39:386][641]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.43.39:414][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.43.39:415][641]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.09-19.43.39:418][641]LogPlayLevel: [PlayLevel] Compiling Portal before play...
+[2018.05.09-19.43.39:849][641]LogPlayLevel: PlayLevel: Blueprint regeneration took 434 ms (1 blueprints)
+[2018.05.09-19.43.39:849][641]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.43.39:866][641]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:43:39)
+[2018.05.09-19.43.39:866][641]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.43.39:897][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031492s)
+[2018.05.09-19.43.39:898][641]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.43.39:898][641]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2018.05.09-19.43.39:898][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.032232s)
+[2018.05.09-19.43.39:923][641]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.43.39:929][641]LogInit: FAudioDevice initialized.
+[2018.05.09-19.43.40:014][641]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.43.40:041][641]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.43.40:041][641]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.43.40:048][641]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.43.40
+[2018.05.09-19.43.40:049][641]LogWorld: Bringing up level for play took: 0.007749
+[2018.05.09-19.43.40:059][641]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.018
+[2018.05.09-19.43.40:059][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.43.40:063][641]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.43.40:063][641]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.43.56:951][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.43.57:107][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.43.57:134][549]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.43.57:230][550]Cmd: SELECT NONE
+[2018.05.09-19.44.01:653][952]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.44.01:677][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.44.01:677][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.44.01:678][952]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.44.01:695][952]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:44:01)
+[2018.05.09-19.44.01:695][952]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.44.01:728][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032754s)
+[2018.05.09-19.44.01:728][952]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.44.01:729][952]LogPlayLevel: PIE: World Init took: (0.000487s)
+[2018.05.09-19.44.01:729][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.033515s)
+[2018.05.09-19.44.01:755][952]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.44.01:761][952]LogInit: FAudioDevice initialized.
+[2018.05.09-19.44.01:857][952]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.44.01:887][952]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.44.01:887][952]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.44.01:894][952]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.44.01
+[2018.05.09-19.44.01:895][952]LogWorld: Bringing up level for play took: 0.007457
+[2018.05.09-19.44.01:910][952]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.167
+[2018.05.09-19.44.01:910][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.44.01:915][952]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.44.01:915][952]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.44.11:238][415]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.44.11:393][415]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.44.11:417][415]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.44.16:173][918]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.44.16:173][918]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.44.16:175][918]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.44.16:178][918]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.45.01:992][460]BlueprintLog: New page: Compile Portal
+[2018.05.09-19.45.03:134][522]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.45.03:156][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.03:156][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.45.03:156][522]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.45.03:173][522]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:45:03)
+[2018.05.09-19.45.03:173][522]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.45.03:204][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030788s)
+[2018.05.09-19.45.03:205][522]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.45.03:205][522]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2018.05.09-19.45.03:205][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.031541s)
+[2018.05.09-19.45.03:231][522]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.45.03:236][522]LogInit: FAudioDevice initialized.
+[2018.05.09-19.45.03:317][522]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.45.03:344][522]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.45.03:344][522]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.45.03:352][522]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.45.03
+[2018.05.09-19.45.03:352][522]LogWorld: Bringing up level for play took: 0.008188
+[2018.05.09-19.45.03:363][522]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap -0.713
+[2018.05.09-19.45.03:363][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.03:367][522]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.45.03:367][522]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.45.10:055][ 93]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.10:199][ 93]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.10:224][ 93]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.45.14:587][522]BlueprintLog: New page: Compile Portal
+[2018.05.09-19.45.15:966][624]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.45.15:988][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.15:989][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.45.15:989][624]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.45.16:006][624]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:45:16)
+[2018.05.09-19.45.16:006][624]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.45.16:037][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030936s)
+[2018.05.09-19.45.16:037][624]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.45.16:037][624]LogPlayLevel: PIE: World Init took: (0.000458s)
+[2018.05.09-19.45.16:037][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.031672s)
+[2018.05.09-19.45.16:062][624]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.45.16:068][624]LogInit: FAudioDevice initialized.
+[2018.05.09-19.45.16:151][624]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.45.16:178][624]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.45.16:178][624]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.45.16:186][624]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.45.16
+[2018.05.09-19.45.16:186][624]LogWorld: Bringing up level for play took: 0.007144
+[2018.05.09-19.45.16:197][624]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.121
+[2018.05.09-19.45.16:198][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.16:202][624]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.45.16:202][624]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.45.21:600][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.21:745][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.21:768][ 83]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.45.44:808][306]BlueprintLog: New page: Compile Portal
+[2018.05.09-19.45.48:551][659]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.45.48:574][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.48:574][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.45.48:574][659]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.45.48:591][659]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:45:48)
+[2018.05.09-19.45.48:591][659]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.45.48:622][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031752s)
+[2018.05.09-19.45.48:623][659]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.45.48:623][659]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2018.05.09-19.45.48:623][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.032668s)
+[2018.05.09-19.45.48:648][659]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.45.48:654][659]LogInit: FAudioDevice initialized.
+[2018.05.09-19.45.48:736][659]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.45.48:762][659]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.45.48:762][659]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.45.48:769][659]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.45.48
+[2018.05.09-19.45.48:770][659]LogWorld: Bringing up level for play took: 0.007352
+[2018.05.09-19.45.48:780][659]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.703
+[2018.05.09-19.45.48:780][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.48:784][659]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.45.48:784][659]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.45.54:890][186]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.55:023][186]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.45.55:047][186]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.46.10:525][527]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:525][527]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:527][527]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:529][527]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:535][528]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:536][528]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:539][528]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:544][529]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:545][529]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:548][529]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:553][530]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:554][530]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:557][530]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:563][531]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:563][531]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:566][531]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:572][532]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:573][532]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:575][532]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:581][533]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:584][533]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:590][534]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:593][534]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:598][535]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:599][535]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:602][535]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:607][536]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:608][536]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:611][536]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:617][537]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:618][537]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:620][537]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:626][538]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:627][538]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:630][538]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:635][539]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:636][539]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:639][539]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:644][540]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:645][540]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:648][540]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:654][541]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:655][541]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:657][541]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:663][542]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:664][542]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:667][542]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:672][543]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:673][543]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:676][543]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:682][544]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:683][544]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:687][544]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:692][545]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:693][545]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:696][545]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:702][546]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:703][546]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:706][546]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:713][547]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:715][547]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:722][548]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:725][548]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:730][549]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:731][549]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:734][549]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:740][550]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:743][550]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:749][551]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:752][551]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:757][552]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:758][552]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:761][552]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:767][553]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:770][553]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:775][554]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:776][554]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:779][554]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:785][555]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:788][555]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:794][556]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:796][556]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:802][557]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:805][557]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:811][558]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.10:814][558]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.12:420][738]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.12:421][738]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.12:422][738]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.12:425][738]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.23:288][934]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.23:288][934]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.23:289][934]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.23:292][934]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.47:481][444]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.47:481][444]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.47:482][444]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.47:485][444]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.50:783][801]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.50:783][801]LogUObjectBase: Warning: Object is not registered
+[2018.05.09-19.46.52:486][985]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.46.54:257][132]LogTemp: Repeating last play command: VR Preview
+[2018.05.09-19.46.54:287][132]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.46.54:288][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.09-19.46.54:288][132]LogHMD: Initializing OVRPlugin session
+[2018.05.09-19.46.54:305][132]PIE: New page: PIE session: MotionControllerMap (9 May 2018 21:46:54)
+[2018.05.09-19.46.54:305][132]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2018.05.09-19.46.54:338][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032356s)
+[2018.05.09-19.46.54:339][132]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.09-19.46.54:339][132]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2018.05.09-19.46.54:339][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.033173s)
+[2018.05.09-19.46.54:366][132]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.09-19.46.54:371][132]LogInit: FAudioDevice initialized.
+[2018.05.09-19.46.54:452][132]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.09-19.46.54:479][132]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.09-19.46.54:479][132]LogLoad: Game class is 'GameModeBase'
+[2018.05.09-19.46.54:486][132]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 0) at 2018.05.09-20.46.54
+[2018.05.09-19.46.54:486][132]LogWorld: Bringing up level for play took: 0.007138
+[2018.05.09-19.46.54:497][132]PIE: Play in editor start time for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap 0.421
+[2018.05.09-19.46.54:497][132]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.46.54:501][132]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.09-19.46.54:501][132]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.09-19.47.13:506][132]LogScript: Warning: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+	answeringMachineUV_Blueprint_C /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap:PersistentLevel.answeringMachineUV_Blueprint_350
+	Function /Game/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.answeringMachineUV_Blueprint_C:ExecuteUbergraph_answeringMachineUV_Blueprint:008A
+[2018.05.09-19.47.13:506][132]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'ExecuteUbergraph_answeringMachineUV_Blueprint' from node: Branch in graph: EventGraph in object: answeringMachineUV_Blueprint with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.47.13:506][132]PIE: Error: Blueprint Runtime Error: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill from function: 'PlayDialogue' from node: Branch in graph: PlayDialogue in object: SoundManager with description: Attempted to access AudioComponent_3 via property AudioDialogues, but AudioComponent_3 is pending kill
+[2018.05.09-19.47.30:369][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.47.30:521][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap'
+[2018.05.09-19.47.30:545][890]LogActorComponent: ReregisterComponent: (/Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.TV_Flat_Bot_2.MediaSound.AudioComponent_0) Not currently registered. Aborting.
+[2018.05.09-19.47.53:607][195]BlueprintLog: New page: Compile Portal
+[2018.05.09-19.48.41:121][173]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.41:121][173]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.41:123][173]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.41:125][173]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:853][911]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:853][911]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:855][911]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:857][911]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:863][912]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:864][912]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.48.47:867][912]LogUObjectArray: Warning: Other object in slot
+[2018.05.09-19.49.13:642][398]BlueprintLog: New page: Compile answeringMachineUV_Blueprint
+[2018.05.09-19.49.22:066][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/VHS" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset" SILENT=true
+[2018.05.09-19.49.22:158][ 25]LogSavePackage: Save=86.06ms
+[2018.05.09-19.49.22:158][ 25]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/VHSB123355349C07274503D51ABD7244CFB.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset'
+[2018.05.09-19.49.22:162][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/FirstPersonBP/Blueprints/VHS.uasset
+[2018.05.09-19.49.22:164][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PortalsBP/Portal" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal.uasset" SILENT=true
+[2018.05.09-19.49.22:178][ 25]LogSavePackage: Save=9.74ms
+[2018.05.09-19.49.22:178][ 25]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/Portal79905ECA41CF716417A5D6AD95F60125.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal.uasset'
+[2018.05.09-19.49.22:182][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal.uasset
+[2018.05.09-19.49.22:184][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PortalsBP/Portal2" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal2.uasset" SILENT=true
+[2018.05.09-19.49.22:200][ 25]LogSavePackage: Save=10.25ms
+[2018.05.09-19.49.22:200][ 25]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/Portal22B52BB1C4A7079E38CD7EE9EA865D82F.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal2.uasset'
+[2018.05.09-19.49.22:204][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/PortalsBP/Portal2.uasset
+[2018.05.09-19.49.22:302][ 25]LogSavePackage: Save=81.28ms
+[2018.05.09-19.49.22:302][ 25]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/answeringMachineUV_Blueprint9C6D8B8B4683C572ECD972A28644816D.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset'
+[2018.05.09-19.49.22:306][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/answeringMachineUV_Blueprint.uasset
+[2018.05.09-19.49.22:307][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VirtualRealityBP/Blueprints/SoundManager" FILE="../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset" SILENT=true
+[2018.05.09-19.49.22:503][ 25]LogSavePackage: Save=190.84ms
+[2018.05.09-19.49.22:503][ 25]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/SoundManager763E8BBD4FB2D6E82B414BB98562C6B0.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset'
+[2018.05.09-19.49.22:506][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SoundManager.uasset
+[2018.05.09-19.49.23:229][ 25]LogSavePackage: Save=623.88ms
+[2018.05.09-19.49.23:229][ 25]LogSavePackage: Moving '../../../../../Luis/VRaporwave/VRaporwave/Saved/MotionControllerMapA02839DE4433A29CE5D4BCA8D1D1AD09.tmp' to '../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.05.09-19.49.23:231][ 25]LogSavePackage: Display: Finished SavePackage ../../../../../Luis/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.05.09-19.49.23:264][ 25]LogFileHelpers: Saving map 'MotionControllerMap' took 0.757
