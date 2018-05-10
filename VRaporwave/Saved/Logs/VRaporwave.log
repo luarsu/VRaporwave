@@ -1,4 +1,4 @@
-﻿Log file open, 05/10/18 01:27:36
+﻿Log file open, 05/10/18 05:59:18
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: VRaporwave
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1345271748) SRandInit(-1345271748).
+LogInit: Display: RandInit(1235458184) SRandInit(1235458184).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3754814, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.246668
+LogStats: Stats thread started at 2.067863
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,808 +196,858 @@ LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.18/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.10-00.27.38:200][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.10-00.27.38:200][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.10-00.27.38:254][  0]LogInit: Computer: DESKTOP-4INFFS5
-[2018.05.10-00.27.38:254][  0]LogInit: User: Angela
-[2018.05.10-00.27.38:254][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.10-00.27.38:254][  0]LogInit: High frequency timer resolution =2.531252 MHz
-[2018.05.10-00.27.38:255][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.10-00.27.38:255][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.10-00.27.38:255][  0]LogMemory: Process Physical Memory: 273.31 MB used, 273.31 MB peak
-[2018.05.10-00.27.38:255][  0]LogMemory: Process Virtual Memory: 271.91 MB used, 271.91 MB peak
-[2018.05.10-00.27.38:255][  0]LogMemory: Physical Memory: 11562.56 MB used,  4672.19 MB free, 16234.75 MB total
-[2018.05.10-00.27.38:255][  0]LogMemory: Virtual Memory: 683.70 MB used,  4672.19 MB free, 134217728.00 MB total
-[2018.05.10-00.27.38:475][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.05.10-00.27.38:475][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.05.10-00.27.39:000][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.10-00.27.39:359][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.10-00.27.39:446][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2018.05.10-00.27.39:446][  0]LogD3D11RHI:       2019/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.10-00.27.39:466][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2018.05.10-00.27.39:466][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.10-00.27.39:472][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.10-00.27.39:472][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.10-00.27.39:474][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.10-00.27.39:475][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.10-00.27.39:475][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.10-00.27.39:486][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.10-00.27.39:486][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2018.05.10-00.27.39:486][  0]LogWindows: EnumDisplayDevices:
-[2018.05.10-00.27.39:486][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2018.05.10-00.27.39:487][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.05.10-00.27.39:487][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2018.05.10-00.27.39:488][  0]LogWindows:    3. 'spacedesk Graphics Adapter' (P:0 D:0)
-[2018.05.10-00.27.39:488][  0]LogWindows:    4. 'spacedesk Graphics Adapter' (P:0 D:0)
-[2018.05.10-00.27.39:489][  0]LogWindows:    5. 'spacedesk Graphics Adapter' (P:0 D:0)
-[2018.05.10-00.27.39:489][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.10-00.27.39:489][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2018.05.10-00.27.39:489][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.10-00.27.39:489][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.10-00.27.39:489][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
-[2018.05.10-00.27.39:530][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.10-00.27.39:546][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.10-00.27.39:548][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/24156/).
-[2018.05.10-00.27.39:548][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AngelaCai/AppData/Local/Temp/UnrealShaderWorkingDir/A3F2861A4A248EE1C825B480B70D20B4/'.
-[2018.05.10-00.27.39:548][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.10-00.27.40:748][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.10-00.27.40:804][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.10-00.27.40:858][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.10-00.27.40:906][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.10-00.27.40:963][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.10-00.27.41:019][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.10-00.27.41:078][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.10-00.27.41:134][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.10-00.27.41:187][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.10-00.27.41:243][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.10-00.27.41:295][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.10-00.27.41:351][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.10-00.27.41:413][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.10-00.27.41:469][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.10-00.27.41:572][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.10-00.27.41:572][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.10-00.27.41:626][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.10-00.27.41:673][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.10-00.27.41:770][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.10-00.27.41:802][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.10-00.27.41:855][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.10-00.27.41:912][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.10-00.27.41:966][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.10-00.27.42:021][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.10-00.27.42:021][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.10-00.27.42:537][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.10-00.27.42:631][  0]LogDerivedDataCache: Loaded boot cache 0.09s 92MB C:/Users/AngelaCai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.10-00.27.42:631][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/AngelaCai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.10-00.27.42:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.10-00.27.42:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.10-00.27.42:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.10-00.27.42:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.10-00.27.42:652][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.10-00.27.42:665][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AngelaCai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.10-00.27.42:676][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.10-00.27.42:677][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.10-00.27.42:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.10-00.27.42:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.10-00.27.43:181][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.10-00.27.43:580][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.10-00.27.43:624][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.10-00.27.43:624][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.10-00.27.43:624][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.10-00.27.43:624][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.10-00.27.43:624][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.10-00.27.43:657][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
-[2018.05.10-00.27.43:957][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2018.05.10-00.27.46:406][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 1.902365 seconds
-[2018.05.10-00.27.46:414][  0]LogUObjectArray: 35902 objects as part of root set at end of initial load.
-[2018.05.10-00.27.46:414][  0]LogUObjectAllocator: 7372488 out of 0 bytes used by permanent object pool.
-[2018.05.10-00.27.46:414][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.10-00.27.46:465][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.10-00.27.49:572][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.10-00.27.49:614][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.10-00.27.50:656][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.10-00.27.51:950][  0]SourceControl: Source control is disabled
-[2018.05.10-00.27.53:496][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.10-00.27.53:776][  0]LogOcInput: OculusInput pre-init called
-[2018.05.10-00.27.54:077][  0]LogEngine: Initializing Engine...
-[2018.05.10-00.27.54:080][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.10-00.27.54:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.10-00.27.54:340][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.10-00.27.54:493][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.10-00.27.54:532][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.10-00.27.54:591][  0]LogInit: FAudioDevice initialized.
-[2018.05.10-00.27.55:070][  0]LogDerivedDataCache: Saved boot cache 0.48s 92MB C:/Users/AngelaCai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.10-00.27.55:083][  0]LogInit: Texture streaming: Enabled
-[2018.05.10-00.27.55:194][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.10-00.27.55:396][  0]LogInit: Transaction tracking system initialized
-[2018.05.10-00.27.55:724][  0]BlueprintLog: New page: Editor Load
-[2018.05.10-00.27.56:685][  0]LocalizationService: Localization service is disabled
-[2018.05.10-00.27.57:484][  0]LogConsoleResponse: Display: 
-[2018.05.10-00.27.58:204][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/' took 0.04s
-[2018.05.10-00.27.58:204][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.10-00.27.58:204][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.10-00.27.58:204][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.10-00.27.59:451][  0]Cmd: MAP LOAD FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.10-00.27.59:451][  0]LightingResults: New page: Lighting Build
-[2018.05.10-00.27.59:493][  0]MapCheck: New page: Map Check
-[2018.05.10-00.27.59:493][  0]LightingResults: New page: Lighting Build
-[2018.05.10-00.28.00:411][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
-[2018.05.10-00.28.00:438][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
-[2018.05.10-00.28.00:453][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
-[2018.05.10-00.28.00:453][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
-[2018.05.10-00.28.00:453][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
-[2018.05.10-00.28.00:453][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
-[2018.05.10-00.28.48:273][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
-[2018.05.10-00.28.48:273][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
-[2018.05.10-00.28.48:273][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
-[2018.05.10-00.28.48:273][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
-[2018.05.10-00.28.48:273][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
-[2018.05.10-00.28.48:274][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
-[2018.05.10-00.28.48:297][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
-[2018.05.10-00.28.48:297][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Yes_GEN_VARIABLE
-[2018.05.10-00.28.48:297][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
-[2018.05.10-00.28.48:297][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Yes_GEN_VARIABLE
-[2018.05.10-00.28.48:297][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
-[2018.05.10-00.28.48:455][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
-[2018.05.10-00.28.48:455][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
-[2018.05.10-00.28.48:455][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
-[2018.05.10-00.28.48:458][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
-[2018.05.10-00.28.48:458][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
-[2018.05.10-00.28.48:458][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
-[2018.05.10-00.28.51:511][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.10-00.28.51:512][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
-[2018.05.10-00.28.51:512][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.10-00.28.51:533][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.10-00.28.51:533][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
-[2018.05.10-00.28.51:533][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.10-00.28.51:535][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.10-00.28.51:535][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.05.10-00.28.51:535][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.10-00.28.51:535][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.10-00.28.51:535][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.05.10-00.28.51:535][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.10-00.28.51:536][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
-[2018.05.10-00.28.51:536][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
-[2018.05.10-00.28.51:536][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
-[2018.05.10-00.28.51:536][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
-[2018.05.10-00.28.51:536][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
-[2018.05.10-00.29.05:209][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
-[2018.05.10-00.29.05:209][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
-[2018.05.10-00.29.05:209][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading NULL.
-[2018.05.10-00.29.05:209][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Douvet_Mixed_AO (AutoDXT, 2048X2048)
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Douvet_Base_Color (AutoDXT, 2048X2048)
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Douvet_Normal_DirectX (BC5, 2048X2048)
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Bed_Mixed_AO (AutoDXT, 2048X2048)
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Bed_Roughness (AutoDXT, 2048X2048)
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Bed_Normal_DirectX (BC5, 2048X2048)
-[2018.05.10-00.29.07:677][  0]LogTexture: Display: Building textures: Bed_Metallic (AutoDXT, 2048X2048)
-[2018.05.10-00.29.08:193][  0]LogTexture: Display: Building textures: Bed_Base_Color (AutoDXT, 2048X2048)
-[2018.05.10-00.29.08:193][  0]LogTexture: Display: Building textures: Can_OcclusionRoughnessMetallic (AutoDXT, 256X256)
-[2018.05.10-00.29.08:193][  0]LogTexture: Display: Building textures: Can_Base_Color (AutoDXT, 256X256)
-[2018.05.10-00.29.08:193][  0]LogTexture: Display: Building textures: Can_Normal_DirectX (BC5, 256X256)
-[2018.05.10-00.29.08:193][  0]LogTexture: Display: Building textures: CableLPPosed_Charger_BaseColor (AutoDXT, 512X512)
-[2018.05.10-00.29.08:421][  0]LogTexture: Display: Building textures: Can_Opacity (AutoDXT, 256X256)
-[2018.05.10-00.29.08:421][  0]LogStaticMesh: Building static mesh plane02...
-[2018.05.10-00.29.08:468][  0]LogTexture: Display: Building textures: CableLPPosed_Charger_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2018.05.10-00.29.08:468][  0]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/lateAdition/plane02.plane02
-[2018.05.10-00.29.08:798][  0]LogTexture: Display: Building textures: CableLPPosed_Charger_Normal (BC5, 512X512)
-[2018.05.10-00.29.08:800][  0]LogStaticMesh: Building static mesh Can...
-[2018.05.10-00.29.08:811][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Toby/Can.Can
-[2018.05.10-00.29.08:858][  0]LogStaticMesh: Building static mesh ChargerPhone...
-[2018.05.10-00.29.08:898][  0]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Toby/ChargerPhone.ChargerPhone
-[2018.05.10-00.29.09:058][  0]LogTexture: Display: Building textures: PlateLP_Plate_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
-[2018.05.10-00.29.09:058][  0]LogStaticMesh: Building static mesh Plate...
-[2018.05.10-00.29.09:064][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Toby/Plate.Plate
-[2018.05.10-00.29.09:584][  0]LogTexture: Display: Building textures: PlateLP_Plate_Normal (BC5, 2048X2048)
-[2018.05.10-00.29.09:584][  0]LogStaticMesh: Building static mesh WallSwitch01...
-[2018.05.10-00.29.09:591][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Toby/WallSwitch01.WallSwitch01
-[2018.05.10-00.29.09:592][  0]LogStaticMesh: Building static mesh WallSwitch02...
-[2018.05.10-00.29.09:594][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Toby/WallSwitch02.WallSwitch02
-[2018.05.10-00.29.09:762][  0]LogMaterial: Missing cached shader map for material blackRubber_SHD, compiling. 
-[2018.05.10-00.29.10:064][  0]LogMaterial: Missing cached shader map for material silver_SHD, compiling. 
-[2018.05.10-00.29.11:133][  0]LogTexture: Display: Building textures: Switches_nonSwitch_BaseColor (AutoDXT, 512X512)
-[2018.05.10-00.29.11:133][  0]LogTexture: Display: Building textures: Switches_Switch_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2018.05.10-00.29.11:133][  0]LogTexture: Display: Building textures: Switches_Switch_Normal (BC5, 512X512)
-[2018.05.10-00.29.11:133][  0]LogTexture: Display: Building textures: Switches_Switch_BaseColor (AutoDXT, 512X512)
-[2018.05.10-00.29.11:133][  0]LogTexture: Display: Building textures: Switches_nonSwitch_OcclusionRoughnessMetallic (AutoDXT, 512X512)
-[2018.05.10-00.29.11:133][  0]LogTexture: Display: Building textures: Switches_nonSwitch_Normal (BC5, 512X512)
-[2018.05.10-00.29.11:954][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave clicButton...
-[2018.05.10-00.29.12:142][  0]LogMaterial: Missing cached shader map for material hole_SHD, compiling. 
-[2018.05.10-00.29.12:971][  0]LogMaterial: Missing cached shader map for material Can, compiling. 
-[2018.05.10-00.29.13:185][  0]LogMaterial: Missing cached shader map for material Cable, compiling. 
-[2018.05.10-00.29.13:469][  0]LogMaterial: Missing cached shader map for material Plate, compiling. 
-[2018.05.10-00.29.14:120][  0]LogMaterial: Missing cached shader map for material Switch02, compiling. 
-[2018.05.10-00.29.14:171][  0]LogMaterial: Missing cached shader map for material Switch01, compiling. 
-[2018.05.10-00.29.14:645][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave fridge...
-[2018.05.10-00.29.14:963][  0]LogAIModule: Creating AISystem for world MotionControllerMap
-[2018.05.10-00.29.16:465][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.10-00.29.16:759][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.10-00.29.16:920][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 160.822ms to complete.
-[2018.05.10-00.29.16:920][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 77.470
-[2018.05.10-00.29.18:620][  0]LogCollectionManager: Loaded 0 collections in 0.001463 seconds
-[2018.05.10-00.29.18:917][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
-[2018.05.10-00.29.18:917][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Developers/Angela/Collections/' took 0.01s
-[2018.05.10-00.29.18:917][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
-[2018.05.10-00.29.18:917][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.05.10-00.29.18:982][  0]LogContentBrowser: Native class hierarchy populated in 0.0154 seconds. Added 2363 classes and 519 folders.
-[2018.05.10-00.29.19:254][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.10-00.29.20:285][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.10-00.29.20:473][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.10-00.29.26:313][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRaporwave
-[2018.05.10-00.29.26:313][  0]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.10-00.29.26:313][  0]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.18
-[2018.05.10-00.29.26:313][  0]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.05.10-00.29.26:313][  0]LogTemp: BranchPath = DESKTOP-4INFFS5/D/Program Files (x86)/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-4INFFS5/D/Program Files (x86)/Epic Games/UE_4.18/Engine/Binaries
-[2018.05.10-00.29.26:313][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\AngelaCai\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.10-00.29.26:313][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.10-00.29.26:566][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.10-00.29.26:595][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.10-00.29.26:754][  0]LogSlate: Took 0.013500 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.10-00.29.28:023][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
-[2018.05.10-00.29.29:660][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.10-00.29.29:660][  0]LogLoad: (Engine Initialization) Total time: 114.91 seconds
-[2018.05.10-00.29.29:660][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.10-00.29.29:660][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.10-00.29.30:008][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
-[2018.05.10-00.29.30:444][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.10-00.29.30:889][  0]LogSlate: Took 0.009399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.10-00.29.31:677][  3]LogAssetRegistry: Asset discovery search completed in 107.7425 seconds
-[2018.05.10-00.29.31:680][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.10-00.29.31:680][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000086 seconds (updated 0 objects)
-[2018.05.10-00.32.07:007][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.32.08:487][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.32.09:151][631]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.33.03:197][150]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.10-00.33.03:411][150]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj)
-[2018.05.10-00.33.03:718][150]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj
-[2018.05.10-00.33.03:825][150]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.33.16:380][150]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj
-[2018.05.10-00.33.16:402][150]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.33.16:460][150]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/lambert1SG'
-[2018.05.10-00.33.16:460][150]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/lambert1SG'
-[2018.05.10-00.33.16:514][150]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/chair_txt'
-[2018.05.10-00.33.16:514][150]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/chair_txt'
-[2018.05.10-00.33.17:491][150]LogTexture: Display: Building textures: chair_txt (AutoDXT, 4096X4096)
-[2018.05.10-00.33.20:176][150]LogMaterial: Missing cached shader map for material lambert1SG, compiling. 
-[2018.05.10-00.33.20:206][150]LogFbx: Warning: Triangulating static mesh uv_wardrobe_door_L:b_deskWardrobe_04:_deskChair:polySurface26
-[2018.05.10-00.33.20:427][150]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.10-00.33.20:442][150]LogStaticMesh: Building static mesh chair_new...
-[2018.05.10-00.33.20:472][150]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Ang/deskSet/chair_new.chair_new
-[2018.05.10-00.33.39:131][375]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.05.10-00.34.02:594][742]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.10-00.34.06:268][965]LogStaticMesh: Building static mesh chair_new...
-[2018.05.10-00.34.06:329][965]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/lateAdition/chair_new.chair_new
-[2018.05.10-00.34.59:039][594]LogSlate: Took 0.312423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.10-00.35.07:012][784]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.07:012][784]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-00.35.07:458][798]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.07:458][798]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-00.35.07:707][821]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.07:708][821]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-00.35.07:899][837]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.07:899][837]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-00.35.08:177][851]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.08:177][851]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-00.35.08:542][856]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.08:542][856]LogEditorTransaction: Undo Set Rotation
-[2018.05.10-00.35.08:854][858]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.08:854][858]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-00.35.08:978][859]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.08:978][859]LogEditorTransaction: Undo Edit Static Mesh
-[2018.05.10-00.35.09:154][861]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.09:154][861]LogEditorTransaction: Undo Add Component
-[2018.05.10-00.35.10:522][950]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.10:522][950]LogEditorTransaction: Undo Replace Actor(s) with blueprint
-[2018.05.10-00.35.10:844][953]Cmd: TRANSACTION UNDO
-[2018.05.10-00.35.10:844][953]LogEditorTransaction: Undo Edit Import Textures
-[2018.05.10-00.35.14:246][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.05.10-00.35.15:554][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.35.16:118][ 24]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.35.50:293][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/chair_new" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_new.uasset" SILENT=true
-[2018.05.10-00.35.50:397][ 11]LogSavePackage: Save=95.28ms
-[2018.05.10-00.35.50:397][ 11]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/chair_new7FEFD95149CE95E708AEC89DACE9C563.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_new.uasset'
-[2018.05.10-00.35.50:400][ 11]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_new.uasset
-[2018.05.10-00.35.50:431][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/chair_txt" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_txt.uasset" SILENT=true
-[2018.05.10-00.35.51:619][ 11]LogSavePackage: Save=1186.59ms
-[2018.05.10-00.35.51:619][ 11]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/chair_txtA5853CC74E5D03AB2BCAF1A09441CE81.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_txt.uasset'
-[2018.05.10-00.35.51:622][ 11]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_txt.uasset
-[2018.05.10-00.35.51:677][ 11]LogSavePackage: Save=17.54ms
-[2018.05.10-00.35.51:677][ 11]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/deskSet_placeholder8DFF8F5D404741D5C8507B96855A406C.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/deskSet_placeholder.uasset'
-[2018.05.10-00.35.51:680][ 11]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/deskSet_placeholder.uasset
-[2018.05.10-00.35.51:745][ 11]LogSavePackage: Save=1.22ms
-[2018.05.10-00.35.51:745][ 11]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/deskSet_placeholderCFC4DF904F9486DE33C4049810940898.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/deskSet_placeholder.uasset'
-[2018.05.10-00.35.51:759][ 11]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/deskSet_placeholder.uasset
-[2018.05.10-00.35.51:819][ 11]LogSavePackage: Save=14.23ms
-[2018.05.10-00.35.51:819][ 11]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/lambert1SG8E3A1F1D4F48BEE068465183666C40D3.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/lambert1SG.uasset'
-[2018.05.10-00.35.51:822][ 11]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/lambert1SG.uasset
-[2018.05.10-00.36.04:727][253]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/desk/desk_new.obj)
-[2018.05.10-00.36.04:740][253]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/desk/desk_new.obj
-[2018.05.10-00.36.04:847][253]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.36.08:105][253]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/desk/desk_new.obj
-[2018.05.10-00.36.08:204][253]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.36.08:204][253]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/Updated/lambert2SG'
-[2018.05.10-00.36.08:204][253]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/Updated/lambert2SG'
-[2018.05.10-00.36.08:207][253]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/Updated/desk_txt'
-[2018.05.10-00.36.08:207][253]LogLinker: Can't find file '/Game/Assets/Ang/deskSet/Updated/desk_txt'
-[2018.05.10-00.36.09:355][253]LogTexture: Display: Building textures: desk_txt (AutoDXT, 4096X4096)
-[2018.05.10-00.36.12:905][253]LogMaterial: Missing cached shader map for material lambert2SG, compiling. 
-[2018.05.10-00.36.12:948][253]LogFbx: Warning: Triangulating static mesh uv_desk:desk_uv_GEO
-[2018.05.10-00.36.13:167][253]LogStaticMesh: Building static mesh desk_new...
-[2018.05.10-00.36.13:367][253]LogStaticMesh: Built static mesh [0.20s] /Game/Assets/Ang/deskSet/Updated/desk_new.desk_new
-[2018.05.10-00.36.13:394][253]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-00.36.22:536][253]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/desk/desk_txt.png)
-[2018.05.10-00.36.30:463][253]LogTexture: Display: Building textures: desk_txt (AutoDXT, 4096X4096)
-[2018.05.10-00.36.41:975][661]LogSavePackage: Save=16.23ms
-[2018.05.10-00.36.41:975][661]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/deskSet_placeholderD04C04F947B81C1DAB7B88B6CC25D9C8.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/deskSet_placeholder.uasset'
-[2018.05.10-00.36.41:978][661]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/deskSet_placeholder.uasset
-[2018.05.10-00.36.42:240][661]LogSavePackage: Save=6.30ms
-[2018.05.10-00.36.42:240][661]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/deskSet_placeholder211CB16A442E9F2980C675A586C3C28F.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/deskSet_placeholder.uasset'
-[2018.05.10-00.36.42:242][661]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/deskSet_placeholder.uasset
-[2018.05.10-00.36.58:339][165]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe.obj)
-[2018.05.10-00.36.58:350][165]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe.obj
-[2018.05.10-00.36.58:386][165]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.37.04:020][165]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe.obj
-[2018.05.10-00.37.04:059][165]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.37.04:060][165]LogFbx: Warning: Triangulating static mesh uv_wardrobe:door_L_uv_wardrobe:polySurface62_uv_wardrobe:polySurface1
-[2018.05.10-00.37.04:131][165]LogStaticMesh: Building static mesh wardrobe...
-[2018.05.10-00.37.04:179][165]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/Ang/deskSet/Updated/wardrobe.wardrobe
-[2018.05.10-00.37.04:351][165]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_doorLeft.obj)
-[2018.05.10-00.37.04:363][165]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_doorLeft.obj
-[2018.05.10-00.37.04:421][165]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.37.04:422][165]LogFbx: Warning: Triangulating static mesh uv_wardrobe_door_L:polySurface41
-[2018.05.10-00.37.04:532][165]LogStaticMesh: Building static mesh wardrobe_doorLeft...
-[2018.05.10-00.37.04:614][165]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/Ang/deskSet/Updated/wardrobe_doorLeft.wardrobe_doorLeft
-[2018.05.10-00.37.04:629][165]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-00.37.04:703][165]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_doorRight.obj)
-[2018.05.10-00.37.04:716][165]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_doorRight.obj
-[2018.05.10-00.37.04:774][165]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.37.04:775][165]LogFbx: Warning: Triangulating static mesh uv_wardrobe_door_L:polySurface43
-[2018.05.10-00.37.04:898][165]LogStaticMesh: Building static mesh wardrobe_doorRight...
-[2018.05.10-00.37.04:980][165]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight.wardrobe_doorRight
-[2018.05.10-00.37.05:016][165]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-00.37.05:171][165]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_txt.png)
-[2018.05.10-00.37.06:181][165]LogTexture: Display: Building textures: wardrobe_txt (AutoDXT, 4096X4096)
-[2018.05.10-00.37.13:566][221]LogEditorViewport: Clicking on Actor (LMB): BP_Cactus_C (BP_Cactus4)
-[2018.05.10-00.37.15:994][253]Cmd: EDIT COPY
-[2018.05.10-00.37.16:404][253]Cmd: EDIT PASTE
-[2018.05.10-00.37.27:985][478]LogEditorActor: Deleted Actor: BP_Cactus_C
-[2018.05.10-00.37.28:004][478]LogEditorActor: Deleted 1 Actors (0.060 secs)
-[2018.05.10-00.38.32:963][ 24]LogEditorTransaction: Undo Toggle Absolute Scale
-[2018.05.10-00.39.27:624][222]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 1 classes and 0 folders.
-[2018.05.10-00.39.27:656][222]LogMaterial: Missing cached shader map for material lambert1SG, compiling. 
-[2018.05.10-00.39.28:419][222]LogMaterial: Missing cached shader map for material lambert1SG, compiling. 
-[2018.05.10-00.39.28:482][222]LogMaterial: Missing cached shader map for material lambert1SG, compiling. 
-[2018.05.10-00.39.28:536][222]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.10-00.39.28:700][222]LogSlate: Took 0.016017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.10-00.39.31:062][224]MaterialEditorStats: Base pass shader: 148 instructions
-[2018.05.10-00.39.31:062][224]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
-[2018.05.10-00.39.31:062][224]MaterialEditorStats: Vertex shader: 87 instructions
-[2018.05.10-00.39.31:062][224]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.10-00.39.31:062][224]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.10-00.40.01:484][758]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.40.38:946][981]LogSavePackage: Save=1430.25ms
-[2018.05.10-00.40.38:946][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto1FCAE757E48715B6BA30A19A0EA5D5C23.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
-[2018.05.10-00.40.38:949][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
-[2018.05.10-00.40.39:011][981]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 1.637
-[2018.05.10-00.40.39:011][981]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.637
-[2018.05.10-00.40.39:027][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/desk_new] ([1] browsable assets)...
-[2018.05.10-00.40.39:069][981]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Ang/deskSet/Updated/desk_new.desk_new]
-[2018.05.10-00.40.39:069][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/desk_new]
-[2018.05.10-00.40.39:084][981]LogSavePackage: Save=14.13ms
-[2018.05.10-00.40.39:084][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/desk_new_Auto19039964B4C6A2C326A51129D9FCF7AA6.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/desk_new_Auto1.uasset'
-[2018.05.10-00.40.39:086][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/desk_new_Auto1.uasset
-[2018.05.10-00.40.39:087][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/lambert2SG] ([1] browsable assets)...
-[2018.05.10-00.40.39:112][981]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Ang/deskSet/Updated/lambert2SG.lambert2SG]
-[2018.05.10-00.40.39:112][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/lambert2SG]
-[2018.05.10-00.40.39:129][981]LogSavePackage: Save=14.77ms
-[2018.05.10-00.40.39:129][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/lambert2SG_Auto157453626485CB815A6A13AAD35571658.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/lambert2SG_Auto1.uasset'
-[2018.05.10-00.40.39:131][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/lambert2SG_Auto1.uasset
-[2018.05.10-00.40.39:132][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/desk_txt] ([1] browsable assets)...
-[2018.05.10-00.40.39:142][981]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Ang/deskSet/Updated/desk_txt.desk_txt]
-[2018.05.10-00.40.39:142][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/desk_txt]
-[2018.05.10-00.40.40:107][981]LogSavePackage: Save=962.98ms
-[2018.05.10-00.40.40:107][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/desk_txt_Auto13F19698A4CCC798A0C397184B3E83B0F.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/desk_txt_Auto1.uasset'
-[2018.05.10-00.40.40:109][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/desk_txt_Auto1.uasset
-[2018.05.10-00.40.40:110][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_chair_new] ([1] browsable assets)...
-[2018.05.10-00.40.40:136][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_chair_new.BP_chair_new]
-[2018.05.10-00.40.40:136][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_chair_new]
-[2018.05.10-00.40.40:136][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_chair_new" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/BP_chair_new_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.10-00.40.40:192][981]LogSavePackage: Save=55.19ms
-[2018.05.10-00.40.40:192][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_chair_new_Auto1E8FF77984B2B302993AA6FAD1D4C25AA.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/BP_chair_new_Auto1.uasset'
-[2018.05.10-00.40.40:194][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/BP_chair_new_Auto1.uasset
-[2018.05.10-00.40.40:195][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/wardrobe] ([1] browsable assets)...
-[2018.05.10-00.40.40:220][981]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Ang/deskSet/Updated/wardrobe.wardrobe]
-[2018.05.10-00.40.40:220][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/wardrobe]
-[2018.05.10-00.40.40:236][981]LogSavePackage: Save=14.31ms
-[2018.05.10-00.40.40:236][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_Auto139FD5C074942B2C3FDC0FA86955A55AF.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_Auto1.uasset'
-[2018.05.10-00.40.40:238][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_Auto1.uasset
-[2018.05.10-00.40.40:239][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/wardrobe_doorLeft] ([1] browsable assets)...
-[2018.05.10-00.40.40:264][981]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Ang/deskSet/Updated/wardrobe_doorLeft.wardrobe_doorLeft]
-[2018.05.10-00.40.40:264][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/wardrobe_doorLeft]
-[2018.05.10-00.40.40:280][981]LogSavePackage: Save=14.16ms
-[2018.05.10-00.40.40:280][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_doorLeft_Auto1DE5FB2F5418613A437DCDA81ED92066C.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_doorLeft_Auto1.uasset'
-[2018.05.10-00.40.40:281][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_doorLeft_Auto1.uasset
-[2018.05.10-00.40.40:283][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight] ([1] browsable assets)...
-[2018.05.10-00.40.40:310][981]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight.wardrobe_doorRight]
-[2018.05.10-00.40.40:310][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight]
-[2018.05.10-00.40.40:334][981]LogSavePackage: Save=14.51ms
-[2018.05.10-00.40.40:334][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_doorRight_Auto1F0857C3D40E5387D7F78A795FE421FC5.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight_Auto1.uasset'
-[2018.05.10-00.40.40:336][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight_Auto1.uasset
-[2018.05.10-00.40.40:337][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/wardrobe_txt] ([1] browsable assets)...
-[2018.05.10-00.40.40:347][981]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Ang/deskSet/Updated/wardrobe_txt.wardrobe_txt]
-[2018.05.10-00.40.40:347][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/wardrobe_txt]
-[2018.05.10-00.40.41:350][981]LogSavePackage: Save=1001.76ms
-[2018.05.10-00.40.41:350][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_txt_Auto1C15154F24F3E9C4F1854F88866CD3692.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_txt_Auto1.uasset'
-[2018.05.10-00.40.41:353][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/wardrobe_txt_Auto1.uasset
-[2018.05.10-00.40.41:355][981]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/BP_Chair] ([1] browsable assets)...
-[2018.05.10-00.40.41:383][981]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Ang/deskSet/Updated/BP_Chair.BP_Chair]
-[2018.05.10-00.40.41:383][981]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/BP_Chair]
-[2018.05.10-00.40.41:413][981]LogSavePackage: Save=28.41ms
-[2018.05.10-00.40.41:414][981]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Chair_Auto1D824BC844B18910E66253F8915657D1B.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Chair_Auto1.uasset'
-[2018.05.10-00.40.41:415][981]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Chair_Auto1.uasset
-[2018.05.10-00.40.41:415][981]LogFileHelpers: Auto-saving content packages took 2.401
-[2018.05.10-00.42.01:655][332]LogEditorFactories: Performing atomic reimport of [F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj]
-[2018.05.10-00.42.01:700][332]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj
-[2018.05.10-00.42.01:734][332]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.42.01:746][332]LogFbx: Warning: Triangulating static mesh chair_new:polySurface26
-[2018.05.10-00.42.01:839][332]LogStaticMesh: Building static mesh chair_new...
-[2018.05.10-00.42.01:871][332]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Ang/deskSet/Updated/chair_new.chair_new
-[2018.05.10-00.42.01:925][332]LogEditorFactories: -- imported successfully
-[2018.05.10-00.42.01:929][332]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-00.42.08:473][450]LogEditorViewport: Clicking on Actor (LMB): BP_Chair_C (BP_Chair)
-[2018.05.10-00.42.52:289][101]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.42.52:457][101]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.42.52:483][101]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.43.07:897][904]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.43.07:920][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.10-00.43.07:941][904]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.43.07:994][904]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.10-00.43.09:629][924]MaterialEditorStats: Base pass shader: 148 instructions
-[2018.05.10-00.43.09:630][924]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
-[2018.05.10-00.43.09:630][924]MaterialEditorStats: Vertex shader: 87 instructions
-[2018.05.10-00.43.09:630][924]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.10-00.43.09:630][924]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.10-00.43.14:931][978]LogMaterialEditor: Applying material chair_new_SHD
-[2018.05.10-00.43.15:447][978]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.43.15:526][978]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.43.15:573][978]LogMaterial: Missing cached shader map for material chair_new_SHD, compiling. 
-[2018.05.10-00.43.15:681][978]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy chair_new_SHD, compiling. 
-[2018.05.10-00.43.16:901][978]TextureStreamingBuild: Display: Compiling optional shaders took 1.262 seconds.
-[2018.05.10-00.43.20:647][  7]MaterialEditorStats: Base pass shader: 148 instructions
-[2018.05.10-00.43.20:647][  7]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
-[2018.05.10-00.43.20:647][  7]MaterialEditorStats: Vertex shader: 87 instructions
-[2018.05.10-00.43.20:647][  7]MaterialEditorStats: Texture samplers: 4/16
-[2018.05.10-00.43.20:648][  7]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.10-00.44.00:216][311]LogEditorFactories: Performing atomic reimport of [F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj]
-[2018.05.10-00.44.00:262][311]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj
-[2018.05.10-00.44.00:291][311]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.44.00:292][311]LogFbx: Warning: Triangulating static mesh chair_new:polySurface26
-[2018.05.10-00.44.00:370][311]LogStaticMesh: Building static mesh chair_new...
-[2018.05.10-00.44.00:408][311]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Ang/deskSet/Updated/chair_new.chair_new
-[2018.05.10-00.44.00:426][311]LogEditorFactories: -- imported successfully
-[2018.05.10-00.44.00:430][311]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-00.44.59:367][672]LogEditorFactories: Performing atomic reimport of [F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj]
-[2018.05.10-00.44.59:412][672]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/chair/chair_new.obj
-[2018.05.10-00.44.59:442][672]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-00.44.59:443][672]LogFbx: Warning: Triangulating static mesh chair_new:polySurface26
-[2018.05.10-00.44.59:525][672]LogStaticMesh: Building static mesh chair_new...
-[2018.05.10-00.44.59:567][672]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Ang/deskSet/Updated/chair_new.chair_new
-[2018.05.10-00.44.59:587][672]LogEditorFactories: -- imported successfully
-[2018.05.10-00.44.59:590][672]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-00.45.12:453][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.45.13:325][889]Cmd: TRANSACTION UNDO
-[2018.05.10-00.45.13:325][889]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.10-00.45.14:718][942]LogEditorViewport: Clicking on Actor (LMB): BP_Chair_C (BP_Chair)
-[2018.05.10-00.45.18:723][978]Cmd: TRANSACTION UNDO
-[2018.05.10-00.45.18:723][978]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.45.28:594][142]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.45.37:737][328]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.45.42:945][412]Cmd: TRANSACTION UNDO
-[2018.05.10-00.45.42:945][412]LogEditorTransaction: Undo Scale Actors
-[2018.05.10-00.45.43:603][443]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.45.48:836][543]LogEditorViewport: Clicking on Actor (LMB): BP_Chair_C (BP_Chair)
-[2018.05.10-00.45.55:555][652]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.45.56:830][673]LogEditorViewport: Clicking on Actor (LMB): BP_Chair_C (BP_Chair)
-[2018.05.10-00.46.28:350][250]LogSavePackage: Save=1137.19ms
-[2018.05.10-00.46.28:351][250]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap5CB004264FC0153DC3574793ED36A913.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2018.05.10-00.46.28:354][250]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2018.05.10-00.46.29:606][250]LogSavePackage: Save=1049.58ms
-[2018.05.10-00.46.29:606][250]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltDataC1BA9FCE4EE228B2153C08BEA1F6968C.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
-[2018.05.10-00.46.29:657][250]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
-[2018.05.10-00.46.33:909][348]LogActorFactory: Actor Factory created desk_new
-[2018.05.10-00.46.35:967][439]LogActorFactory: Actor Factory created desk_new
-[2018.05.10-00.46.37:035][454]Cmd: DELETE
-[2018.05.10-00.46.37:035][454]Cmd: ACTOR DELETE
-[2018.05.10-00.46.37:201][454]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.10-00.46.37:224][454]LogEditorActor: Deleted 1 Actors (0.034 secs)
-[2018.05.10-00.46.47:076][683]LogMetaData: Removing '/Game/Assets/Ang/deskSet/Updated/BP_Desk.SKEL_BP_Desk_C' ref from Metadata '/Game/Assets/Ang/deskSet/Updated/BP_Chair_2.PackageMetaData'
-[2018.05.10-00.46.47:076][683]LogMetaData: Removing '/Game/Assets/Ang/deskSet/Updated/BP_Desk.BP_Desk_C' ref from Metadata '/Game/Assets/Ang/deskSet/Updated/BP_Chair_2.PackageMetaData'
-[2018.05.10-00.46.47:193][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/BP_Desk" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Desk.uasset" SILENT=true
-[2018.05.10-00.46.47:216][683]LogSavePackage: Save=21.70ms
-[2018.05.10-00.46.47:216][683]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Desk654203B249033D7147B0FA8263F21A0D.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Desk.uasset'
-[2018.05.10-00.46.47:219][683]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Desk.uasset
-[2018.05.10-00.48.02:066][ 87]BlueprintLog: New page: Compile BP_Desk
-[2018.05.10-00.48.09:792][178]Cmd: TRANSACTION UNDO
-[2018.05.10-00.48.09:792][178]LogEditorTransaction: Undo Create Actors
-[2018.05.10-00.48.25:968][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.48.28:733][448]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.48.36:896][548]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.48.38:258][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.48.40:870][598]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.48.47:135][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.05.10-00.48.48:172][687]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.48.56:771][791]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.48.59:974][871]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.49.12:864][ 65]Cmd: TRANSACTION UNDO
-[2018.05.10-00.49.12:864][ 65]LogEditorTransaction: Undo Scale Actors
-[2018.05.10-00.49.18:509][185]LogEditorViewport: Clicking on Actor (LMB): TeddyBear_C (TeddyBear)
-[2018.05.10-00.49.19:664][203]Cmd: TRANSACTION UNDO
-[2018.05.10-00.49.19:664][203]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.10-00.49.36:524][539]Cmd: TRANSACTION UNDO
-[2018.05.10-00.49.36:525][539]LogEditorTransaction: Undo Set Scale
-[2018.05.10-00.49.45:725][766]Cmd: TRANSACTION UNDO
-[2018.05.10-00.49.45:725][766]LogEditorTransaction: Undo Set Scale
-[2018.05.10-00.50.05:308][114]Cmd: TRANSACTION UNDO
-[2018.05.10-00.50.05:308][114]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.50.09:028][207]Cmd: TRANSACTION UNDO
-[2018.05.10-00.50.09:028][207]LogEditorTransaction: Undo Scale Actors
-[2018.05.10-00.50.38:091][650]Cmd: TRANSACTION UNDO
-[2018.05.10-00.50.38:091][650]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.50.46:044][787]Cmd: TRANSACTION UNDO
-[2018.05.10-00.50.46:044][787]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.50.54:976][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-00.51.00:659][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.51.02:918][ 46]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.51.05:738][ 82]Cmd: TRANSACTION UNDO
-[2018.05.10-00.51.05:738][ 82]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.51.06:994][135]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.51.07:820][146]LogEditorViewport: Clicking on Actor (LMB): TeddyBear_C (TeddyBear)
-[2018.05.10-00.51.13:915][248]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.51.15:350][266]LogEditorViewport: Clicking on Actor (LMB): TeddyBear_C (TeddyBear)
-[2018.05.10-00.51.19:040][311]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.51.30:023][444]LogEditorViewport: Clicking on Actor (LMB): BP_albums_C (BP_albums)
-[2018.05.10-00.51.38:021][544]Cmd: TRANSACTION UNDO
-[2018.05.10-00.51.38:021][544]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.51.39:920][605]Cmd: TRANSACTION UNDO
-[2018.05.10-00.51.39:920][605]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.51.43:729][713]Cmd: TRANSACTION REDO
-[2018.05.10-00.51.43:729][713]LogEditorTransaction: Redo Move Actors
-[2018.05.10-00.51.46:260][794]Cmd: TRANSACTION REDO
-[2018.05.10-00.51.46:260][794]LogEditorTransaction: Redo Move Actors
-[2018.05.10-00.52.02:834][986]LogEditorViewport: Clicking on Actor (LMB): BP_Cactus_C (BP_Cactus4)
-[2018.05.10-00.52.03:868][999]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.52.06:435][ 32]Cmd: TRANSACTION UNDO
-[2018.05.10-00.52.06:435][ 32]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.52.16:532][197]Cmd: TRANSACTION UNDO
-[2018.05.10-00.52.16:532][197]LogEditorTransaction: Undo Snap Actors To Floor
-[2018.05.10-00.52.21:797][383]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.52.34:804][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Left)
-[2018.05.10-00.52.42:401][710]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-00.52.45:764][753]LogEditorViewport: Clicking on Actor (LMB): Charger_C (Charger)
-[2018.05.10-00.52.46:460][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.52.52:138][836]LogEditorViewport: Clicking on Actor (LMB): Charger_C (Charger)
-[2018.05.10-00.52.58:263][916]Cmd: TRANSACTION UNDO
-[2018.05.10-00.52.58:263][916]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.10-00.53.00:046][978]Cmd: TRANSACTION UNDO
-[2018.05.10-00.53.00:046][978]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.10-00.53.00:826][988]Cmd: TRANSACTION UNDO
-[2018.05.10-00.53.00:826][988]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.53.14:964][254]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.53.22:614][373]LogEditorViewport: Clicking on Actor (LMB): Lamp_C (Lamp)
-[2018.05.10-00.53.23:357][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House_2_storey)
-[2018.05.10-00.53.27:869][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (House_2_storey)
-[2018.05.10-00.53.29:711][483]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.53.39:728][652]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.53.41:396][673]Cmd: TRANSACTION UNDO
-[2018.05.10-00.53.41:396][673]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.10-00.53.47:921][787]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.53.54:796][872]Cmd: TRANSACTION UNDO
-[2018.05.10-00.53.54:797][872]LogEditorTransaction: Undo Move Actors
-[2018.05.10-00.53.58:021][951]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-00.54.08:981][ 90]LogEditorViewport: Clicking on Actor (LMB): Lamp_C (Lamp)
-[2018.05.10-00.55.19:524][ 76]LogMetaData: Removing '/Game/Assets/Ang/deskSet/Updated/BP_Wardrobe.SKEL_BP_Wardrobe_C' ref from Metadata '/Game/Assets/Ang/deskSet/Updated/BP_Chair_2.PackageMetaData'
-[2018.05.10-00.55.19:524][ 76]LogMetaData: Removing '/Game/Assets/Ang/deskSet/Updated/BP_Wardrobe.BP_Wardrobe_C' ref from Metadata '/Game/Assets/Ang/deskSet/Updated/BP_Chair_2.PackageMetaData'
-[2018.05.10-00.55.19:656][ 76]LogSavePackage: Save=22.04ms
-[2018.05.10-00.55.19:656][ 76]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Wardrobe87ED889540D1E4991176DFBF1F145058.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Wardrobe.uasset'
-[2018.05.10-00.55.19:659][ 76]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Wardrobe.uasset
-[2018.05.10-00.56.16:738][908]LogEditorTransaction: Undo Detach Components
-[2018.05.10-00.56.17:817][958]LogEditorTransaction: Undo Edit Static Mesh
-[2018.05.10-00.57.30:361][406]LogStaticMesh: Building static mesh wardrobe_doorRight_polySurface43...
-[2018.05.10-00.57.30:501][406]LogStaticMesh: Built static mesh [0.14s] /Game/Assets/lateAdition/wardrobe_doorRight_polySurface43.wardrobe_doorRight_polySurface43
-[2018.05.10-00.58.09:121][284]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.09:266][284]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.09:290][284]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.21:100][881]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.21:121][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2018.05.10-00.58.21:123][881]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.21:124][881]LogMaterial: Warning: /Engine/Transient.wardrobe_SHD (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.05.10-00.58.21:124][881]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
-[2018.05.10-00.58.21:157][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2018.05.10-00.58.21:164][881]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
-[2018.05.10-00.58.23:020][886]LogSavePackage: Save=1147.24ms
-[2018.05.10-00.58.23:020][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto241EF997246B06B56E4CC509619A53812.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap'
-[2018.05.10-00.58.23:023][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto2.umap
-[2018.05.10-00.58.23:027][886]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 1.193
-[2018.05.10-00.58.23:027][886]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.193
-[2018.05.10-00.58.23:032][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_chair_new] ([1] browsable assets)...
-[2018.05.10-00.58.23:076][886]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_chair_new.BP_chair_new]
-[2018.05.10-00.58.23:076][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_chair_new]
-[2018.05.10-00.58.23:076][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_chair_new" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/BP_chair_new_Auto2.uasset" SILENT=false AUTOSAVING=true
-[2018.05.10-00.58.23:101][886]LogSavePackage: Save=23.61ms
-[2018.05.10-00.58.23:101][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_chair_new_Auto29B7DB98549AEE87D0D976CBE67294C21.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/BP_chair_new_Auto2.uasset'
-[2018.05.10-00.58.23:102][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/BP_chair_new_Auto2.uasset
-[2018.05.10-00.58.23:103][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/chair_new] ([1] browsable assets)...
-[2018.05.10-00.58.23:132][886]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Ang/deskSet/Updated/chair_new.chair_new]
-[2018.05.10-00.58.23:132][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/chair_new]
-[2018.05.10-00.58.23:152][886]LogSavePackage: Save=14.66ms
-[2018.05.10-00.58.23:152][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/chair_new_Auto2B3C8BC044D458357990AA8A7BAF7038E.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/chair_new_Auto2.uasset'
-[2018.05.10-00.58.23:153][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/chair_new_Auto2.uasset
-[2018.05.10-00.58.23:154][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/BP_Chair] ([1] browsable assets)...
-[2018.05.10-00.58.23:184][886]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Ang/deskSet/Updated/BP_Chair.BP_Chair]
-[2018.05.10-00.58.23:184][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/BP_Chair]
-[2018.05.10-00.58.23:211][886]LogSavePackage: Save=23.81ms
-[2018.05.10-00.58.23:211][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Chair_Auto2F8F57AB1420D4C27BFB48491D3B8037F.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Chair_Auto2.uasset'
-[2018.05.10-00.58.23:212][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Chair_Auto2.uasset
-[2018.05.10-00.58.23:213][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/shaders/chair_new_SHD] ([1] browsable assets)...
-[2018.05.10-00.58.23:241][886]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Ang/deskSet/shaders/chair_new_SHD.chair_new_SHD]
-[2018.05.10-00.58.23:241][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/shaders/chair_new_SHD]
-[2018.05.10-00.58.23:260][886]LogSavePackage: Save=15.54ms
-[2018.05.10-00.58.23:260][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/chair_new_SHD_Auto2A94C9110410EC4A40FF7978F10A41FB4.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/shaders/chair_new_SHD_Auto2.uasset'
-[2018.05.10-00.58.23:261][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/shaders/chair_new_SHD_Auto2.uasset
-[2018.05.10-00.58.23:262][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/BP_Desk] ([1] browsable assets)...
-[2018.05.10-00.58.23:290][886]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Ang/deskSet/Updated/BP_Desk.BP_Desk]
-[2018.05.10-00.58.23:290][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/BP_Desk]
-[2018.05.10-00.58.23:317][886]LogSavePackage: Save=21.98ms
-[2018.05.10-00.58.23:317][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Desk_Auto2E43CA2894943ABECF93BC68A6AB92275.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Desk_Auto2.uasset'
-[2018.05.10-00.58.23:318][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Desk_Auto2.uasset
-[2018.05.10-00.58.23:319][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/Updated/BP_Wardrobe] ([1] browsable assets)...
-[2018.05.10-00.58.23:348][886]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Ang/deskSet/Updated/BP_Wardrobe.BP_Wardrobe]
-[2018.05.10-00.58.23:348][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/Updated/BP_Wardrobe]
-[2018.05.10-00.58.23:382][886]LogSavePackage: Save=28.44ms
-[2018.05.10-00.58.23:382][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Wardrobe_Auto29D7C25304C4620BD2F04DB94862D156A.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Wardrobe_Auto2.uasset'
-[2018.05.10-00.58.23:383][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/Updated/BP_Wardrobe_Auto2.uasset
-[2018.05.10-00.58.23:385][886]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/deskSet/shaders/wardrobe_SHD] ([1] browsable assets)...
-[2018.05.10-00.58.23:412][886]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Ang/deskSet/shaders/wardrobe_SHD.wardrobe_SHD]
-[2018.05.10-00.58.23:412][886]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/deskSet/shaders/wardrobe_SHD]
-[2018.05.10-00.58.23:426][886]LogSavePackage: Save=12.42ms
-[2018.05.10-00.58.23:426][886]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_SHD_Auto2CE29FBB948A16F4776D7599F5A8F68E8.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/shaders/wardrobe_SHD_Auto2.uasset'
-[2018.05.10-00.58.23:427][886]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/deskSet/shaders/wardrobe_SHD_Auto2.uasset
-[2018.05.10-00.58.23:427][886]LogFileHelpers: Auto-saving content packages took 0.397
-[2018.05.10-00.58.38:995][620]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.39:024][620]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2018.05.10-00.58.41:507][672]MaterialEditorStats: Base pass shader: 148 instructions
-[2018.05.10-00.58.41:507][672]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
-[2018.05.10-00.58.41:507][672]MaterialEditorStats: Vertex shader: 87 instructions
-[2018.05.10-00.58.41:507][672]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.10-00.58.41:507][672]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.10-00.58.45:707][696]LogMaterialEditor: Applying material wardrobe_SHD
-[2018.05.10-00.58.46:224][696]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.46:294][696]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.46:345][696]LogMaterial: Missing cached shader map for material wardrobe_SHD, compiling. 
-[2018.05.10-00.58.46:426][696]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy wardrobe_SHD, compiling. 
-[2018.05.10-00.58.47:695][696]TextureStreamingBuild: Display: Compiling optional shaders took 1.278 seconds.
-[2018.05.10-00.58.50:870][735]MaterialEditorStats: Base pass shader: 148 instructions
-[2018.05.10-00.58.50:870][735]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 221 instructions
-[2018.05.10-00.58.50:870][735]MaterialEditorStats: Vertex shader: 87 instructions
-[2018.05.10-00.58.50:870][735]MaterialEditorStats: Texture samplers: 4/16
-[2018.05.10-00.58.50:870][735]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.10-01.00.16:901][245]LogEditorFactories: Performing atomic reimport of [F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_doorRight.obj]
-[2018.05.10-01.00.16:953][245]LogFbx: Loading FBX Scene from F:/000_Gold/Modelling and Animation/04_environments/exports/wardrobe/wardrobe_doorRight.obj
-[2018.05.10-01.00.17:011][245]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.10-01.00.17:013][245]LogFbx: Warning: Triangulating static mesh wardrobe_doorRight:polySurface43
-[2018.05.10-01.00.17:160][245]LogStaticMesh: Building static mesh wardrobe_doorRight...
-[2018.05.10-01.00.17:248][245]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Ang/deskSet/Updated/wardrobe_doorRight.wardrobe_doorRight
-[2018.05.10-01.00.17:273][245]LogEditorFactories: -- imported successfully
-[2018.05.10-01.00.17:277][245]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.10-01.00.40:985][724]BlueprintLog: New page: Compile BP_Wardrobe
-[2018.05.10-01.00.45:324][769]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.05.10-01.00.52:915][923]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe2)
-[2018.05.10-01.00.53:808][937]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.00.56:451][972]Cmd: TRANSACTION UNDO
-[2018.05.10-01.00.56:451][972]LogEditorTransaction: Undo Clicking on Actors
-[2018.05.10-01.00.57:166][  6]Cmd: TRANSACTION UNDO
-[2018.05.10-01.00.57:166][  6]LogEditorTransaction: Undo Create Actors
-[2018.05.10-01.00.58:000][ 31]Cmd: TRANSACTION UNDO
-[2018.05.10-01.00.58:000][ 31]LogEditorTransaction: Undo Create Actors
-[2018.05.10-01.01.07:593][181]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.01.13:260][254]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (deskPlaceHolder_ToBeTextured)
-[2018.05.10-01.01.18:150][320]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.01.26:799][436]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.01.33:802][561]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.01.52:697][856]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.01.57:309][915]Cmd: TRANSACTION UNDO
-[2018.05.10-01.01.57:309][915]LogEditorTransaction: Undo Move Actors
-[2018.05.10-01.02.34:321][427]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.10-01.02.53:570][688]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.02.53:766][689]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.03.51:339][437]BlueprintLog: New page: Compile BP_Wardrobe
-[2018.05.10-01.03.59:170][531]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.04.08:568][654]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture7)
-[2018.05.10-01.04.18:737][785]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.04.38:689][ 64]LogSavePackage: Save=1251.45ms
-[2018.05.10-01.04.38:689][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMapBACF7A1A47123C9000E193955ACE37BF.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2018.05.10-01.04.38:692][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2018.05.10-01.04.38:736][ 64]LogFileHelpers: Saving map 'MotionControllerMap' took 1.465
-[2018.05.10-01.04.38:784][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/desk_new" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/desk_new.uasset" SILENT=true
-[2018.05.10-01.04.38:801][ 64]LogSavePackage: Save=15.19ms
-[2018.05.10-01.04.38:801][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/desk_new9EA455EA409AFC9C42B1BF861EFD43F7.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/desk_new.uasset'
-[2018.05.10-01.04.38:804][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/desk_new.uasset
-[2018.05.10-01.04.38:858][ 64]LogSavePackage: Save=15.11ms
-[2018.05.10-01.04.38:859][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/lambert2SGF1867EA5436A2D2688BB8191D4506B60.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/lambert2SG.uasset'
-[2018.05.10-01.04.38:861][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/lambert2SG.uasset
-[2018.05.10-01.04.38:878][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/desk_txt" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/desk_txt.uasset" SILENT=true
-[2018.05.10-01.04.40:904][ 64]LogSavePackage: Save=2024.35ms
-[2018.05.10-01.04.40:904][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/desk_txt76853A9741C38FBCE282248DF87F04A0.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/desk_txt.uasset'
-[2018.05.10-01.04.40:907][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/desk_txt.uasset
-[2018.05.10-01.04.40:943][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_chair_new" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/BP_chair_new.uasset" SILENT=true
-[2018.05.10-01.04.40:968][ 64]LogSavePackage: Save=21.81ms
-[2018.05.10-01.04.40:968][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_chair_newC0CF925D46D3567DFB5898BE9E8AF292.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/BP_chair_new.uasset'
-[2018.05.10-01.04.40:970][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/BP_chair_new.uasset
-[2018.05.10-01.04.40:978][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/chair_new" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_new.uasset" SILENT=true
-[2018.05.10-01.04.40:987][ 64]LogSavePackage: Save=4.09ms
-[2018.05.10-01.04.40:987][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/chair_new49744A184AB91B4474F99E820F9BBEC3.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_new.uasset'
-[2018.05.10-01.04.40:990][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/chair_new.uasset
-[2018.05.10-01.04.41:019][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/wardrobe" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe.uasset" SILENT=true
-[2018.05.10-01.04.41:036][ 64]LogSavePackage: Save=14.63ms
-[2018.05.10-01.04.41:036][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobeA4503A4E4F9D2C277A02DF9CBE5E64CA.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe.uasset'
-[2018.05.10-01.04.41:040][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe.uasset
-[2018.05.10-01.04.41:087][ 64]LogSavePackage: Save=14.67ms
-[2018.05.10-01.04.41:087][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_doorLeft4B06295A4B59FB577E8F26B3296E5257.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe_doorLeft.uasset'
-[2018.05.10-01.04.41:089][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe_doorLeft.uasset
-[2018.05.10-01.04.41:135][ 64]LogSavePackage: Save=13.53ms
-[2018.05.10-01.04.41:135][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_doorRightE5BC2CFF45E806C0C95820B244BEC892.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe_doorRight.uasset'
-[2018.05.10-01.04.41:138][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe_doorRight.uasset
-[2018.05.10-01.04.43:429][ 64]LogSavePackage: Save=2274.83ms
-[2018.05.10-01.04.43:429][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_txtBE43F1E64CAC5676CC2716AB657B5F14.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe_txt.uasset'
-[2018.05.10-01.04.43:431][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/wardrobe_txt.uasset
-[2018.05.10-01.04.43:459][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/BP_Chair" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Chair.uasset" SILENT=true
-[2018.05.10-01.04.43:483][ 64]LogSavePackage: Save=22.28ms
-[2018.05.10-01.04.43:483][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_ChairD39EB64544E21BB83BFDDC84933711EB.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Chair.uasset'
-[2018.05.10-01.04.43:487][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Chair.uasset
-[2018.05.10-01.04.43:539][ 64]LogSavePackage: Save=14.43ms
-[2018.05.10-01.04.43:539][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/chair_new_SHDB10643D44E467C2EEF8389A09EA82A72.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/shaders/chair_new_SHD.uasset'
-[2018.05.10-01.04.43:541][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/shaders/chair_new_SHD.uasset
-[2018.05.10-01.04.43:547][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Ang/deskSet/Updated/BP_Desk" FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Desk.uasset" SILENT=true
-[2018.05.10-01.04.43:563][ 64]LogSavePackage: Save=10.50ms
-[2018.05.10-01.04.43:563][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Desk34964625469B777CF0BD89AE3FDD5F60.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Desk.uasset'
-[2018.05.10-01.04.43:567][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Desk.uasset
-[2018.05.10-01.04.43:627][ 64]LogSavePackage: Save=24.77ms
-[2018.05.10-01.04.43:627][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/BP_Wardrobe0136D2B64899433BC641B7B9E38B561D.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Wardrobe.uasset'
-[2018.05.10-01.04.43:630][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/Updated/BP_Wardrobe.uasset
-[2018.05.10-01.04.43:678][ 64]LogSavePackage: Save=16.57ms
-[2018.05.10-01.04.43:678][ 64]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/wardrobe_SHD89783A2F402907634480FA8D2FB25AB4.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/shaders/wardrobe_SHD.uasset'
-[2018.05.10-01.04.43:680][ 64]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/deskSet/shaders/wardrobe_SHD.uasset
-[2018.05.10-01.04.48:158][ 93]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.04.49:635][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag)
-[2018.05.10-01.04.51:896][141]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.04.59:662][244]Cmd: TRANSACTION UNDO
-[2018.05.10-01.04.59:662][244]LogEditorTransaction: Undo Set Actor Visibility
-[2018.05.10-01.05.00:411][279]Cmd: TRANSACTION UNDO
-[2018.05.10-01.05.00:411][279]LogEditorTransaction: Undo Move Actors
-[2018.05.10-01.05.01:212][303]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.05.06:485][371]Cmd: TRANSACTION UNDO
-[2018.05.10-01.05.06:485][371]LogEditorTransaction: Undo Move Actors
-[2018.05.10-01.05.07:494][421]Cmd: TRANSACTION UNDO
-[2018.05.10-01.05.07:494][421]LogEditorTransaction: Undo Move Actors
-[2018.05.10-01.05.17:686][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Left)
-[2018.05.10-01.05.19:149][577]LogEditorViewport: Clicking on Actor (LMB): BP_Wardrobe_C (BP_Wardrobe)
-[2018.05.10-01.05.30:788][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Left)
-[2018.05.10-01.05.32:959][741]LogSavePackage: Save=1230.91ms
-[2018.05.10-01.05.32:959][741]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap173A9BC645F74DA0AF5515B7B3E220A1.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2018.05.10-01.05.32:963][741]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2018.05.10-01.05.33:803][741]LogSavePackage: Save=783.51ms
-[2018.05.10-01.05.33:803][741]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltData841C3DBB4F209E8DB10882909A705D09.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
-[2018.05.10-01.05.33:805][741]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
-[2018.05.10-01.05.41:982][ 23]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-01.05.42:334][ 28]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.05.10-01.05.46:823][ 88]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
-[2018.05.10-01.05.57:583][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Poster)
-[2018.05.10-01.06.03:624][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.05.10-01.06.07:293][365]LogEditorViewport: Clicking on Actor (LMB): BagPack_C (BagPack)
-[2018.05.10-01.06.12:660][418]LogSavePackage: Save=1216.23ms
-[2018.05.10-01.06.12:660][418]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap228030A74951ED58B79792A8880FC955.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
-[2018.05.10-01.06.12:664][418]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
-[2018.05.10-01.06.13:578][418]LogSavePackage: Save=870.13ms
-[2018.05.10-01.06.13:578][418]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltDataB75A6FFB4D52E38095EA07B063E66A7E.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
-[2018.05.10-01.06.13:581][418]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
-[2018.05.10-01.06.44:447][568]LogEditorViewport: Clicking on Actor (LMB): BP_albums_C (BP_albums)
+[2018.05.10-04.59.21:589][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.10-04.59.21:589][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.10-04.59.21:655][  0]LogInit: Computer: DESKTOP-4INFFS5
+[2018.05.10-04.59.21:655][  0]LogInit: User: Angela
+[2018.05.10-04.59.21:655][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.10-04.59.21:655][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2018.05.10-04.59.21:656][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.10-04.59.21:656][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.10-04.59.21:656][  0]LogMemory: Process Physical Memory: 273.13 MB used, 273.13 MB peak
+[2018.05.10-04.59.21:656][  0]LogMemory: Process Virtual Memory: 271.86 MB used, 271.86 MB peak
+[2018.05.10-04.59.21:656][  0]LogMemory: Physical Memory: 8516.20 MB used,  7718.55 MB free, 16234.75 MB total
+[2018.05.10-04.59.21:656][  0]LogMemory: Virtual Memory: 683.70 MB used,  7718.55 MB free, 134217728.00 MB total
+[2018.05.10-04.59.22:253][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.05.10-04.59.22:253][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.05.10-04.59.23:222][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.10-04.59.24:823][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.10-04.59.25:142][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2018.05.10-04.59.25:142][  0]LogD3D11RHI:       2019/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.10-04.59.25:165][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.05.10-04.59.25:165][  0]LogD3D11RHI:       128/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.10-04.59.25:171][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.10-04.59.25:171][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.10-04.59.25:174][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.10-04.59.25:174][  0]LogD3D11RHI:       0/0/8117 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.10-04.59.25:174][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.10-04.59.25:185][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.10-04.59.25:185][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2018.05.10-04.59.25:185][  0]LogWindows: EnumDisplayDevices:
+[2018.05.10-04.59.25:185][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.05.10-04.59.25:186][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.10-04.59.25:186][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.05.10-04.59.25:186][  0]LogWindows:    3. 'spacedesk Graphics Adapter' (P:0 D:0)
+[2018.05.10-04.59.25:187][  0]LogWindows:    4. 'spacedesk Graphics Adapter' (P:0 D:0)
+[2018.05.10-04.59.25:187][  0]LogWindows:    5. 'spacedesk Graphics Adapter' (P:0 D:0)
+[2018.05.10-04.59.25:187][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.10-04.59.25:187][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2018.05.10-04.59.25:187][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.10-04.59.25:187][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.10-04.59.25:187][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.05.10-04.59.25:228][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.10-04.59.25:243][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.10-04.59.25:245][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Intermediate/Shaders/WorkingDirectory/17116/).
+[2018.05.10-04.59.25:245][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/AngelaCai/AppData/Local/Temp/UnrealShaderWorkingDir/8C91C6E74F980D94FF3BF7B781E276EF/'.
+[2018.05.10-04.59.25:245][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.10-04.59.26:845][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.10-04.59.26:907][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.10-04.59.27:011][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.10-04.59.27:090][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.10-04.59.27:203][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.10-04.59.27:311][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.10-04.59.27:413][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.10-04.59.27:475][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.10-04.59.27:533][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.10-04.59.27:599][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.10-04.59.27:669][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.10-04.59.27:735][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.10-04.59.27:792][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.10-04.59.27:854][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.10-04.59.27:984][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.10-04.59.27:984][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.10-04.59.28:081][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.10-04.59.28:139][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.10-04.59.28:321][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.10-04.59.28:361][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.10-04.59.28:482][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.10-04.59.28:540][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.10-04.59.28:610][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.10-04.59.28:746][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.10-04.59.28:746][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.10-04.59.30:546][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.10-04.59.31:195][  0]LogDerivedDataCache: Loaded boot cache 0.64s 92MB C:/Users/AngelaCai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.10-04.59.31:195][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/AngelaCai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.10-04.59.31:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.10-04.59.31:195][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.10-04.59.31:195][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.10-04.59.31:195][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.10-04.59.31:237][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.10-04.59.31:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AngelaCai/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.10-04.59.31:262][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.10-04.59.31:262][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.10-04.59.31:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.10-04.59.31:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.10-04.59.35:384][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.10-04.59.36:069][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.10-04.59.38:075][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.10-04.59.38:075][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.10-04.59.38:075][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.10-04.59.38:076][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.10-04.59.38:076][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.10-04.59.38:110][  0]LogNetVersion: VRaporwave , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 722213230)
+[2018.05.10-04.59.38:343][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.05.10-04.59.39:306][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.041217 seconds
+[2018.05.10-04.59.39:313][  0]LogUObjectArray: 35902 objects as part of root set at end of initial load.
+[2018.05.10-04.59.39:313][  0]LogUObjectAllocator: 7372488 out of 0 bytes used by permanent object pool.
+[2018.05.10-04.59.39:313][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.10-04.59.39:407][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.10-05.00.02:264][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.10-05.00.02:333][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.10-05.00.03:497][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.10-05.00.04:059][  0]SourceControl: Source control is disabled
+[2018.05.10-05.00.06:058][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.10-05.00.06:404][  0]LogOcInput: OculusInput pre-init called
+[2018.05.10-05.00.06:923][  0]LogEngine: Initializing Engine...
+[2018.05.10-05.00.06:927][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.10-05.00.07:221][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.10-05.00.07:226][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.10-05.00.07:397][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.10-05.00.07:446][  0]LogInit: XAudio2 using '扬声器 (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-05.00.07:519][  0]LogInit: FAudioDevice initialized.
+[2018.05.10-05.00.08:229][  0]LogDerivedDataCache: Saved boot cache 0.71s 92MB C:/Users/AngelaCai/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.10-05.00.08:248][  0]LogInit: Texture streaming: Enabled
+[2018.05.10-05.00.08:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.10-05.00.08:648][  0]LogInit: Transaction tracking system initialized
+[2018.05.10-05.00.09:166][  0]BlueprintLog: New page: Editor Load
+[2018.05.10-05.00.10:978][  0]LocalizationService: Localization service is disabled
+[2018.05.10-05.00.12:531][  0]LogConsoleResponse: Display: 
+[2018.05.10-05.00.13:504][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/' took 0.02s
+[2018.05.10-05.00.13:504][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.10-05.00.13:504][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.10-05.00.13:504][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.10-05.00.18:380][  0]Cmd: MAP LOAD FILE="F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.10-05.00.18:380][  0]LightingResults: New page: Lighting Build
+[2018.05.10-05.00.18:431][  0]MapCheck: New page: Map Check
+[2018.05.10-05.00.18:431][  0]LightingResults: New page: Lighting Build
+[2018.05.10-05.00.18:506][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.05.10-05.00.18:506][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
+[2018.05.10-05.00.18:506][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
+[2018.05.10-05.00.18:506][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.05.10-05.00.18:506][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Modular_Room/SM_DoorFrame.uasset.
+[2018.05.10-05.00.18:506][  0]LoadErrors: Error: /Game/Modular_Room/SM_DoorFrame : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Frame
+[2018.05.10-05.00.24:148][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.10-05.00.24:148][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.10-05.00.24:148][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.10-05.00.24:148][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.10-05.00.24:149][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.10-05.00.24:149][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.10-05.00.24:166][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.10-05.00.24:166][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Yes_GEN_VARIABLE
+[2018.05.10-05.00.24:166][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.10-05.00.24:167][  0]LoadErrors: Failed to load /Engine/BasicShapes/SUNPlane.SUNPlane Referenced by Yes_GEN_VARIABLE
+[2018.05.10-05.00.24:167][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.10-05.00.24:224][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.10-05.00.24:224][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.10-05.00.24:225][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.10-05.00.24:226][  0]LogLinker: Warning: Can't find file '/Engine/BasicShapes/SUNPlane'
+[2018.05.10-05.00.24:227][  0]LogLinker: Warning: Can't find file for asset '/Engine/BasicShapes/SUNPlane' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/SpaceInvaderManager2.uasset.
+[2018.05.10-05.00.24:227][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/SpaceInvaderManager2 : Can't find file for asset. /Engine/BasicShapes/SUNPlane
+[2018.05.10-05.00.24:687][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.10-05.00.24:687][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.05.10-05.00.24:687][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.10-05.00.24:711][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.10-05.00.24:711][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Blueprints/Bottle.uasset.
+[2018.05.10-05.00.24:711][  0]LoadErrors: Error: /Game/VirtualRealityBP/Blueprints/Bottle : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.10-05.00.24:712][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.10-05.00.24:712][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.10-05.00.24:712][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.10-05.00.24:712][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.10-05.00.24:712][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.10-05.00.24:712][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.10-05.00.24:713][  0]LogLinker: Warning: Can't find file '/Game/Assets/Ang/CoffeeTables/Rio1_SHD'
+[2018.05.10-05.00.24:713][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.05.10-05.00.24:713][  0]LogLinker: Warning: Can't find file for asset '/Game/Assets/Ang/CoffeeTables/Rio1_SHD' while loading F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap.
+[2018.05.10-05.00.24:713][  0]LoadErrors: Failed to load /Game/Assets/Ang/CoffeeTables/Rio1_SHD.Rio1_SHD Referenced by StaticMeshComponent0
+[2018.05.10-05.00.24:713][  0]LoadErrors: Error: /Game/VirtualRealityBP/Maps/MotionControllerMap : Can't find file for asset. /Game/Assets/Ang/CoffeeTables/Rio1_SHD
+[2018.05.10-05.00.34:344][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Frame'
+[2018.05.10-05.00.34:345][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2018.05.10-05.00.34:345][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Frame' while loading NULL.
+[2018.05.10-05.00.34:345][  0]LoadErrors: Failed to load /Game/StarterContent/Props/Materials/M_Frame.M_Frame Referenced by SM_DoorFrame
+[2018.05.10-05.00.41:203][  0]LogAIModule: Creating AISystem for world MotionControllerMap
+[2018.05.10-05.00.41:572][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.10-05.00.41:664][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.10-05.00.41:795][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 130.819ms to complete.
+[2018.05.10-05.00.41:795][  0]LogFileHelpers: Loading map 'MotionControllerMap' took 23.415
+[2018.05.10-05.00.42:436][  0]LogCollectionManager: Loaded 0 collections in 0.001048 seconds
+[2018.05.10-05.00.42:555][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Collections/' took 0.01s
+[2018.05.10-05.00.42:555][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Developers/Angela/Collections/' took 0.01s
+[2018.05.10-05.00.42:555][  0]LogFileCache: Scanning file cache for directory 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Collections/' took 0.01s
+[2018.05.10-05.00.42:556][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.10-05.00.42:579][  0]LogContentBrowser: Native class hierarchy populated in 0.0228 seconds. Added 2363 classes and 519 folders.
+[2018.05.10-05.00.42:674][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.10-05.00.43:733][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.10-05.00.43:904][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.05.10-05.00.47:259][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.VRaporwave
+[2018.05.10-05.00.47:259][  0]LogTemp: CWD: D:\Program Files (x86)\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.10-05.00.47:259][  0]LogTemp: Initial Dir: D:\Program Files (x86)\Epic Games\UE_4.18
+[2018.05.10-05.00.47:259][  0]LogTemp: Env CWD: D:\Program Files (x86)\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.10-05.00.47:259][  0]LogTemp: BranchPath = DESKTOP-4INFFS5/D/Program Files (x86)/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-4INFFS5/D/Program Files (x86)/Epic Games/UE_4.18/Engine/Binaries
+[2018.05.10-05.00.47:259][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\AngelaCai\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.10-05.00.47:259][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.10-05.00.47:372][  0]LogSlate: Took 0.025986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.10-05.00.47:447][  0]LogSlate: Took 0.072399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.10-05.00.47:490][  0]LogSlate: Took 0.034637 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.10-05.00.47:716][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2018.05.10-05.00.48:257][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.10-05.00.48:258][  0]LogLoad: (Engine Initialization) Total time: 104.84 seconds
+[2018.05.10-05.00.48:258][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.10-05.00.48:258][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.10-05.00.48:666][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.10-05.00.48:825][  0]LogSlate: Took 0.012491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.10-05.00.49:283][  2]LogAssetRegistry: Asset discovery search completed in 70.9609 seconds
+[2018.05.10-05.00.49:286][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.10-05.00.49:286][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000100 seconds (updated 0 objects)
+[2018.05.10-05.23.57:273][221]LogEditorViewport: Clicking on Actor (LMB): BP_RiceCooker_C (BP_RiceCooker)
+[2018.05.10-05.23.57:979][230]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.10-05.23.59:388][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Left)
+[2018.05.10-05.24.11:009][418]LogEditorViewport: Clicking on Actor (LMB): BP_RiceCooker_C (BP_RiceCooker)
+[2018.05.10-05.24.14:226][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bed)
+[2018.05.10-05.24.14:960][468]LogEditorViewport: Clicking on Actor (LMB): BP_RiceCooker_C (BP_RiceCooker)
+[2018.05.10-05.24.16:324][487]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.10-05.24.17:434][487]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.10-05.24.17:578][487]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.05.10-05.24.19:817][487]LogSlate: Took 0.016833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.10-05.24.40:631][761]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2018.05.10-05.24.40:634][761]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.41:630][761]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.41:655][761]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.41:704][761]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.24.41:909][762]LogSlate: Took 0.040109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.10-05.24.44:787][840]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.24.44:787][840]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.24.44:787][840]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.24.44:787][840]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.24.52:473][ 23]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.52:498][ 23]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.54:369][ 44]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.24.54:369][ 44]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.24.54:369][ 44]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.24.54:369][ 44]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.24.57:175][ 85]LogMaterialEditor: Applying material ricePlast_SHDSG
+[2018.05.10-05.24.58:196][ 85]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.58:330][ 85]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.58:381][ 85]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.58:462][ 85]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ricePlast_SHDSG, compiling. 
+[2018.05.10-05.24.59:707][ 85]TextureStreamingBuild: Display: Compiling optional shaders took 1.257 seconds.
+[2018.05.10-05.25.04:290][249]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.04:312][249]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.06:355][278]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.25.06:355][278]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.25.06:355][278]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.25.06:355][278]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.25.08:433][308]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.10:720][343]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.25.10:720][343]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.25.10:720][343]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.25.10:720][343]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.25.20:388][562]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.23:141][632]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.25.23:141][632]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.25.23:141][632]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.25.23:141][632]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.25.24:419][664]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.26:255][690]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.25.26:255][690]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.25.26:255][690]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.25.26:255][690]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.25.26:474][693]LogMaterialEditor: Applying material ricePlast_SHDSG
+[2018.05.10-05.25.27:275][693]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.27:389][693]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.27:440][693]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.27:517][693]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.29:044][693]TextureStreamingBuild: Display: Compiling optional shaders took 1.536 seconds.
+[2018.05.10-05.25.34:300][756]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.25.34:300][756]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.25.34:300][756]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.25.34:300][756]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.25.37:185][794]LogEditorTransaction: Undo Create Pin Link
+[2018.05.10-05.25.37:261][794]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.37:307][794]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.37:398][794]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.10-05.25.37:453][795]LogEditorTransaction: Undo Create Pin Link
+[2018.05.10-05.25.37:459][795]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.37:680][799]LogEditorTransaction: Undo Create Pin Link
+[2018.05.10-05.25.37:689][799]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.37:732][799]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.37:963][801]LogEditorTransaction: Undo Move Node
+[2018.05.10-05.25.37:980][801]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.38:286][809]LogEditorTransaction: Undo Edit Value
+[2018.05.10-05.25.38:365][809]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.38:410][809]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.39:982][830]Cmd: TRANSACTION UNDO
+[2018.05.10-05.25.39:982][830]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.05.10-05.25.40:040][830]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.40:086][830]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.40:254][831]Cmd: TRANSACTION UNDO
+[2018.05.10-05.25.40:254][831]LogEditorTransaction: Undo Material Editor: New Expression
+[2018.05.10-05.25.40:262][831]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.40:304][831]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.40:571][832]Cmd: TRANSACTION UNDO
+[2018.05.10-05.25.40:571][832]LogEditorTransaction: Undo Move Node
+[2018.05.10-05.25.40:579][832]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.42:569][858]LogMaterialEditor: Applying material ricePlast_SHDSG
+[2018.05.10-05.25.43:597][858]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.43:801][858]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.43:875][858]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.43:982][858]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ricePlast_SHDSG, compiling. 
+[2018.05.10-05.25.45:547][858]TextureStreamingBuild: Display: Compiling optional shaders took 1.577 seconds.
+[2018.05.10-05.25.50:313][923]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.25.50:313][923]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.25.50:313][923]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.25.50:313][923]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.26.12:129][247]LogEditorTransaction: Undo Replace component used material
+[2018.05.10-05.26.12:229][247]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.26.16:415][328]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.26.16:415][328]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.26.16:415][328]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.16:415][328]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.19:667][373]LogEditorTransaction: Undo Replace component used material
+[2018.05.10-05.26.19:751][373]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.26.22:163][426]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.26.22:163][426]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.26.22:163][426]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.22:163][426]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.27:360][533]LogEditorTransaction: Undo Replace component used material
+[2018.05.10-05.26.27:440][533]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.26.29:820][584]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.26.29:820][584]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.26.29:820][584]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.29:820][584]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.34:617][660]LogEditorTransaction: Undo Replace component used material
+[2018.05.10-05.26.34:669][660]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.26.37:098][715]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.26.37:098][715]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.26.37:098][715]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.37:099][715]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.39:091][739]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.39:286][739]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.39:335][739]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.39:396][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.26.42:639][827]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.26.42:639][827]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.26.42:639][827]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.42:639][827]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.46:800][917]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.46:832][917]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.49:509][969]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.26.49:509][969]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.26.49:509][969]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.49:509][969]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.51:591][  2]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.54:419][ 94]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.54:451][ 94]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.26.56:870][130]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.26.56:870][130]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.26.56:870][130]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.26.56:870][130]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.26.57:645][140]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.00:786][225]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.27.00:786][225]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.27.00:786][225]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.27.00:786][225]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.27.02:259][247]LogMaterialEditor: Applying material riceGlass_SHDSG
+[2018.05.10-05.27.03:117][247]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.03:290][247]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.03:367][247]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.03:467][247]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.05:070][247]TextureStreamingBuild: Display: Compiling optional shaders took 1.614 seconds.
+[2018.05.10-05.27.09:868][314]MaterialEditorStats: Base pass shader: 150 instructions
+[2018.05.10-05.27.09:868][314]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 224 instructions
+[2018.05.10-05.27.09:868][314]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.27.09:868][314]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.27.20:921][471]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.22:496][494]LogMaterialEditor: Applying material riceGlass_SHDSG
+[2018.05.10-05.27.23:453][494]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.23:654][494]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.23:728][494]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.23:832][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.25:465][494]TextureStreamingBuild: Display: Compiling optional shaders took 1.642 seconds.
+[2018.05.10-05.27.30:256][557]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.05.10-05.27.30:256][557]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.05.10-05.27.30:257][557]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.27.30:257][557]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.27.44:098][798]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.46:592][837]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.05.10-05.27.46:592][837]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.05.10-05.27.46:592][837]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.27.46:592][837]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.27.49:834][875]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.27.49:872][875]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.49:912][875]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.27.50:343][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.27.53:164][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.27.53:196][997]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.53:238][997]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.27.55:274][ 25]LogMaterialEditor: Applying material riceGlass_SHDSG
+[2018.05.10-05.27.56:218][ 25]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.56:393][ 25]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.56:468][ 25]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.56:571][ 25]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy riceGlass_SHDSG, compiling. 
+[2018.05.10-05.27.58:244][ 25]TextureStreamingBuild: Display: Compiling optional shaders took 1.684 seconds.
+[2018.05.10-05.28.03:102][ 94]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.05.10-05.28.03:102][ 94]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.05.10-05.28.03:102][ 94]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.28.03:102][ 94]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.28.29:247][441]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.28.29:342][441]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.28.29:631][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.28.29:745][446]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.28.29:789][446]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.28.30:690][477]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.28.30:742][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.28.32:758][503]LogMaterialEditor: Applying material riceGlass_SHDSG
+[2018.05.10-05.28.33:671][503]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.28.33:844][503]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.28.33:914][503]LogMaterial: Missing cached shader map for material riceGlass_SHDSG, compiling. 
+[2018.05.10-05.28.34:020][503]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy riceGlass_SHDSG, compiling. 
+[2018.05.10-05.28.35:696][503]TextureStreamingBuild: Display: Compiling optional shaders took 1.689 seconds.
+[2018.05.10-05.28.40:424][570]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.05.10-05.28.40:424][570]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.05.10-05.28.40:424][570]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.28.40:424][570]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.29.24:195][821]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.29.24:519][821]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.29.24:573][821]LogMaterial: Missing cached shader map for material ricePlast_SHDSG, compiling. 
+[2018.05.10-05.29.24:635][821]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy ricePlast_SHDSG, compiling. 
+[2018.05.10-05.29.26:201][821]TextureStreamingBuild: Display: Compiling optional shaders took 1.571 seconds.
+[2018.05.10-05.29.30:514][878]LogEditorViewport: Clicking on Actor (LMB): BP_RiceCooker_C (BP_RiceCooker)
+[2018.05.10-05.29.33:232][879]LogSavePackage: Save=2098.52ms
+[2018.05.10-05.29.33:232][879]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_Auto188E8E4E04E6E9DEF07691B825DC9A38B.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap'
+[2018.05.10-05.29.33:239][879]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto1.umap
+[2018.05.10-05.29.33:247][879]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 2.175
+[2018.05.10-05.29.33:247][879]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.175
+[2018.05.10-05.29.33:262][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG] ([1] browsable assets)...
+[2018.05.10-05.29.33:369][879]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG.riceGlass_SHDSG]
+[2018.05.10-05.29.33:369][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG]
+[2018.05.10-05.29.33:417][879]LogSavePackage: Save=38.09ms
+[2018.05.10-05.29.33:418][879]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/riceGlass_SHDSG_Auto1E37E64F84D52E5702D8F3DB1445BE38E.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG_Auto1.uasset'
+[2018.05.10-05.29.33:422][879]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG_Auto1.uasset
+[2018.05.10-05.29.33:425][879]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG] ([1] browsable assets)...
+[2018.05.10-05.29.33:464][879]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG.ricePlast_SHDSG]
+[2018.05.10-05.29.33:464][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG]
+[2018.05.10-05.29.33:623][879]LogSavePackage: Save=34.73ms
+[2018.05.10-05.29.33:623][879]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/ricePlast_SHDSG_Auto108B0153144B608C733D37190EA6C0348.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG_Auto1.uasset'
+[2018.05.10-05.29.33:628][879]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Autosaves/Game/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG_Auto1.uasset
+[2018.05.10-05.29.33:629][879]LogFileHelpers: Auto-saving content packages took 0.370
+[2018.05.10-05.29.36:726][918]LogEditorViewport: Clicking on Actor (LMB): BP_alarmClock_C (BP_alarmClock)
+[2018.05.10-05.29.37:056][923]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.10-05.30.06:341][118]LogEditorViewport: Clicking on Actor (LMB): BP_Cactus_C (BP_Cactus4)
+[2018.05.10-05.30.11:439][182]LogEditorViewport: Clicking on Actor (LMB): BP_Cactus_C (BP_Cactus5)
+[2018.05.10-05.30.14:272][220]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Desk_C (BP_Desk)
+[2018.05.10-05.30.15:364][234]LogEditorViewport: Clicking on Actor (LMB): BP_alarmClock_C (BP_alarmClock)
+[2018.05.10-05.30.24:107][340]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.24:253][340]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.24:276][340]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.24:332][340]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.30.27:129][376]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.05.10-05.30.27:129][376]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.05.10-05.30.27:129][376]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.30.27:129][376]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.30.35:984][506]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.37:363][524]LogMaterialEditor: Applying material Ai_Matt_PlasticSG
+[2018.05.10-05.30.38:113][524]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.38:207][524]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.38:262][524]LogMaterial: Missing cached shader map for material Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.38:340][524]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ai_Matt_PlasticSG, compiling. 
+[2018.05.10-05.30.39:580][524]TextureStreamingBuild: Display: Compiling optional shaders took 1.249 seconds.
+[2018.05.10-05.30.43:335][556]MaterialEditorStats: Base pass shader: 153 instructions
+[2018.05.10-05.30.43:335][556]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 227 instructions
+[2018.05.10-05.30.43:335][556]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.30.43:335][556]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.30.52:752][660]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.30.52:897][660]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.30.52:932][660]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.30.53:024][660]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.30.55:232][714]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.30.55:232][714]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.30.55:232][714]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.30.55:232][714]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.31.01:693][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.02:753][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.02:783][834]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.02:818][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.04:818][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.05:202][872]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.05:240][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.07:225][898]LogMaterialEditor: Applying material Ai_Matt_Plastic1SG
+[2018.05.10-05.31.07:921][898]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.08:014][898]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.08:067][898]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.08:147][898]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.09:356][898]TextureStreamingBuild: Display: Compiling optional shaders took 1.217 seconds.
+[2018.05.10-05.31.12:762][942]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.31.12:762][942]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.31.12:762][942]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.31.12:762][942]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.31.24:519][ 80]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.25:602][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.25:633][138]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.25:662][138]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.05.10-05.31.27:745][163]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.31.27:745][163]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.31.27:745][163]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.31.27:745][163]MaterialEditorStats: Texture samplers: 2/16
+[2018.05.10-05.31.28:068][167]LogMaterialEditor: Saving and Compiling material Ai_Matt_Plastic1SG
+[2018.05.10-05.31.28:854][167]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.28:947][167]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.29:001][167]LogMaterial: Missing cached shader map for material Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.29:082][167]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ai_Matt_Plastic1SG, compiling. 
+[2018.05.10-05.31.30:272][167]TextureStreamingBuild: Display: Compiling optional shaders took 1.199 seconds.
+[2018.05.10-05.31.33:120][167]LogSavePackage: Save=15.40ms
+[2018.05.10-05.31.33:120][167]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Ai_Matt_Plastic1SG8280547F47084111410D6C8EBB0F116F.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/Alarm/Ai_Matt_Plastic1SG.uasset'
+[2018.05.10-05.31.33:123][167]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/Alarm/Ai_Matt_Plastic1SG.uasset
+[2018.05.10-05.31.33:134][167]MaterialEditorStats: Base pass shader: 147 instructions
+[2018.05.10-05.31.33:134][167]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 220 instructions
+[2018.05.10-05.31.33:134][167]MaterialEditorStats: Vertex shader: 85 instructions
+[2018.05.10-05.31.33:134][167]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.10-05.31.39:973][227]LogEditorViewport: Clicking on Actor (LMB): BP_keys_C (BP_keys)
+[2018.05.10-05.31.50:551][369]LogEditorViewport: Clicking on Actor (LMB): BP_Desk_C (BP_Desk)
+[2018.05.10-05.31.53:277][405]Cmd: TRANSACTION UNDO
+[2018.05.10-05.31.53:277][405]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.10-05.31.53:816][409]Cmd: TRANSACTION UNDO
+[2018.05.10-05.31.53:816][409]LogEditorTransaction: Undo Rotate Actors
+[2018.05.10-05.31.59:013][467]Cmd: TRANSACTION UNDO
+[2018.05.10-05.31.59:013][467]LogEditorTransaction: Undo Move Actors
+[2018.05.10-05.32.13:644][598]LogEditorViewport: Clicking on Actor (LMB): BP_alarmClock_C (BP_alarmClock)
+[2018.05.10-05.32.15:294][612]LogEditorViewport: Clicking on Actor (LMB): BP_Cactus_C (BP_Cactus4)
+[2018.05.10-05.32.20:089][673]LogEditorViewport: Clicking on Actor (LMB): BP_alarmClock_C (BP_alarmClock)
+[2018.05.10-05.33.17:337][963]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fridgedoor2)
+[2018.05.10-05.33.17:561][964]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.10-05.33.19:015][986]LogEditorViewport: Clicking on Actor (LMB): BP_Broccoli_C (BP_Broccoli)
+[2018.05.10-05.33.19:444][991]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.10-05.33.23:411][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.05.10-05.33.28:712][102]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (fridge_Cue)
+[2018.05.10-05.33.30:928][131]Cmd: TRANSACTION UNDO
+[2018.05.10-05.33.30:928][131]LogEditorTransaction: Undo Move Actors
+[2018.05.10-05.33.34:407][183]Cmd: TRANSACTION UNDO
+[2018.05.10-05.33.34:407][183]LogEditorTransaction: Undo Rotate Actors
+[2018.05.10-05.33.37:752][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.05.10-05.33.39:230][245]LogEditorViewport: Clicking on Actor (LMB): BP_Broccoli_C (BP_Broccoli)
+[2018.05.10-05.33.40:378][261]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.05.10-05.33.45:632][300]LogEditorViewport: Clicking on Actor (LMB): BP_Broccoli_C (BP_Broccoli)
+[2018.05.10-05.33.45:940][300]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh1)
+[2018.05.10-05.34.01:249][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fridgeBody)
+[2018.05.10-05.34.11:374][601]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (fridge_Cue)
+[2018.05.10-05.34.13:478][633]Cmd: DELETE
+[2018.05.10-05.34.13:479][633]Cmd: ACTOR DELETE
+[2018.05.10-05.34.13:580][633]LogEditorActor: Deleted Actor: AmbientSound
+[2018.05.10-05.34.13:620][633]LogEditorActor: Deleted 1 Actors (0.142 secs)
+[2018.05.10-05.34.20:557][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (fridgeBody)
+[2018.05.10-05.34.21:123][676]Cmd: TRANSACTION UNDO
+[2018.05.10-05.34.21:123][676]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.10-05.34.21:624][682]Cmd: TRANSACTION UNDO
+[2018.05.10-05.34.21:624][682]LogEditorTransaction: Undo Delete Actors
+[2018.05.10-05.34.27:711][727]LogSavePackage: Save=2347.58ms
+[2018.05.10-05.34.27:712][727]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap0152B71C4C81B87EF8EE6F8207FA2E34.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2018.05.10-05.34.27:719][727]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap.umap
+[2018.05.10-05.34.29:199][727]LogSavePackage: Save=1407.02ms
+[2018.05.10-05.34.29:199][727]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/MotionControllerMap_BuiltDataD4B56A494B87F7FA4ECC0FA92417CD58.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset'
+[2018.05.10-05.34.29:201][727]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/VirtualRealityBP/Maps/MotionControllerMap_BuiltData.uasset
+[2018.05.10-05.34.52:432][818]LogSavePackage: Save=15.80ms
+[2018.05.10-05.34.52:432][818]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Ai_Matt_PlasticSG734C97624B799429C05D4782AF6A4DA2.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/Alarm/Ai_Matt_PlasticSG.uasset'
+[2018.05.10-05.34.52:435][818]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/Alarm/Ai_Matt_PlasticSG.uasset
+[2018.05.10-05.34.52:452][818]LogSavePackage: Save=4.39ms
+[2018.05.10-05.34.52:452][818]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/riceGlass_SHDSG41BE76FA4CC4EFD3A33E12829355B258.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG.uasset'
+[2018.05.10-05.34.52:455][818]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/RiceCooker/riceGlass_SHDSG.uasset
+[2018.05.10-05.34.52:472][818]LogSavePackage: Save=3.46ms
+[2018.05.10-05.34.52:472][818]LogSavePackage: Moving 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/ricePlast_SHDSG167E7D7C4896296BF7BCB5B5F3AF842A.tmp' to 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG.uasset'
+[2018.05.10-05.34.52:475][818]LogSavePackage: Display: Finished SavePackage F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Assets/Ang/Appliances/RiceCooker/ricePlast_SHDSG.uasset
+[2018.05.10-05.34.52:999][819]Cmd: QUIT_EDITOR
+[2018.05.10-05.34.53:104][819]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.05.10-05.34.53:119][819]LogExit: Preparing to exit.
+[2018.05.10-05.34.53:930][819]LogExit: Editor shut down
+[2018.05.10-05.34.53:958][819]LogExit: Transaction tracking system shut down
+[2018.05.10-05.34.54:293][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.10-05.34.54:293][819]LogDirectoryWatcher: A directory notification for 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/' was aborted.
+[2018.05.10-05.34.54:293][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.10-05.34.54:293][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.10-05.34.54:293][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.10-05.34.54:294][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.10-05.34.54:294][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.10-05.34.54:615][819]LogExit: Object subsystem successfully closed.
+[2018.05.10-05.34.54:682][819]LogD3D11RHI: Shutdown
+[2018.05.10-05.34.54:683][819]LogD3D11RHI: CleanupD3DDevice
+[2018.05.10-05.34.54:693][819]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.10-05.34.54:721][819]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (556)
+[2018.05.10-05.34.54:721][819]LogModuleManager: Shutting down and abandoning module MaterialEditor (554)
+[2018.05.10-05.34.54:721][819]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.05.10-05.34.54:721][819]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (550)
+[2018.05.10-05.34.54:721][819]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (548)
+[2018.05.10-05.34.54:721][819]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2018.05.10-05.34.54:722][819]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2018.05.10-05.34.54:722][819]LogDirectoryWatcher: A directory notification for 'D:/Program Files (x86)/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.05.10-05.34.54:724][819]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2018.05.10-05.34.54:724][819]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2018.05.10-05.34.54:724][819]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2018.05.10-05.34.54:725][819]LogDirectoryWatcher: A directory notification for 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Collections/' was aborted.
+[2018.05.10-05.34.54:725][819]LogDirectoryWatcher: A directory notification for 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Content/Developers/Angela/Collections/' was aborted.
+[2018.05.10-05.34.54:725][819]LogDirectoryWatcher: A directory notification for 'F:/000_Gold/Break-the-Bill/VR_Project/VRaporwave/VRaporwave/Saved/Collections/' was aborted.
+[2018.05.10-05.34.54:725][819]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.05.10-05.34.54:725][819]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.05.10-05.34.54:725][819]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.05.10-05.34.54:726][819]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.05.10-05.34.54:727][819]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.05.10-05.34.54:727][819]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.05.10-05.34.54:727][819]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.05.10-05.34.54:727][819]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.05.10-05.34.54:727][819]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.05.10-05.34.54:727][819]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.05.10-05.34.54:728][819]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.05.10-05.34.54:729][819]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.05.10-05.34.54:730][819]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.05.10-05.34.55:562][819]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.05.10-05.34.55:563][819]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.05.10-05.34.55:563][819]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.05.10-05.34.55:563][819]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.05.10-05.34.55:563][819]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.05.10-05.34.55:563][819]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.05.10-05.34.55:564][819]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.05.10-05.34.55:564][819]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.05.10-05.34.55:564][819]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.05.10-05.34.55:565][819]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.05.10-05.34.55:565][819]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.05.10-05.34.55:565][819]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.05.10-05.34.55:565][819]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.05.10-05.34.55:566][819]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.05.10-05.34.55:566][819]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.05.10-05.34.55:566][819]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.05.10-05.34.55:566][819]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.05.10-05.34.55:566][819]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.05.10-05.34.55:567][819]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.05.10-05.34.55:567][819]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.05.10-05.34.55:567][819]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.05.10-05.34.55:567][819]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.05.10-05.34.55:568][819]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.05.10-05.34.55:568][819]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.05.10-05.34.55:621][819]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.05.10-05.34.55:622][819]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.05.10-05.34.55:622][819]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.05.10-05.34.55:622][819]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.05.10-05.34.55:622][819]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.05.10-05.34.55:622][819]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.05.10-05.34.55:623][819]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.05.10-05.34.55:623][819]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.05.10-05.34.55:623][819]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.05.10-05.34.55:624][819]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.05.10-05.34.55:671][819]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.05.10-05.34.55:671][819]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.05.10-05.34.55:671][819]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.05.10-05.34.55:671][819]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.05.10-05.34.55:671][819]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.05.10-05.34.55:672][819]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.05.10-05.34.55:673][819]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.05.10-05.34.55:685][819]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.05.10-05.34.55:686][819]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.05.10-05.34.55:687][819]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.05.10-05.34.55:688][819]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.05.10-05.34.55:688][819]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.05.10-05.34.55:688][819]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.05.10-05.34.55:688][819]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.05.10-05.34.55:688][819]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.05.10-05.34.55:689][819]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.05.10-05.34.55:690][819]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.05.10-05.34.55:695][819]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.05.10-05.34.55:695][819]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.05.10-05.34.55:695][819]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.05.10-05.34.55:698][819]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.05.10-05.34.55:799][819]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.05.10-05.34.55:900][819]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.05.10-05.34.55:900][819]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.05.10-05.34.55:900][819]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.05.10-05.34.55:900][819]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.05.10-05.34.55:901][819]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.05.10-05.34.55:902][819]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.05.10-05.34.55:907][819]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.05.10-05.34.55:908][819]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.05.10-05.34.55:908][819]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.05.10-05.34.55:908][819]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.05.10-05.34.55:920][819]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.05.10-05.34.55:920][819]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.05.10-05.34.55:920][819]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.05.10-05.34.55:920][819]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.05.10-05.34.55:920][819]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.05.10-05.34.55:920][819]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.05.10-05.34.55:928][819]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.05.10-05.34.55:929][819]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.05.10-05.34.55:929][819]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.05.10-05.34.55:929][819]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.05.10-05.34.55:929][819]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.05.10-05.34.55:929][819]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.05.10-05.34.55:930][819]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.05.10-05.34.55:930][819]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.05.10-05.34.55:930][819]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.05.10-05.34.55:930][819]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.05.10-05.34.55:938][819]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.05.10-05.34.55:938][819]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.05.10-05.34.55:938][819]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.05.10-05.34.55:938][819]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.05.10-05.34.55:938][819]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.05.10-05.34.55:939][819]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.05.10-05.34.55:939][819]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.05.10-05.34.55:939][819]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.05.10-05.34.55:944][819]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.05.10-05.34.55:945][819]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.05.10-05.34.55:945][819]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.05.10-05.34.56:029][819]LogDerivedDataCache: Shutdown
+[2018.05.10-05.34.56:029][819]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.05.10-05.34.56:030][819]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.05.10-05.34.56:031][819]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.05.10-05.34.56:031][819]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.05.10-05.34.56:031][819]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.05.10-05.34.56:031][819]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.05.10-05.34.56:031][819]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.05.10-05.34.56:031][819]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.05.10-05.34.56:032][819]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.05.10-05.34.56:032][819]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.05.10-05.34.56:033][819]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.05.10-05.34.56:033][819]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.05.10-05.34.56:033][819]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.05.10-05.34.56:033][819]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.05.10-05.34.56:033][819]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.05.10-05.34.56:034][819]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.05.10-05.34.56:034][819]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.05.10-05.34.56:034][819]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.05.10-05.34.56:034][819]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.05.10-05.34.56:035][819]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.05.10-05.34.56:035][819]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.05.10-05.34.56:035][819]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.05.10-05.34.56:035][819]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.05.10-05.34.56:036][819]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.05.10-05.34.56:036][819]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.05.10-05.34.56:036][819]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.05.10-05.34.56:036][819]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.05.10-05.34.56:036][819]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.05.10-05.34.56:037][819]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.05.10-05.34.56:038][819]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.05.10-05.34.56:039][819]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.05.10-05.34.56:040][819]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.05.10-05.34.56:040][819]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.10-05.34.56:040][819]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.10-05.34.56:040][819]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.10-05.34.56:040][819]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.10-05.34.56:040][819]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.10-05.34.56:041][819]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.10-05.34.56:041][819]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D219513-43C0-6C80-CD3E-D68BCE684416%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.1-3754814%2B%2B%2BUE4%2BRelease-4.18&UserID=fb130943462c96fe250d4b969210b8bc%7C3774eec3cc7f477d9d967c96550b5d71%7C7f61bea5-9e9a-4a21-8c99-8d34ff29f10d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.10-05.34.56:077][819]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.10-05.34.56:081][819]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.10-05.34.56:081][819]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.10-05.34.56:081][819]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.10-05.34.56:081][819]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.10-05.34.56:082][819]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.10-05.34.56:082][819]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.10-05.34.56:082][819]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.10-05.34.56:085][819]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.10-05.34.56:086][819]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.10-05.34.56:099][819]LogExit: Exiting.
+[2018.05.10-05.34.58:062][819]Log file closed, 05/10/18 06:34:58
